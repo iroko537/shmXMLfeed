@@ -1,0 +1,195 @@
+<property>
+      <reference>663-00036P</reference>
+      <client_ref_num>663-00036P</client_ref_num>
+      <dt_create_date>2023-04-28</dt_create_date>
+      <dt_last_updated>2023-04-28 14:08:42</dt_last_updated>
+      <dt_added_date>2022-06-08</dt_added_date>
+      <dt_review_date>2023-04-28</dt_review_date>
+      <is_new_property>0</is_new_property>
+      <is_exclusive>0</is_exclusive>
+      <is_featured>0</is_featured>
+      <is_direct>0</is_direct>
+      <is_hot>0</is_hot>
+      <is_luxury>0</is_luxury>
+      <is_for_sale>1</is_for_sale>
+      <is_sold>0</is_sold>
+      <is_special>0</is_special>
+      <is_for_rent>0</is_for_rent>
+      <is_for_rent_long>0</is_for_rent_long>
+      <is_for_rent_short>0</is_for_rent_short>
+      <is_rented>0</is_rented>
+      <propertytype id="15">House</propertytype>
+      <propertycategory id="3">Houses</propertycategory>
+      <development_reference/>
+      <country id="6">Spain</country>
+      <province id="7">Malaga</province>
+      <city id="24">Marbella</city>
+      <area id="41">Marbella Golden Mile</area>
+      <subarea/>
+      <postcode/>
+      <community>0</community>
+      <ibi>0</ibi>
+      <garbage>0</garbage>
+      <tr_orientation>South</tr_orientation>
+      <mts_build>1140.0</mts_build>
+      <mts_plot>1920.0</mts_plot>
+      <mts_interior>0</mts_interior>
+      <mts_terrace>0</mts_terrace>
+      <nr_floors>0</nr_floors>
+      <nr_level/>
+      <nr_bedrooms>6</nr_bedrooms>
+      <nr_bathrooms>8</nr_bathrooms>
+      <nr_onsuite_bathrooms>0</nr_onsuite_bathrooms>
+      <nr_toilet>0</nr_toilet>
+      <tr_garage id="3">Private</tr_garage>
+      <nr_parking_spaces/>
+      <tr_garden id="3">Private</tr_garden>
+      <tr_pool id="3">Private</tr_pool>
+      <dt_construction_year>2013</dt_construction_year>
+      <energy inProcess="false">
+         <kw>
+            <level>E</level>
+            <value>100.0</value>
+         </kw>
+         <co2>
+            <level>E</level>
+            <value>21.0</value>
+         </co2>
+      </energy>
+      <touristic_code/>
+      <selling_price_eur>14850000</selling_price_eur>
+      <rental_price_eur/>
+      <rental_price_eur_long/>
+      <selling_price currency="eur">14850000</selling_price>
+      <rental_price currency="eur"/>
+      <rental_price_long currency="eur"/>
+      <rental_price_comment/>
+      <rental_price_comment_long/>
+      <images>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgfadZWi0KYEDVV5kYGCTNfKlm5CGHfwNnySiyHjtvds8We8Jy1SEyYg--.jpg"
+                main="false">663-00036P_17546705.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgL4qS9Zh_mi56kb5u_ws0NQthz0iVc26oWANdCRuCNC7X36poNr5EIA--.jpg"
+                main="true">663-00036P_17546706.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgJQhHPK97kgJ4sITSBtJjwnqUeT1xr7Z8apUCtFEllqqr1vyC2LC0dQ--.jpg"
+                main="false">663-00036P_17546707.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgJQyD~kms3WZAXanigPR4Vu_wVYDisJdxmTAfjvOXC9gqtKpb2ZoNEw--.jpg"
+                main="false">663-00036P_17546708.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgf~sXzZp17RJxBXncOuVkny8C33dZJFnwWeBPy12w26F24URq0qemfg--.jpg"
+                main="false">663-00036P_17546709.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgLjgI~T8ts7Ysf2CnwYnGwB_8oPsiaIROZe8DJ28il4V4TrABQ3dhhg--.jpg"
+                main="false">663-00036P_17546710.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgLBr9Vtu0QOkoM3u7XPay1Ts5JTQo9J3SXNYlBHdkHbnXNUYr3x32mQ--.jpg"
+                main="false">663-00036P_17546711.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgJVuGteX~VBYCuOkbIt~JWY0MzVTaVyuIa8t1yYnMqeEvMiAR8x0C8A--.jpg"
+                main="false">663-00036P_17546712.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgLmlvL2~NbncjhIeOI2nydjoLWWrKyEe5PHiHvjEKw2BTsqOIz9qo7A--.jpg"
+                main="false">663-00036P_17546713.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgfvCEKopNmoiCvnbEZOHbCp7UIVSjTjnGTTFt8QL7udTqEMNNhYSRHg--.jpg"
+                main="false">663-00036P_17546714.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgKtjXUoNtOe_Zvwy7pyf82tTK5gOh3pZfIi9gW5ZUG3EOQT5n~tsqTQ--.jpg"
+                main="false">663-00036P_17546715.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgLj7dRc642e8tyDETNZRGdOfjY8iu9CCQPKeWXKYJU0f5xYpqsQshjA--.jpg"
+                main="false">663-00036P_17546716.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgfqF8B~qud8b~Gi00Wv313h83f3GYISkP9Adkqt2l5p04dFslP~hp2Q--.jpg"
+                main="false">663-00036P_17546717.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgKtjTqgklyT~dq9fyXtwW6fAtlDJ9prWct4MNxIPDDSQNJhmQ1L5nrw--.jpg"
+                main="false">663-00036P_17546718.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgLEhuh_x7clqgTX3yMFkFQo0RsH7FLp~R2pfhw8CU9MPm642Y6HRzOw--.jpg"
+                main="false">663-00036P_17546719.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgLj2MeFlq8ryZeEZceYFMa6tBXFjhIKWW1mZnSI7I4A904EJzR6xcKg--.jpg"
+                main="false">663-00036P_17546720.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgeuw2d5DECa4urFgWuUPqsQn4lg_5UKR1H8oaD6dirzvr27PYPMSYMw--.jpg"
+                main="false">663-00036P_17546721.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgKAS~FTHVt_8gn4iG3kj2onrKy~3bZ0p2B31mS1O2CK5QDF~hxO7hWg--.jpg"
+                main="false">663-00036P_17546722.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgK_rT_gJm~h3ZlILIvQWF8jBQ3p50rk~eYeFdo_lUeNdfy4esDv4FNA--.jpg"
+                main="false">663-00036P_17546723.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgL92hz8lTFmBMkPUqRGrfKQxddqUQfMrBTe9EvQyK3_xnmFV4Xa7bQA--.jpg"
+                main="false">663-00036P_17546724.jpg</image>
+      </images>
+      <longitude>-4.925169</longitude>
+      <latitude>36.504435</latitude>
+      <agency_id>663</agency_id>
+      <listed_by/>
+      <listed_by2/>
+      <options>
+         <option type="2">Front line beach</option>
+         <option type="4">Amenities near</option>
+         <option type="5">Transport near</option>
+         <option type="9">Fully furnished</option>
+         <option type="10">Fully fitted kitchen</option>
+         <option type="11">Utility room</option>
+         <option type="12">Fireplace</option>
+         <option type="14">Jacuzzi</option>
+         <option type="15">Sauna</option>
+         <option type="17">Basement</option>
+         <option type="20">Storage room</option>
+         <option type="21">Gym</option>
+         <option type="22">Alarm</option>
+         <option type="28">Dining room</option>
+         <option type="29">Barbeque</option>
+         <option type="32">Guest toilet</option>
+         <option type="33">Private terrace</option>
+         <option type="35">Living room</option>
+         <option type="41">Sea view</option>
+         <option type="48">Automatic irrigation system</option>
+         <option type="52">Bars</option>
+         <option type="54">Internet - Wifi</option>
+         <option type="55">Covered terrace</option>
+         <option type="62">Garden view</option>
+         <option type="63">Pool view</option>
+         <option type="64">Panoramic view</option>
+         <option type="66">Beachside</option>
+         <option type="67">Cinema room</option>
+         <option type="72">Wine Cellar</option>
+         <option type="78">Close to sea / beach</option>
+         <option type="79">Close to golf</option>
+         <option type="82">Glass Doors</option>
+         <option type="85">Open plan kitchen</option>
+         <option type="91">Excellent condition</option>
+         <option type="101">Close to shops</option>
+         <option type="102">Close to town</option>
+         <option type="103">Close to port</option>
+         <option type="104">Close to schools</option>
+         <option type="106">Guest apartment</option>
+         <option type="118">Ground floor patio</option>
+         <option type="123">Internet - Fibre optic</option>
+      </options>
+      <descriptions>
+         <short_description lang="en">Beachfront 6-bedroom luxury villa in Marbella Golden Mile</short_description>
+         <long_description lang="en">This is one of the most exceptional modern-contemporary designer villas situated on the beachfront in the prestigious area of the Golden Mile in Marbella. It is located right on the boulevard within walking distance to the famous Yachting marina of Puerto Banús and combines the very best of modern architecture with the ultimate avant-garde technology.
+
+The rooms are distributed over three levels with six double bedrooms and seven bathrooms, one guest toilet and two staff toilets.
+
+The ground floor hosts the living/dining area with fireplace and access to the terrace with its unique dining table, an open, completely equipped kitchen with TV and separate staff access, a TV lounge with Bose sound system, two en-suite double bedrooms, one facing west with TV and one facing south with terrace to the garden, and a guest toilet.
+
+The first floor houses the master double bedroom suite with dressing area, TV, fireplace, terrace access and a bright bathroom with shower and bath, plus further three double bedroom suites, two facing south with terrace access and one facing west, each with dressing area and bathroom with shower. The two terraces on the first floor offer breath-taking views over the property’s garden and the pool area to the beach and the sea.
+
+The basement is divided in a gym area with TV, a sauna and a bathroom with shower, a cosy cinema room with Blu-ray/DVD-player, sat TV and IPTV channels, and a modern bar with acclimatized bodega.
+
+The manicured garden incorporates a saltwater pool with fountain feature and a Jacuzzi as well as a wooden sundeck, shower and a covered pool bar.
+This outstanding property features white sandstone floors and underfloor heating throughout, air-conditioning to be regulated for each room, double glazed windows, shutters, WiFi internet access, house audio system, Astra sat TV, CATV and IPTV, code locks to access the property, alarm system, video entry phone and a home-automation system that controls all lighting and several electric installations from an iPad.
+
+The front of the house offers a patio with parking possibility for four to five cars and the underground garage offers parking spaces for approx. 4 cars.</long_description>
+         <price_description lang="en"/>
+         <short_description lang="es">Villa de lujo de 6 dormitorios primera linea de playa en Marbella Golden Mile</short_description>
+         <long_description lang="es">Esta es una de las villas de diseño moderno-contemporáneo más excepcionales situada en primera línea de playa en la prestigiosa zona de la Milla de Oro de Marbella. Se encuentra en pleno paseo marítimo, a poca distancia del famoso puerto deportivo de Puerto Banús, y combina lo mejor de la arquitectura moderna con la última tecnología de vanguardia.
+
+Las estancias se distribuyen en tres niveles con seis dormitorios dobles y siete baños, un aseo de invitados y dos aseos de personal.
+
+La planta baja alberga el salón comedor con chimenea y acceso a la terraza con su exclusiva mesa de comedor, una cocina abierta completamente equipada con TV y acceso independiente para el personal, una sala de TV con sistema de sonido Bose, dos dormitorios dobles en suite, uno orientado al oeste con TV y otro orientado al sur con terraza al jardín y un aseo de invitados.
+
+La primera planta alberga el dormitorio principal tipo suite con vestidor, TV, chimenea, acceso a la terraza y un luminoso baño con ducha y bañera, además de otros tres dormitorios tipo suite, dos orientados al sur con acceso a la terraza y uno orientado al oeste, cada uno con vestidor. y baño con ducha. Las dos terrazas en el primer piso ofrecen impresionantes vistas sobre el jardín de la propiedad y el área de la piscina hasta la playa y el mar.
+
+El sótano se divide en una zona de gimnasio con TV, sauna y baño con ducha, una acogedora sala de cine con reproductor de Blu-ray/DVD, TV vía satélite y canales IPTV, y un moderno bar con bodega climatizada.
+
+El cuidado jardín incorpora una piscina de agua salada con fuente y un jacuzzi, así como una terraza de madera, ducha y un bar de piscina cubierto.
+Esta propiedad excepcional cuenta con suelos de arenisca blanca y calefacción por suelo radiante en todas partes, aire acondicionado regulable en cada habitación, ventanas de doble acristalamiento, persianas, acceso a Internet WiFi, sistema de audio de la casa, Astra sat TV, CATV e IPTV, cerraduras con código para acceder a la propiedad. , sistema de alarma, videoportero y sistema domótico que controla toda la iluminación y varias instalaciones eléctricas desde un iPad.
+
+El frente de la casa ofrece un patio con posibilidad de estacionamiento para cuatro o cinco autos y el garaje subterráneo ofrece espacios de estacionamiento para aprox. 4 coches.</long_description>
+         <price_description lang="es"/>
+      </descriptions>
+      <files/>
+      <links/>
+      <htmls/>
+   </property>

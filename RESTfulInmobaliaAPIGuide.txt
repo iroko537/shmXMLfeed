@@ -1,0 +1,4920 @@
+RESTful Inmobalia API Guide
+
+
+Overview
+HTTP verbs
+RESTful notes tries to adhere as closely as possible to standard HTTP and REST conventions in its use of HTTP verbs.
+
+Verb	Usage
+GET
+
+Used to retrieve a resource
+
+POST
+
+Used to create a new resource or update an existing one
+
+Note: all requests must be accompanied with a header `X-Token: <token>` with an application token provided by Inmoba.
+HTTP status codes
+RESTful notes tries to adhere as closely as possible to standard HTTP and REST conventions in its use of HTTP status codes.
+
+Status code	Usage
+200 OK
+
+The request completed successfully
+
+400 Bad Request
+
+The request was malformed. The response body will include an error providing further information
+
+404 Not Found
+
+The requested resource does not exist
+
+401 Unauthorized
+
+The request has no authorization. A valid x-token is needed in HTTP headers
+
+Errors
+Whenever an error response (status code >= 400) is returned, the body will contain a JSON object that describes the problem. The error object has the following structure:
+
+Path	Type	Description
+error
+
+Number
+
+The HTTP status code, e.g. '400'
+
+message
+
+String
+
+A description of the cause of the error
+
+For example, a request that attempts to apply a non-existent tag to a note will produce a 400 Bad Request response:
+
+HTTP/1.1 400 Bad Request
+Content-Type: application/json
+Content-Length: 205
+
+{
+  "error" : 400,
+  "message" : "Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: \"a123\""
+}
+Page
+Requests that expect a list of resources can be paginated via the following parameters:
+
+Parameters
+Parameter	Description
+page
+
+Page number. The first page value is 0. Optional.
+
+size
+
+The maximum number of elements in the page. Optional.
+
+sort
+
+The sorting field. The value can contain the sorting direction separated by a comma. This parameter can appear as many times as needed. Optional.
+
+Response structure
+Path	Type	Description
+content
+
+Array
+
+An array of resources.
+
+totalElements
+
+Number
+
+The total amount of retrieved elements.
+
+totalPages
+
+Number
+
+The total amount of pages.
+
+numberOfElements
+
+Number
+
+The number of elements shown in this page.
+
+size
+
+Number
+
+number of elements per page.
+
+number
+
+Number
+
+The current page number. It’s always a non-negative value.
+
+first
+
+Boolean
+
+First page indicator.
+
+last
+
+Boolean
+
+Last page indicator.
+
+sort
+
+Array
+
+A list of sorting criteria.
+
+sort[].direction
+
+String
+
+The sorting direction.
+
+sort[].property
+
+String
+
+The sorting field.
+
+Example request
+$ curl 'https://api.inmobalia.com/rest/location/country?page=0&size=2&sort=id%2Casc' -i -X GET \
+    -H 'x-token: eyJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJnZW5lcmljIiwic2VjcmV0X2tleSI6ImdlbmVyaWNTZWNyZXRLZXkiLCJzdWIiOiJnZW5lcmljVXNlciJ9.S2mk8wW4_tgAgfsUuRLEzCcL_GahpkUAkC4z9xFwt1q5QMSvaWDuLzBpJAAmR6mbnxAgkHLIqH6xg-8-FyRcwg'
+Example response
+HTTP/1.1 200 OK
+Content-Type: application/json
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Content-Length: 224
+
+{
+  "content" : [ ],
+  "last" : true,
+  "totalElements" : 0,
+  "totalPages" : 0,
+  "numberOfElements" : 0,
+  "sort" : [ {
+    "direction" : "ASC",
+    "property" : "id"
+  } ],
+  "first" : true,
+  "size" : 2,
+  "number" : 0
+}
+Error Example
+If a nonexistent page is requested, the response won’t generate an error, but will return no content data.
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Content-Length: 174
+
+{
+  "content" : [ ],
+  "last" : true,
+  "totalElements" : 11,
+  "totalPages" : 4,
+  "numberOfElements" : 0,
+  "sort" : [ ],
+  "first" : false,
+  "size" : 3,
+  "number" : 20
+}
+Resources
+Countries
+Listing countries
+A GET request will list all of the countries available.
+
+Response structure
+The response structure is a page structure as seen before. The content field is a list of countries.
+
+Path	Type	Description
+content
+
+Array
+
+A list of countries.
+
+last
+
+Boolean
+
+Last page indicator.
+
+totalElements
+
+Number
+
+The total amount of retrieved elements.
+
+totalPages
+
+Number
+
+The total amount of pages.
+
+size
+
+Number
+
+number of elements per page.
+
+number
+
+Number
+
+The current page number. It’s always a non-negative value.
+
+sort
+
+Array
+
+A list of sorting criteria.
+
+numberOfElements
+
+Number
+
+The number of elements shown in this page.
+
+first
+
+Boolean
+
+First page indicator.
+
+Example request
+$ curl 'https://api.inmobalia.com/rest/location/country?page=1&size=3&sort=name%2CASC' -i -X GET \
+    -H 'x-token: eyJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJlbmFibGVkIiwic2VjcmV0X2tleSI6InNlY3JldEtleTEiLCJzdWIiOiJlbmFibGVkVXNlciJ9.mhSZfzxmz_wfu8lRhQSV72NTthpDDnyXEWv9R1KpAEI-l6FUDzIRtzLAik20WER8dkkpXWhoXUnFRfVfKtQjdQ'
+Country
+A GET request with the country identifier at the end of the path will list all of its data.
+
+Path parameters
+Table 1. /rest/location/country/{countryId}
+Parameter	Description
+countryId
+
+A country identifier.
+
+Response structure
+Path	Type	Description
+id
+
+Number
+
+The country identifier.
+
+codeIso
+
+String
+
+This country’s ISO code.
+
+name
+
+String
+
+This country’s name.
+
+currency
+
+Object
+
+This country’s currency information.
+
+languages
+
+Array
+
+This country’s names in each defined language.
+
+languages[].lang
+
+String
+
+The language code.
+
+languages[].text
+
+String
+
+The name expressed in that language.
+
+currency.isoCode
+
+String
+
+The currency’s ISO code.
+
+currency.name
+
+String
+
+The currency’s name.
+
+currency.symbol
+
+String
+
+The currency’s symbol.
+
+Example request
+$ curl 'https://api.inmobalia.com/rest/location/country/1' -i -X GET \
+    -H 'x-token: eyJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJlbmFibGVkIiwic2VjcmV0X2tleSI6InNlY3JldEtleTEiLCJzdWIiOiJlbmFibGVkVXNlciJ9.mhSZfzxmz_wfu8lRhQSV72NTthpDDnyXEWv9R1KpAEI-l6FUDzIRtzLAik20WER8dkkpXWhoXUnFRfVfKtQjdQ'
+Provinces
+Listing provinces
+A GET request will list all provinces available.
+
+Path parameters
+Table 2. /rest/location/country/{countryId}/province
+Parameter	Description
+countryId
+
+A country identifier.
+
+Response structure
+The response structure is a page structure as seen before. The content field is a list of provinces.
+
+Path	Type	Description
+content
+
+Array
+
+A list of provinces.
+
+last
+
+Boolean
+
+Last page indicator.
+
+totalElements
+
+Number
+
+The total amount of retrieved elements.
+
+totalPages
+
+Number
+
+The total amount of pages.
+
+size
+
+Number
+
+number of elements per page.
+
+number
+
+Number
+
+The current page number. It’s always a non-negative value.
+
+sort
+
+Array
+
+A list of sorting criteria.
+
+numberOfElements
+
+Number
+
+The number of elements shown in this page.
+
+first
+
+Boolean
+
+First page indicator.
+
+Example request
+$ curl 'https://api.inmobalia.com/rest/location/country/1/province?page=1&size=3&sort=name%2CASC' -i -X GET \
+    -H 'x-token: eyJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJlbmFibGVkIiwic2VjcmV0X2tleSI6InNlY3JldEtleTEiLCJzdWIiOiJlbmFibGVkVXNlciJ9.mhSZfzxmz_wfu8lRhQSV72NTthpDDnyXEWv9R1KpAEI-l6FUDzIRtzLAik20WER8dkkpXWhoXUnFRfVfKtQjdQ'
+Province
+A GET request with the province identifier at the end of the path will list all of its data.
+
+Path parameters
+Table 3. /rest/location/province/{provinceId}
+Parameter	Description
+provinceId
+
+A province identifier.
+
+Response structure
+Path	Type	Description
+id
+
+Number
+
+The province identifier.
+
+name
+
+String
+
+The province name.
+
+codeIso
+
+String
+
+This province’s ISO code.
+
+country
+
+Object
+
+The country this province belongs to.
+
+languages
+
+Array
+
+This province’s names in each defined language.
+
+point
+
+GeoJSON
+
+Location GPS point.
+
+polygon
+
+GeoJSON
+
+Location GPS polygon points.
+
+mapZoom
+
+Number
+
+Map Zoom level.
+
+languages[].lang
+
+String
+
+The language code.
+
+languages[].text
+
+String
+
+The name expressed in that language.
+
+country.id
+
+Number
+
+The country’s identifier.
+
+country.codeIso
+
+String
+
+The country’s ISO code.
+
+country.name
+
+String
+
+The country’s name.
+
+Example request
+$ curl 'https://api.inmobalia.com/rest/location/province/1' -i -X GET \
+    -H 'x-token: eyJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJlbmFibGVkIiwic2VjcmV0X2tleSI6InNlY3JldEtleTEiLCJzdWIiOiJlbmFibGVkVXNlciJ9.mhSZfzxmz_wfu8lRhQSV72NTthpDDnyXEWv9R1KpAEI-l6FUDzIRtzLAik20WER8dkkpXWhoXUnFRfVfKtQjdQ'
+Cities
+Listing cities
+A GET request will list all cities available.
+
+Path parameters
+Table 4. /rest/location/province/{provinceId}/city
+Parameter	Description
+provinceId
+
+A province identifier.
+
+Response structure
+The response structure is a page structure as seen before. The content field is a list of cities.
+
+Path	Type	Description
+content
+
+Array
+
+A list of cities.
+
+last
+
+Boolean
+
+Last page indicator.
+
+totalElements
+
+Number
+
+The total amount of retrieved elements.
+
+totalPages
+
+Number
+
+The total amount of pages.
+
+size
+
+Number
+
+number of elements per page.
+
+number
+
+Number
+
+The current page number. It’s always a non-negative value.
+
+sort
+
+Array
+
+A list of sorting criteria.
+
+numberOfElements
+
+Number
+
+The number of elements shown in this page.
+
+first
+
+Boolean
+
+First page indicator.
+
+Example request
+$ curl 'https://api.inmobalia.com/rest/location/province/1/city?page=1&size=3&sort=name%2CASC' -i -X GET \
+    -H 'x-token: eyJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJlbmFibGVkIiwic2VjcmV0X2tleSI6InNlY3JldEtleTEiLCJzdWIiOiJlbmFibGVkVXNlciJ9.mhSZfzxmz_wfu8lRhQSV72NTthpDDnyXEWv9R1KpAEI-l6FUDzIRtzLAik20WER8dkkpXWhoXUnFRfVfKtQjdQ'
+City
+A GET request with the city identifier at the end of the path will list all of its data. Also area and subarea information will be provided if available.
+
+Path parameters
+Table 5. /rest/location/city/{cityId}
+Parameter	Description
+cityId
+
+A city identifier.
+
+Response structure
+Path	Type	Description
+id
+
+Number
+
+This city identifier.
+
+name
+
+String
+
+This city’s name.
+
+latitude
+
+Number
+
+This city’s latitude.
+
+longitude
+
+Number
+
+This city’s longitude.
+
+province
+
+Object
+
+The province this city belongs to.
+
+areas
+
+Array
+
+The areas that belong to this city.
+
+languages
+
+Array
+
+This city’s names in each defined language.
+
+point
+
+GeoJSON
+
+Location GPS point.
+
+polygon
+
+GeoJSON
+
+Location GPS polygon points.
+
+mapZoom
+
+Number
+
+Map Zoom level.
+
+languages[].lang
+
+String
+
+The language code.
+
+languages[].text
+
+String
+
+The name expressed in that language.
+
+province.id
+
+Number
+
+The province’s identifier.
+
+province.name
+
+String
+
+The province’s name.
+
+areas[].id
+
+Number
+
+The area’s identifier.
+
+areas[].name
+
+String
+
+The area’s name.
+
+areas[].latitude
+
+Number
+
+The area’s latitude.
+
+areas[].longitude
+
+Number
+
+The area’s longitude.
+
+areas[].subareas
+
+Array
+
+The subarea information that belongs to this area.
+
+areas[].languages
+
+Array
+
+The area’s names in each defined language.
+
+areas[].languages[].lang
+
+String
+
+The language code.
+
+areas[].languages[].text
+
+String
+
+The name expressed in that language.
+
+areas[].subareas[].id
+
+Number
+
+The subarea’s identifier.
+
+areas[].subareas[].name
+
+String
+
+The subarea’s name.
+
+areas[].subareas[].latitude
+
+Number
+
+The subarea’s latitude.
+
+areas[].subareas[].longitude
+
+Number
+
+The subarea’s longitude.
+
+areas[].subareas[].languages
+
+Array
+
+The subarea’s names in each defined language.
+
+areas[].subareas[].languages[]lang
+
+String
+
+The language code.
+
+areas[].subareas[].languages[]text
+
+String
+
+The name expressed in that language.
+
+Example request
+$ curl 'https://api.inmobalia.com/rest/location/city/1' -i -X GET \
+    -H 'x-token: eyJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJlbmFibGVkIiwic2VjcmV0X2tleSI6InNlY3JldEtleTEiLCJzdWIiOiJlbmFibGVkVXNlciJ9.mhSZfzxmz_wfu8lRhQSV72NTthpDDnyXEWv9R1KpAEI-l6FUDzIRtzLAik20WER8dkkpXWhoXUnFRfVfKtQjdQ'
+Agencies
+Listing agencies
+A GET request will list all allowed agencies.
+
+Response structure
+The response structure is a page structure as seen before. The content field is a list of agencies.
+
+Path	Type	Description
+[]
+
+Array
+
+A list of agency information.
+
+[].id
+
+Number
+
+The agency identifier.
+
+[].name
+
+String
+
+The agency name.
+
+[].email
+
+String
+
+The agency email.
+
+[].telephone
+
+String
+
+The agency phone.
+
+[].address
+
+String
+
+The agency address
+
+[].fax
+
+String
+
+The agency fax.
+
+[].web
+
+String
+
+The agency web.
+
+[].locationCity
+
+Object
+
+The agency location city.
+
+[].locationCity.id
+
+Number
+
+The location city identifier.
+
+[].locationCity.name
+
+String
+
+The location city name.
+
+Example request
+$ curl 'https://api.inmobalia.com/rest/agency?ids=101%2C102' -i -X GET \
+    -H 'x-token: eyJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJlbmFibGVkIiwic2VjcmV0X2tleSI6InNlY3JldEtleTEiLCJzdWIiOiJlbmFibGVkVXNlciJ9.mhSZfzxmz_wfu8lRhQSV72NTthpDDnyXEWv9R1KpAEI-l6FUDzIRtzLAik20WER8dkkpXWhoXUnFRfVfKtQjdQ'
+Agency
+A GET request with the agency identifier at the end of the path will list all of its data.
+
+Path parameters
+Table 6. /rest/agency/{agencyID}
+Parameter	Description
+agencyID
+
+The agency identifier.
+
+Response structure
+Path	Type	Description
+id
+
+Number
+
+The agency identifier.
+
+name
+
+String
+
+The agency name.
+
+email
+
+String
+
+The agency email.
+
+telephone
+
+String
+
+The agency phone.
+
+address
+
+String
+
+The agency address
+
+fax
+
+String
+
+The agency fax.
+
+web
+
+String
+
+The agency web.
+
+locationCity
+
+Object
+
+The agency location city.
+
+locationCity.id
+
+Number
+
+The location city identifier.
+
+locationCity.name
+
+String
+
+The location city name.
+
+Example request
+$ curl 'https://api.inmobalia.com/rest/agency/101' -i -X GET \
+    -H 'x-token: eyJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJlbmFibGVkIiwic2VjcmV0X2tleSI6InNlY3JldEtleTEiLCJzdWIiOiJlbmFibGVkVXNlciJ9.mhSZfzxmz_wfu8lRhQSV72NTthpDDnyXEWv9R1KpAEI-l6FUDzIRtzLAik20WER8dkkpXWhoXUnFRfVfKtQjdQ'
+Properties
+Listing properties
+A GET request will list all the properties available.
+
+Response structure
+The response structure is a page structure as usual. The content field is a list of properties.
+
+Path	Type	Description
+content
+
+Array
+
+A list of properties.
+
+last
+
+Boolean
+
+Last page indicator.
+
+totalElements
+
+Number
+
+The total amount of retrieved elements.
+
+totalPages
+
+Number
+
+The total amount of pages.
+
+size
+
+Number
+
+number of elements per page.
+
+number
+
+Number
+
+The current page number. It’s always a non-negative value.
+
+sort
+
+Array
+
+A list of sorting criteria.
+
+numberOfElements
+
+Number
+
+The number of elements shown in this page.
+
+first
+
+Boolean
+
+First page indicator.
+
+Example request
+$ curl 'https://api.inmobalia.com/rest/property?page=1&size=2&sort=dateCreated%2CASC&sort=dateCreated%2CDESC' -i -X GET \
+    -H 'x-token: eyJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJmdWxsQWNjZXNzTWVkaWEiLCJzZWNyZXRfa2V5Ijoic2VjcmV0S2V5MTMiLCJzdWIiOiJmdWxsQWNjZXNzTWVkaWEifQ._sUqQ-9xDwninL8Z0tLpquRApxCgR8FLcBXkD8qYE1a9peUZWx_ZJTP6U257Acofh6S38KOXPL6TpJnJI2dB8g'
+Property
+A GET request will list all the properties available.
+
+Path parameters
+Table 7. /rest/property/{propertyId}
+Parameter	Description
+propertyId
+
+The property’s identifier.
+
+Response structure
+Path	Type	Description
+id
+
+Number
+
+The property’s identifier.
+
+agency
+
+Number
+
+The agency that the property belongs to.
+
+constructYear
+
+Number
+
+The property’s construction year.
+
+constructYearMonth
+
+String
+
+The property’s construction year and month.
+
+bathrooms
+
+Number
+
+The number of bathrooms in the property.
+
+bedrooms
+
+Number
+
+The number of bedrooms in the property.
+
+floors
+
+Number
+
+The number of floors in the property.
+
+onsuiteBathrooms
+
+Number
+
+The number of on-suite bathrooms in the property.
+
+toilet
+
+Number
+
+The number of toilets in the property.
+
+dateCreated
+
+String
+
+The date in which the property was created.
+
+dateModified
+
+String
+
+The date in which the property was updated.
+
+dateReview
+
+String
+
+The last date in which the property was reviewed.
+
+d218RefCatastro
+
+String
+
+The property’s catastro reference.
+
+energyKwLevel
+
+String
+
+The property’s energy comsumption level.
+
+energyCo2Level
+
+String
+
+The property’s CO2 generation level.
+
+energyCo2
+
+Number
+
+The property’s CO2 generation.
+
+energyKw
+
+Number
+
+The property’s energy comsumption.
+
+garage
+
+Object
+
+The property’s garage information.
+
+parkingSpaces
+
+Number
+
+The property’s parking spaces.
+
+garden
+
+Object
+
+The property’s garden information.
+
+orientation
+
+String
+
+The property’s orientation.
+
+pool
+
+Object
+
+The property’s pool information.
+
+level
+
+Number
+
+The level of the property.
+
+latitude
+
+Number
+
+The property’s GPS latitude.
+
+longitude
+
+Number
+
+The property’s GPS longitude.
+
+gpsPegman
+
+String
+
+Google’s Street View position information.
+
+isDirect
+
+Boolean
+
+Direct sale indicator.
+
+isExclusive
+
+Boolean
+
+Exclusive property indicator.
+
+isFeat1
+
+Boolean
+
+Property’s custom feat indicator.
+
+isFeat2
+
+Boolean
+
+Property’s custom feat indicator.
+
+isFeat3
+
+Boolean
+
+Property’s custom feat indicator.
+
+isFeat4
+
+Boolean
+
+Property’s custom feat indicator.
+
+isFeat5
+
+Boolean
+
+Property’s custom feat indicator.
+
+isFeat6
+
+Boolean
+
+Property’s custom feat indicator.
+
+isFeatured
+
+Boolean
+
+Featured property indicator.
+
+isForPortals
+
+Boolean
+
+The property is for external portals.
+
+isHot
+
+Boolean
+
+Hot sale indicator.
+
+isLuxury
+
+Boolean
+
+Luxury property indicator.
+
+isNewProperty
+
+Boolean
+
+New property indicator.
+
+isRent
+
+Boolean
+
+For rent indicator.
+
+isRented
+
+Boolean
+
+Rented property indicator.
+
+isRentLongterm
+
+Boolean
+
+For long term rent indicator.
+
+isRentShortterm
+
+Boolean
+
+For short term rent indicator.
+
+isSale
+
+Boolean
+
+For sale indicator.
+
+statusShared
+
+String
+
+Property sharing status.
+
+isSold
+
+Boolean
+
+Sold property indicator.
+
+isSpecial
+
+Boolean
+
+Special property indicator.
+
+isUnderOffer
+
+Boolean
+
+The property is under offer.
+
+webShare
+
+Boolean
+
+The property is allowed to be shared on collaborator’s webs.
+
+mtsBuild
+
+Number
+
+The property’s build surface size.
+
+mtsInterior
+
+Number
+
+The property’s interior surface size.
+
+mtsPlot
+
+Number
+
+The property’s plot surface size.
+
+mtsTerrace
+
+Number
+
+The property’s terrace surface size.
+
+reference
+
+String
+
+The property’s reference.
+
+rentalPrice
+
+Number
+
+The property’s rental price.
+
+rentalPriceShow
+
+Boolean
+
+The property’s rental price must be shown.
+
+rentalPriceLong
+
+Number
+
+The property’s long term rental price.
+
+rentalPriceLongShow
+
+Boolean
+
+The property long term rental price must be shown.
+
+rentalPricePeriod
+
+Object
+
+The property’s rental period information.
+
+salePrice
+
+Number
+
+The property’s sale price.
+
+salePriceShow
+
+Boolean
+
+The property sale price must be shown.
+
+salePriceReduced
+
+Number
+
+The property’s reduced sale price.
+
+touristicCode
+
+String
+
+The property’s touristic code.
+
+development
+
+Number
+
+The development that the property belongs to.
+
+propertyType
+
+Object
+
+The property’s property type information.
+
+propertyCategory
+
+Object
+
+The property’s category information.
+
+currency
+
+Object
+
+The currency’s information.
+
+locationCountry
+
+Object
+
+The country that the property belongs to.
+
+locationProvince
+
+Object
+
+The province that the property belongs to.
+
+locationCity
+
+Object
+
+The city that the property belongs to.
+
+locationArea
+
+Object
+
+The area that the property belongs to.
+
+locationSubarea
+
+Object
+
+The subarea that the property belongs to.
+
+tags
+
+Array
+
+The property’s tag list.
+
+pax
+
+Number
+
+The number of people that the property can hold.
+
+community
+
+Number
+
+Community tax amount.
+
+ibi
+
+Number
+
+IBI tax amount.
+
+garbage
+
+Number
+
+Garbage tax amount.
+
+point
+
+GeoJSON
+
+Location GPS point.
+
+listingQuality
+
+Number
+
+Listing quality index.
+
+similarGroup
+
+String
+
+Similar group id.
+
+mainImage
+
+Object
+
+The property’s main image.
+
+mainImage.id
+
+Number
+
+The image identifier.
+
+mainImage.filename
+
+String
+
+The image file name.
+
+mainImage.url
+
+String
+
+The attachment URL.
+
+mainImage.width
+
+Number
+
+The image width.
+
+mainImage.height
+
+Number
+
+The image height.
+
+mainImage.size
+
+Number
+
+The image file size.
+
+propertyImages
+
+Array
+
+The property attached image list.
+
+propertyImages[].id
+
+Number
+
+The image identifier.
+
+propertyImages[].filename
+
+String
+
+The image file name.
+
+propertyImages[].url
+
+String
+
+The attachment URL.
+
+propertyImages[].width
+
+Number
+
+The image width.
+
+propertyImages[].height
+
+Number
+
+The image height.
+
+propertyImages[].size
+
+Number
+
+The image file size.
+
+propertyDescriptions
+
+Array
+
+The property’s descriptions.
+
+propertyDescriptions[].language
+
+String
+
+The language used for the description.
+
+propertyDescriptions[].description
+
+String
+
+The description text.
+
+propertyDescriptions[].shortDescription
+
+String
+
+A short description.
+
+propertyDescriptions[].extraDescription
+
+String
+
+An extra description.
+
+propertyDescriptions[].priceDescription
+
+String
+
+A price description.
+
+features
+
+Array
+
+The property’s feature list.
+
+features[].id
+
+Number
+
+The feature identifier.
+
+features[].name
+
+String
+
+The feature name.
+
+garage.id
+
+Number
+
+The garage type identifier.
+
+garage.name
+
+String
+
+The garage type name.
+
+garden.id
+
+Number
+
+The garden type identifier.
+
+garden.name
+
+String
+
+The garden type name.
+
+pool.id
+
+Number
+
+The pool type identifier.
+
+pool.name
+
+String
+
+The pool type name.
+
+rentalPricePeriod.id
+
+Number
+
+The rental period identifier.
+
+rentalPricePeriod.name
+
+String
+
+The rental period name.
+
+propertyType.id
+
+Number
+
+The property type identifier.
+
+propertyType.name
+
+String
+
+The property type name.
+
+propertyType.category
+
+Object
+
+The property type category.
+
+propertyType.category.id
+
+Number
+
+The property category identifier.
+
+propertyType.category.name
+
+String
+
+The property category name.
+
+propertyCategory.id
+
+Number
+
+The property category identifier.
+
+propertyCategory.name
+
+String
+
+The property category name.
+
+currency.isoCode
+
+String
+
+The currency’s ISO code.
+
+currency.name
+
+String
+
+The currency’s name.
+
+currency.symbol
+
+String
+
+The currency’s symbol.
+
+locationCountry.id
+
+Number
+
+The country’s identifier.
+
+locationCountry.codeIso
+
+String
+
+The country’s ISO code.
+
+locationCountry.name
+
+String
+
+The country’s name.
+
+locationProvince.id
+
+Number
+
+The province’s identifier.
+
+locationProvince.name
+
+String
+
+The province’s name.
+
+locationProvince.codeIso
+
+String
+
+The province’s ISO code.
+
+locationCity.id
+
+Number
+
+The city’s identifier.
+
+locationCity.name
+
+String
+
+The city’s name.
+
+locationArea.id
+
+Number
+
+The area’s identifier.
+
+locationArea.name
+
+String
+
+The area’s name.
+
+locationSubarea.id
+
+Number
+
+The subarea’s identifier.
+
+locationSubarea.name
+
+String
+
+The subarea’s name.
+
+tags[].id
+
+Number
+
+The tag’s identifier.
+
+tags[].agency
+
+Number
+
+The tag’s agency.
+
+tags[].name
+
+String
+
+The tag name.
+
+Example request
+$ curl 'https://api.inmobalia.com/rest/property/1' -i -X GET \
+    -H 'x-token: eyJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJub01lZGlhIiwic2VjcmV0X2tleSI6InNlY3JldEtleTE0Iiwic3ViIjoibm9NZWRpYSJ9.-7ZhW6WBTWvwwebybKRtESB988fl7REBnAyrC3-MQRoggp5lP1RQD5SYBj08grPgrR-_HN1A1ylertdijVFqHQ'
+Property lists ID
+A GET request that returns the list of existing property identifiers within the provided range.
+
+Path parameters
+Table 8. /rest/property/id/{from}/{to}
+Parameter	Description
+from
+
+Minimum ID to return
+
+to
+
+Maximun ID to return
+
+Example request
+$ curl 'https://api.inmobalia.com/rest/property/id/1/1000' -i -X GET \
+    -H 'x-token: eyJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJmdWxsQWNjZXNzIiwic2VjcmV0X2tleSI6InNlY3JldEtleTEiLCJzdWIiOiJmdWxsQWNjZXNzIn0.Zb11FqWSzXh-Oteo8aZp5XMdpWhAyuY13uys3nXtCpoG7SxdvJZ-IeDAfh1hG-tcP8-vLiLdF09WT6KHaH2IWg'
+Extended Properties
+Listing extended properties
+A GET request will list all the extended properties available.
+
+Response structure
+The response structure is a page structure as usual. The content field is a list of properties including attached files, links and HTML code.
+
+Path	Type	Description
+content
+
+Array
+
+A list of properties.
+
+last
+
+Boolean
+
+Last page indicator.
+
+totalElements
+
+Number
+
+The total amount of retrieved elements.
+
+totalPages
+
+Number
+
+The total amount of pages.
+
+size
+
+Number
+
+number of elements per page.
+
+number
+
+Number
+
+The current page number. It’s always a non-negative value.
+
+sort
+
+Array
+
+A list of sorting criteria.
+
+numberOfElements
+
+Number
+
+The number of elements shown in this page.
+
+first
+
+Boolean
+
+First page indicator.
+
+Example request
+$ curl 'https://api.inmobalia.com/rest/property/extended?page=1&size=2&sort=dateCreated%2CDESC' -i -X GET \
+    -H 'x-token: eyJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJmdWxsQWNjZXNzTWVkaWEiLCJzZWNyZXRfa2V5Ijoic2VjcmV0S2V5MTMiLCJzdWIiOiJmdWxsQWNjZXNzTWVkaWEifQ._sUqQ-9xDwninL8Z0tLpquRApxCgR8FLcBXkD8qYE1a9peUZWx_ZJTP6U257Acofh6S38KOXPL6TpJnJI2dB8g'
+Extended property
+A GET request with the details of an extended property, that is, a regular property plus files, links and HTML codes.
+
+Path parameters
+Table 9. /rest/property/extended/{propertyId}
+Parameter	Description
+propertyId
+
+The property’s identifier.
+
+Response structure
+Path	Type	Description
+id
+
+Number
+
+The property’s identifier.
+
+agency
+
+Number
+
+The agency that the property belongs to.
+
+constructYear
+
+Number
+
+The property’s construction year.
+
+constructYearMonth
+
+String
+
+The property’s construction year and month.
+
+bathrooms
+
+Number
+
+The number of bathrooms in the property.
+
+bedrooms
+
+Number
+
+The number of bedrooms in the property.
+
+floors
+
+Number
+
+The number of floors in the property.
+
+onsuiteBathrooms
+
+Number
+
+The number of on-suite bathrooms in the property.
+
+toilet
+
+Number
+
+The number of toilets in the property.
+
+dateCreated
+
+String
+
+The date in which the property was created.
+
+dateModified
+
+String
+
+The date in which the property was updated.
+
+dateReview
+
+String
+
+The last date in which the property was reviewed.
+
+d218RefCatastro
+
+String
+
+The property’s catastro reference.
+
+energyKwLevel
+
+String
+
+The property’s energy comsumption level.
+
+energyCo2Level
+
+String
+
+The property’s CO2 generation level.
+
+energyCo2
+
+Number
+
+The property’s CO2 generation.
+
+energyKw
+
+Number
+
+The property’s energy comsumption.
+
+garage
+
+Object
+
+The property’s garage information.
+
+parkingSpaces
+
+Number
+
+The property’s parking spaces.
+
+garden
+
+Object
+
+The property’s garden information.
+
+orientation
+
+String
+
+The property’s orientation.
+
+pool
+
+Object
+
+The property’s pool information.
+
+level
+
+Number
+
+The level of the property.
+
+latitude
+
+Number
+
+The property’s GPS latitude.
+
+longitude
+
+Number
+
+The property’s GPS longitude.
+
+gpsPegman
+
+String
+
+Google’s Street View position information.
+
+isDirect
+
+Boolean
+
+Direct sale indicator.
+
+isExclusive
+
+Boolean
+
+Exclusive property indicator.
+
+isFeat1
+
+Boolean
+
+Property’s custom feat indicator.
+
+isFeat2
+
+Boolean
+
+Property’s custom feat indicator.
+
+isFeat3
+
+Boolean
+
+Property’s custom feat indicator.
+
+isFeat4
+
+Boolean
+
+Property’s custom feat indicator.
+
+isFeat5
+
+Boolean
+
+Property’s custom feat indicator.
+
+isFeat6
+
+Boolean
+
+Property’s custom feat indicator.
+
+isFeatured
+
+Boolean
+
+Featured property indicator.
+
+isForPortals
+
+Boolean
+
+The property is for external portals.
+
+isHot
+
+Boolean
+
+Hot sale indicator.
+
+isLuxury
+
+Boolean
+
+Luxury property indicator.
+
+isNewProperty
+
+Boolean
+
+New property indicator.
+
+isRent
+
+Boolean
+
+For rent indicator.
+
+isRented
+
+Boolean
+
+Rented property indicator.
+
+isRentLongterm
+
+Boolean
+
+For long term rent indicator.
+
+isRentShortterm
+
+Boolean
+
+For short term rent indicator.
+
+isSale
+
+Boolean
+
+For sale indicator.
+
+statusShared
+
+String
+
+Property sharing status.
+
+isSold
+
+Boolean
+
+Sold property indicator.
+
+isSpecial
+
+Boolean
+
+Special property indicator.
+
+isUnderOffer
+
+Boolean
+
+The property is under offer.
+
+webShare
+
+Boolean
+
+The property is allowed to be shared on collaborator’s webs.
+
+mtsBuild
+
+Number
+
+The property’s build surface size.
+
+mtsInterior
+
+Number
+
+The property’s interior surface size.
+
+mtsPlot
+
+Number
+
+The property’s plot surface size.
+
+mtsTerrace
+
+Number
+
+The property’s terrace surface size.
+
+reference
+
+String
+
+The property’s reference.
+
+rentalPrice
+
+Number
+
+The property’s rental price.
+
+rentalPriceShow
+
+Boolean
+
+The property’s rental price must be shown.
+
+rentalPriceLong
+
+Number
+
+The property’s long term rental price.
+
+rentalPriceLongShow
+
+Boolean
+
+The property long term rental price must be shown.
+
+rentalPricePeriod
+
+Object
+
+The property’s rental period information.
+
+salePrice
+
+Number
+
+The property’s sale price.
+
+salePriceShow
+
+Boolean
+
+The property sale price must be shown.
+
+salePriceReduced
+
+Number
+
+The property’s reduced sale price.
+
+touristicCode
+
+String
+
+The property’s touristic code.
+
+development
+
+Number
+
+The development that the property belongs to.
+
+propertyType
+
+Object
+
+The property’s property type information.
+
+propertyCategory
+
+Object
+
+The property’s category information.
+
+currency
+
+Object
+
+The currency’s information.
+
+locationCountry
+
+Object
+
+The country that the property belongs to.
+
+locationProvince
+
+Object
+
+The province that the property belongs to.
+
+locationCity
+
+Object
+
+The city that the property belongs to.
+
+locationArea
+
+Object
+
+The area that the property belongs to.
+
+locationSubarea
+
+Object
+
+The subarea that the property belongs to.
+
+tags
+
+Array
+
+The property’s tag list.
+
+pax
+
+Number
+
+The number of people that the property can hold.
+
+community
+
+Number
+
+Community tax amount.
+
+ibi
+
+Number
+
+IBI tax amount.
+
+garbage
+
+Number
+
+Garbage tax amount.
+
+point
+
+GeoJSON
+
+Location GPS point.
+
+listingQuality
+
+Number
+
+Listing quality index.
+
+similarGroup
+
+String
+
+Similar group id.
+
+mainImage
+
+Object
+
+The property’s main image.
+
+mainImage.id
+
+Number
+
+The image identifier.
+
+mainImage.filename
+
+String
+
+The image file name.
+
+mainImage.url
+
+String
+
+The attachment URL.
+
+mainImage.width
+
+Number
+
+The image width.
+
+mainImage.height
+
+Number
+
+The image height.
+
+mainImage.size
+
+Number
+
+The image file size.
+
+propertyImages
+
+Array
+
+The property attached image list.
+
+propertyImages[].id
+
+Number
+
+The image identifier.
+
+propertyImages[].filename
+
+String
+
+The image file name.
+
+propertyImages[].url
+
+String
+
+The attachment URL.
+
+propertyImages[].width
+
+Number
+
+The image width.
+
+propertyImages[].height
+
+Number
+
+The image height.
+
+propertyImages[].size
+
+Number
+
+The image file size.
+
+propertyDescriptions
+
+Array
+
+The property’s descriptions.
+
+propertyDescriptions[].language
+
+String
+
+The language used for the description.
+
+propertyDescriptions[].description
+
+String
+
+The description text.
+
+propertyDescriptions[].shortDescription
+
+String
+
+A short description.
+
+propertyDescriptions[].extraDescription
+
+String
+
+An extra description.
+
+propertyDescriptions[].priceDescription
+
+String
+
+A price description.
+
+features
+
+Array
+
+The property’s feature list.
+
+features[].id
+
+Number
+
+The feature identifier.
+
+features[].name
+
+String
+
+The feature name.
+
+garage.id
+
+Number
+
+The garage type identifier.
+
+garage.name
+
+String
+
+The garage type name.
+
+garden.id
+
+Number
+
+The garden type identifier.
+
+garden.name
+
+String
+
+The garden type name.
+
+pool.id
+
+Number
+
+The pool type identifier.
+
+pool.name
+
+String
+
+The pool type name.
+
+rentalPricePeriod.id
+
+Number
+
+The rental period identifier.
+
+rentalPricePeriod.name
+
+String
+
+The rental period name.
+
+propertyType.id
+
+Number
+
+The property type identifier.
+
+propertyType.name
+
+String
+
+The property type name.
+
+propertyType.category
+
+Object
+
+The property type category.
+
+propertyType.category.id
+
+Number
+
+The property category identifier.
+
+propertyType.category.name
+
+String
+
+The property category name.
+
+propertyCategory.id
+
+Number
+
+The property category identifier.
+
+propertyCategory.name
+
+String
+
+The property category name.
+
+currency.isoCode
+
+String
+
+The currency’s ISO code.
+
+currency.name
+
+String
+
+The currency’s name.
+
+currency.symbol
+
+String
+
+The currency’s symbol.
+
+locationCountry.id
+
+Number
+
+The country’s identifier.
+
+locationCountry.codeIso
+
+String
+
+The country’s ISO code.
+
+locationCountry.name
+
+String
+
+The country’s name.
+
+locationProvince.id
+
+Number
+
+The province’s identifier.
+
+locationProvince.name
+
+String
+
+The province’s name.
+
+locationProvince.codeIso
+
+String
+
+The province’s ISO code.
+
+locationCity.id
+
+Number
+
+The city’s identifier.
+
+locationCity.name
+
+String
+
+The city’s name.
+
+locationArea.id
+
+Number
+
+The area’s identifier.
+
+locationArea.name
+
+String
+
+The area’s name.
+
+locationSubarea.id
+
+Number
+
+The subarea’s identifier.
+
+locationSubarea.name
+
+String
+
+The subarea’s name.
+
+tags[].id
+
+Number
+
+The tag’s identifier.
+
+tags[].agency
+
+Number
+
+The tag’s agency.
+
+tags[].name
+
+String
+
+The tag name.
+
+listetBy
+
+Object
+
+The user that listed the property.
+
+listetBy2
+
+Object
+
+The user that listed the property.
+
+listetBy.id
+
+Number
+
+The user identifier.
+
+listetBy.name
+
+String
+
+The user name.
+
+listetBy.surname
+
+String
+
+The user surname.
+
+listetBy.email
+
+String
+
+The user email.
+
+listetBy.agency
+
+Number
+
+The user agency.
+
+listetBy2.id
+
+Number
+
+The user identifier.
+
+listetBy2.name
+
+String
+
+The user name.
+
+listetBy2.surname
+
+String
+
+The user surname.
+
+listetBy2.email
+
+String
+
+The user email.
+
+listetBy2.agency
+
+Number
+
+The user agency.
+
+propertyFiles[].id
+
+Number
+
+The file attachment identifier.
+
+propertyFiles[].contentType
+
+String
+
+The file content type.
+
+propertyFiles[].description
+
+String
+
+The file description.
+
+propertyFiles[].filename
+
+String
+
+The file name in the operating system.
+
+propertyFiles[].lang
+
+String
+
+The language used in the file.
+
+propertyFiles[].name
+
+String
+
+The attachment name.
+
+propertyFiles[].type
+
+String
+
+The attachment type.
+
+propertyFiles[].url
+
+String
+
+The file URL.
+
+propertyHtml[].id
+
+Number
+
+The HTML attachment identifier.
+
+propertyHtml[].htmlCode
+
+String
+
+The HTML code.
+
+propertyHtml[].lang
+
+String
+
+The language used in HTML text.
+
+propertyHtml[].name
+
+String
+
+The attachment name.
+
+propertyHtml[].type
+
+String
+
+The attachment type.
+
+propertyLink[].id
+
+Number
+
+The link identifier.
+
+propertyLink[].description
+
+String
+
+The link description.
+
+propertyLink[].name
+
+String
+
+The link name.
+
+propertyLink[].type
+
+String
+
+The link type.
+
+propertyLink[].url
+
+String
+
+The link URL.
+
+propertyLink[].lang
+
+String
+
+The language used in the link.
+
+bookings[].id
+
+Number
+
+The booking id.
+
+bookings[].agency
+
+Number
+
+The booking agency id.
+
+bookings[].code
+
+Number
+
+The booking code.
+
+bookings[].end
+
+String
+
+The booking end date.
+
+bookings[].property
+
+Number
+
+The booking property.
+
+bookings[].start
+
+String
+
+The booking start date.
+
+Example request
+$ curl 'https://api.inmobalia.com/rest/property/extended/1' -i -X GET \
+    -H 'x-token: eyJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJub01lZGlhIiwic2VjcmV0X2tleSI6InNlY3JldEtleTE0Iiwic3ViIjoibm9NZWRpYSJ9.-7ZhW6WBTWvwwebybKRtESB988fl7REBnAyrC3-MQRoggp5lP1RQD5SYBj08grPgrR-_HN1A1ylertdijVFqHQ'
+Property Settings
+Categories
+Listing categories
+A GET request will list all the property categories available.
+
+Response structure
+The response structure is list of property categories.
+
+Path	Type	Description
+[]
+
+Array
+
+A list of property category information.
+
+[].id
+
+Number
+
+The category identifier.
+
+[].name
+
+String
+
+The category name.
+
+[].languages
+
+Array
+
+This category names in each defined language.
+
+[].types
+
+Array
+
+The property types that belong to this category.
+
+[].languages[].lang
+
+String
+
+The language code.
+
+[].languages[].text
+
+String
+
+The name expressed in that language.
+
+[].types[].id
+
+Number
+
+The category identifier.
+
+[].types[].name
+
+String
+
+The category name.
+
+[].types[].category
+
+Object
+
+The category information that the property type belongs to.
+
+[].types[].languages
+
+Array
+
+This property type names in each defined language.
+
+[].types[].languages[].lang
+
+String
+
+The language code.
+
+[].types[].languages[].text
+
+String
+
+The name expressed in that language.
+
+[].types[].category.id
+
+Number
+
+The category identifier.
+
+[].types[].category.name
+
+String
+
+The category name.
+
+Example request
+$ curl 'https://api.inmobalia.com/rest/property/setting/category' -i -X GET \
+    -H 'x-token: eyJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJlbmFibGVkIiwic2VjcmV0X2tleSI6InNlY3JldEtleTEiLCJzdWIiOiJlbmFibGVkVXNlciJ9.mhSZfzxmz_wfu8lRhQSV72NTthpDDnyXEWv9R1KpAEI-l6FUDzIRtzLAik20WER8dkkpXWhoXUnFRfVfKtQjdQ'
+Category
+A GET request with the category identifier at the end of the path will list all of its data.
+
+Path parameters
+Table 10. /rest/property/setting/category/{categoryId}
+Parameter	Description
+categoryId
+
+The category identifier.
+
+Response structure
+Path	Type	Description
+id
+
+Number
+
+The category identifier.
+
+name
+
+String
+
+The category name.
+
+languages
+
+Array
+
+This category names in each defined language.
+
+types
+
+Array
+
+The property types that belong to this category.
+
+languages[].lang
+
+String
+
+The language code.
+
+languages[].text
+
+String
+
+The name expressed in that language.
+
+types[].id
+
+Number
+
+The category identifier.
+
+types[].name
+
+String
+
+The category name.
+
+types[].category
+
+Object
+
+The category information that the property type belongs to.
+
+types[].languages
+
+Array
+
+This property type names in each defined language.
+
+types[].languages[].lang
+
+String
+
+The language code.
+
+types[].languages[].text
+
+String
+
+The name expressed in that language.
+
+types[].category.id
+
+Number
+
+The category identifier.
+
+types[].category.name
+
+String
+
+The category name.
+
+languages[].lang
+
+String
+
+The language code.
+
+languages[].text
+
+String
+
+The name expressed in that language.
+
+types[].id
+
+Number
+
+The category identifier.
+
+types[].name
+
+String
+
+The category name.
+
+types[].category
+
+Object
+
+The category information that the property type belongs to.
+
+types[].languages
+
+Array
+
+This property type names in each defined language.
+
+types[].languages[].lang
+
+String
+
+The language code.
+
+types[].languages[].text
+
+String
+
+The name expressed in that language.
+
+types[].category.id
+
+Number
+
+The category identifier.
+
+types[].category.name
+
+String
+
+The category name.
+
+Example request
+$ curl 'https://api.inmobalia.com/rest/property/setting/category/1' -i -X GET \
+    -H 'x-token: eyJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJlbmFibGVkIiwic2VjcmV0X2tleSI6InNlY3JldEtleTEiLCJzdWIiOiJlbmFibGVkVXNlciJ9.mhSZfzxmz_wfu8lRhQSV72NTthpDDnyXEWv9R1KpAEI-l6FUDzIRtzLAik20WER8dkkpXWhoXUnFRfVfKtQjdQ'
+Property Types
+Listing property types
+A GET request will list all the property types available.
+
+Response structure
+The response structure is a list of property types.
+
+Path	Type	Description
+[]
+
+Array
+
+A list of property type information.
+
+[].id
+
+Number
+
+The category identifier.
+
+[].name
+
+String
+
+The category name.
+
+[].category
+
+Object
+
+The category information that the property type belongs to.
+
+[].languages
+
+Array
+
+This property type names in each defined language.
+
+[].languages[].lang
+
+String
+
+The language code.
+
+[].languages[].text
+
+String
+
+The name expressed in that language.
+
+[].category.id
+
+Number
+
+The category identifier.
+
+[].category.name
+
+String
+
+The category name.
+
+Example request
+$ curl 'https://api.inmobalia.com/rest/property/setting/type' -i -X GET \
+    -H 'x-token: eyJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJlbmFibGVkIiwic2VjcmV0X2tleSI6InNlY3JldEtleTEiLCJzdWIiOiJlbmFibGVkVXNlciJ9.mhSZfzxmz_wfu8lRhQSV72NTthpDDnyXEWv9R1KpAEI-l6FUDzIRtzLAik20WER8dkkpXWhoXUnFRfVfKtQjdQ'
+Property Type
+A GET request with the property type identifier at the end of the path will list all of its data.
+
+Path parameters
+Table 11. /rest/property/setting/type/{propertyTypeId}
+Parameter	Description
+propertyTypeId
+
+The property type identifier.
+
+Response structure
+Path	Type	Description
+id
+
+Number
+
+The category identifier.
+
+name
+
+String
+
+The category name.
+
+category
+
+Object
+
+The category information that the property type belongs to.
+
+languages
+
+Array
+
+This property type names in each defined language.
+
+languages[].lang
+
+String
+
+The language code.
+
+languages[].text
+
+String
+
+The name expressed in that language.
+
+category.id
+
+Number
+
+The category identifier.
+
+category.name
+
+String
+
+The category name.
+
+languages[].lang
+
+String
+
+The language code.
+
+languages[].text
+
+String
+
+The name expressed in that language.
+
+category.id
+
+Number
+
+The category identifier.
+
+category.name
+
+String
+
+The category name.
+
+Example request
+$ curl 'https://api.inmobalia.com/rest/property/setting/type/1' -i -X GET \
+    -H 'x-token: eyJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJlbmFibGVkIiwic2VjcmV0X2tleSI6InNlY3JldEtleTEiLCJzdWIiOiJlbmFibGVkVXNlciJ9.mhSZfzxmz_wfu8lRhQSV72NTthpDDnyXEWv9R1KpAEI-l6FUDzIRtzLAik20WER8dkkpXWhoXUnFRfVfKtQjdQ'
+Features
+Listing features
+A GET request will list all property features available.
+
+Response structure
+The response structure is a list of property features.
+
+Path	Type	Description
+[]
+
+Array
+
+A list of features.
+
+[].id
+
+Number
+
+The feature identifier.
+
+[].name
+
+String
+
+The feature name.
+
+[].description
+
+String
+
+The feature description.
+
+[].languages
+
+Array
+
+The feature name in each defined language.
+
+[].languages[].lang
+
+String
+
+The language code.
+
+[].languages[].text
+
+String
+
+The name expressed in that language.
+
+Example request
+$ curl 'https://api.inmobalia.com/rest/property/setting/feature' -i -X GET \
+    -H 'x-token: eyJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJlbmFibGVkIiwic2VjcmV0X2tleSI6InNlY3JldEtleTEiLCJzdWIiOiJlbmFibGVkVXNlciJ9.mhSZfzxmz_wfu8lRhQSV72NTthpDDnyXEWv9R1KpAEI-l6FUDzIRtzLAik20WER8dkkpXWhoXUnFRfVfKtQjdQ'
+Feature
+A GET request with the property feature identifier at the end of the path will list all of its data.
+
+Path parameters
+Table 12. /rest/property/setting/feature/{featureId}
+Parameter	Description
+featureId
+
+The feature identifier.
+
+Response structure
+Path	Type	Description
+id
+
+Number
+
+The feature identifier.
+
+name
+
+String
+
+The feature name.
+
+description
+
+String
+
+The feature description.
+
+languages
+
+Array
+
+The feature name in each defined language.
+
+languages[].lang
+
+String
+
+The language code.
+
+languages[].text
+
+String
+
+The name expressed in that language.
+
+languages[].lang
+
+String
+
+The language code.
+
+languages[].text
+
+String
+
+The name expressed in that language.
+
+Example request
+$ curl 'https://api.inmobalia.com/rest/property/setting/feature/1' -i -X GET \
+    -H 'x-token: eyJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJlbmFibGVkIiwic2VjcmV0X2tleSI6InNlY3JldEtleTEiLCJzdWIiOiJlbmFibGVkVXNlciJ9.mhSZfzxmz_wfu8lRhQSV72NTthpDDnyXEWv9R1KpAEI-l6FUDzIRtzLAik20WER8dkkpXWhoXUnFRfVfKtQjdQ'
+Tags
+Listing tags
+A GET request will list all the property tags available.
+
+Response structure
+The response structure is a list of property tags.
+
+Path	Type	Description
+[]
+
+Array
+
+A list of tags.
+
+[].id
+
+Number
+
+The tag identifier.
+
+[].name
+
+String
+
+The tag name.
+
+[].agency
+
+Number
+
+The tag agency.
+
+Example request
+$ curl 'https://api.inmobalia.com/rest/property/setting/tag' -i -X GET \
+    -H 'x-token: eyJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJlbmFibGVkIiwic2VjcmV0X2tleSI6InNlY3JldEtleTEiLCJzdWIiOiJlbmFibGVkVXNlciJ9.mhSZfzxmz_wfu8lRhQSV72NTthpDDnyXEWv9R1KpAEI-l6FUDzIRtzLAik20WER8dkkpXWhoXUnFRfVfKtQjdQ'
+Tag
+A GET request with the property tag identifier at the end of the path will list all of its data.
+
+Path parameters
+Table 13. /rest/property/setting/tag/{tagId}
+Parameter	Description
+tagId
+
+The tag identifier.
+
+Response structure
+Path	Type	Description
+id
+
+Number
+
+The tag identifier.
+
+name
+
+String
+
+The tag name.
+
+agency
+
+Number
+
+The tag agency.
+
+Example request
+$ curl 'https://api.inmobalia.com/rest/property/setting/tag/1' -i -X GET \
+    -H 'x-token: eyJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJlbmFibGVkIiwic2VjcmV0X2tleSI6InNlY3JldEtleTEiLCJzdWIiOiJlbmFibGVkVXNlciJ9.mhSZfzxmz_wfu8lRhQSV72NTthpDDnyXEWv9R1KpAEI-l6FUDzIRtzLAik20WER8dkkpXWhoXUnFRfVfKtQjdQ'
+Garages
+Listing garage types
+A GET request will list all the garage types available.
+
+Response structure
+The response structure is a list of property garage types.
+
+Path	Type	Description
+[]
+
+Array
+
+A list of garages.
+
+[].id
+
+Number
+
+The garage identifier.
+
+[].name
+
+String
+
+The garage name.
+
+[].languages
+
+Array
+
+The garage name in each defined language.
+
+[].languages[].lang
+
+String
+
+The language code.
+
+[].languages[].text
+
+String
+
+The name expressed in that language.
+
+Example request
+$ curl 'https://api.inmobalia.com/rest/property/setting/garage' -i -X GET \
+    -H 'x-token: eyJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJlbmFibGVkIiwic2VjcmV0X2tleSI6InNlY3JldEtleTEiLCJzdWIiOiJlbmFibGVkVXNlciJ9.mhSZfzxmz_wfu8lRhQSV72NTthpDDnyXEWv9R1KpAEI-l6FUDzIRtzLAik20WER8dkkpXWhoXUnFRfVfKtQjdQ'
+Gardens
+Listing garden types
+A GET request will list all the property garden types available.
+
+Response structure
+The response structure is a list of property garden types.
+
+Path	Type	Description
+[]
+
+Array
+
+A list of gardens.
+
+[].id
+
+Number
+
+The garden identifier.
+
+[].name
+
+String
+
+The garden name.
+
+[].languages
+
+Array
+
+The garden name in each defined language.
+
+[].languages[].lang
+
+String
+
+The language code.
+
+[].languages[].text
+
+String
+
+The name expressed in that language.
+
+Example request
+$ curl 'https://api.inmobalia.com/rest/property/setting/garden' -i -X GET \
+    -H 'x-token: eyJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJlbmFibGVkIiwic2VjcmV0X2tleSI6InNlY3JldEtleTEiLCJzdWIiOiJlbmFibGVkVXNlciJ9.mhSZfzxmz_wfu8lRhQSV72NTthpDDnyXEWv9R1KpAEI-l6FUDzIRtzLAik20WER8dkkpXWhoXUnFRfVfKtQjdQ'
+Pools
+The property pools resources.
+
+Listing pool types
+A GET request will list all the property pool types available.
+
+Response structure
+The response structure is a list of property pool types.
+
+Path	Type	Description
+[]
+
+Array
+
+A list of pools.
+
+[].id
+
+Number
+
+The pool identifier.
+
+[].name
+
+String
+
+The pool name.
+
+[].languages
+
+Array
+
+The pool name in each defined language.
+
+[].languages[].lang
+
+String
+
+The language code.
+
+[].languages[].text
+
+String
+
+The name expressed in that language.
+
+Example request
+$ curl 'https://api.inmobalia.com/rest/property/setting/pool' -i -X GET \
+    -H 'x-token: eyJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJlbmFibGVkIiwic2VjcmV0X2tleSI6InNlY3JldEtleTEiLCJzdWIiOiJlbmFibGVkVXNlciJ9.mhSZfzxmz_wfu8lRhQSV72NTthpDDnyXEWv9R1KpAEI-l6FUDzIRtzLAik20WER8dkkpXWhoXUnFRfVfKtQjdQ'
+Rental Periods
+Listing rental periods
+A GET request will list all the property rental periods available.
+
+Response structure
+The response structure is a list of property rental periods.
+
+Path	Type	Description
+[]
+
+Array
+
+A list of rental periods.
+
+[].id
+
+Number
+
+The rental period identifier.
+
+[].name
+
+String
+
+The rental period name.
+
+[].languages
+
+Array
+
+The rental period name in each defined language.
+
+[].languages[].lang
+
+String
+
+The language code.
+
+[].languages[].text
+
+String
+
+The name expressed in that language.
+
+Example request
+$ curl 'https://api.inmobalia.com/rest/property/setting/rentalPeriod' -i -X GET \
+    -H 'x-token: eyJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJlbmFibGVkIiwic2VjcmV0X2tleSI6InNlY3JldEtleTEiLCJzdWIiOiJlbmFibGVkVXNlciJ9.mhSZfzxmz_wfu8lRhQSV72NTthpDDnyXEWv9R1KpAEI-l6FUDzIRtzLAik20WER8dkkpXWhoXUnFRfVfKtQjdQ'
+Developments
+Listing developments
+A GET request will list all the developments available.
+
+Response structure
+The response structure is a page structure as usual. The content field is a list of developments.
+
+Path	Type	Description
+content
+
+Array
+
+A list of developments.
+
+last
+
+Boolean
+
+Last page indicator.
+
+totalElements
+
+Number
+
+The total amount of retrieved elements.
+
+totalPages
+
+Number
+
+The total amount of pages.
+
+size
+
+Number
+
+number of elements per page.
+
+number
+
+Number
+
+The current page number. It’s always a non-negative value.
+
+sort
+
+Array
+
+A list of sorting criteria.
+
+numberOfElements
+
+Number
+
+The number of elements shown in this page.
+
+first
+
+Boolean
+
+First page indicator.
+
+Example request
+$ curl 'https://api.inmobalia.com/rest/development?page=1&size=2&sort=dateCreated%2CDESC' -i -X GET \
+    -H 'x-token: eyJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJmdWxsQWNjZXNzIiwic2VjcmV0X2tleSI6InNlY3JldEtleTEiLCJzdWIiOiJmdWxsQWNjZXNzIn0.Zb11FqWSzXh-Oteo8aZp5XMdpWhAyuY13uys3nXtCpoG7SxdvJZ-IeDAfh1hG-tcP8-vLiLdF09WT6KHaH2IWg'
+Development
+A GET request with development details.
+
+Path parameters
+Table 14. /rest/development/{developmentId}
+Parameter	Description
+developmentId
+
+A development reference.
+
+Response structure
+Path	Type	Description
+id
+
+Number
+
+The development identifier.
+
+agency
+
+Number
+
+The development agency.
+
+constructYear
+
+Number
+
+The development’s contruction year.
+
+constructYearMonth
+
+String
+
+The development’s contruction year and month.
+
+dateCreated
+
+String
+
+The date in which the development was created.
+
+dateModified
+
+String
+
+The newest date in which the development was updated.
+
+dateReview
+
+String
+
+The newest date in which the development was reviewed.
+
+gpsPegman
+
+String
+
+Google’s Street View position information.
+
+isExclusive
+
+Boolean
+
+Exclusive development indicator.
+
+isFeatured
+
+Boolean
+
+Featured development indicator.
+
+isHot
+
+Boolean
+
+Hot sale indicator.
+
+isLuxury
+
+Boolean
+
+Luxury development indicator.
+
+isSpecial
+
+Boolean
+
+Special development indicator.
+
+latitude
+
+Number
+
+The development GPS latitude.
+
+longitude
+
+Number
+
+The development GPS longitude.
+
+name
+
+String
+
+The development’s name.
+
+point
+
+GeoJSON
+
+Location GPS point.
+
+priceFrom
+
+Number
+
+The development’s lowest price.
+
+priceTo
+
+Number
+
+The development’s highest price.
+
+reference
+
+String
+
+The development’s reference.
+
+statusShared
+
+Boolean
+
+The development’s sharing status.
+
+tags
+
+Array
+
+A list of the development’s tags.
+
+tags[].id
+
+Number
+
+The tag’s identifier.
+
+tags[].agency
+
+Number
+
+The tag’s agency.
+
+tags[].name
+
+String
+
+The tag name.
+
+propertyTypes
+
+Array
+
+A list of unit types included in the development.
+
+propertyTypes[].id
+
+Number
+
+The unit type identifier.
+
+propertyTypes[].name
+
+String
+
+The unit type name.
+
+propertyTypes[].category
+
+Object
+
+The unit type category.
+
+propertyTypes[].category.id
+
+Number
+
+The category identifier.
+
+propertyTypes[].category.name
+
+String
+
+The category name.
+
+listedBy
+
+Object
+
+The user that listed the development.
+
+listedBy.id
+
+Number
+
+The user identifier.
+
+listedBy.name
+
+String
+
+The user name.
+
+listedBy.surname
+
+String
+
+The user surname.
+
+listedBy.email
+
+String
+
+The user email.
+
+listedBy.agency
+
+Number
+
+The user agency.
+
+listedBy2
+
+Object
+
+The second user that listed the development.
+
+listedBy2.id
+
+Number
+
+The user identifier.
+
+listedBy2.name
+
+String
+
+The user name.
+
+listedBy2.surname
+
+String
+
+The user surname.
+
+listedBy2.email
+
+String
+
+The user email.
+
+listedBy2.agency
+
+Number
+
+The user agency.
+
+features
+
+Array
+
+A list of the development’s features.
+
+features[].id
+
+Number
+
+The feature identifier.
+
+features[].name
+
+String
+
+The feature name.
+
+locationCountry
+
+Object
+
+The country that the development belongs to.
+
+locationCountry.id
+
+Number
+
+The country’s identifier.
+
+locationCountry.codeIso
+
+String
+
+The country’s ISO code.
+
+locationCountry.name
+
+String
+
+The country’s name.
+
+locationProvince
+
+Object
+
+The province that the development belongs to.
+
+locationProvince.id
+
+Number
+
+The province’s identifier.
+
+locationProvince.name
+
+String
+
+The province’s name.
+
+locationProvince.codeIso
+
+String
+
+The province’s ISO code.
+
+locationCity
+
+Object
+
+The city that the development belongs to.
+
+locationCity.id
+
+Number
+
+The city’s identifier.
+
+locationCity.name
+
+String
+
+The city’s name.
+
+locationArea
+
+Object
+
+The area that the development belongs to.
+
+locationArea.id
+
+Number
+
+The area’s identifier.
+
+locationArea.name
+
+String
+
+The area’s name.
+
+locationSubarea
+
+Object
+
+The subarea that the development belongs to.
+
+locationSubarea.id
+
+Number
+
+The subarea’s identifier.
+
+locationSubarea.name
+
+String
+
+The subarea’s name.
+
+developmentDescriptions
+
+Array
+
+The development’s description list.
+
+developmentDescriptions[].language
+
+String
+
+The language used for the description.
+
+developmentDescriptions[].description
+
+String
+
+The description text.
+
+developmentDescriptions[].shortDescription
+
+String
+
+A short description.
+
+developmentDescriptions[].extraDescription
+
+String
+
+An extra description.
+
+developmentDescriptions[].priceDescription
+
+String
+
+A price description.
+
+developmentFiles
+
+Array
+
+The development’s attached file list.
+
+developmentFiles[].id
+
+Number
+
+The file attachment identifier.
+
+developmentFiles[].contentType
+
+String
+
+The file content type.
+
+developmentFiles[].description
+
+String
+
+The file description.
+
+developmentFiles[].filename
+
+String
+
+The file name in the operating system.
+
+developmentFiles[].lang
+
+String
+
+The language used in the file.
+
+developmentFiles[].name
+
+String
+
+The attachment name.
+
+developmentFiles[].type
+
+String
+
+The attachment type.
+
+developmentFiles[].url
+
+String
+
+The file URL.
+
+developmentHtml
+
+Array
+
+The development’s attached HTML code list.
+
+developmentHtml[].id
+
+Number
+
+The HTML attachment identifier.
+
+developmentHtml[].htmlCode
+
+String
+
+The HTML code.
+
+developmentHtml[].lang
+
+String
+
+The language used in HTML text.
+
+developmentHtml[].name
+
+String
+
+The attachment name.
+
+developmentHtml[].type
+
+String
+
+The attachment type.
+
+developmentLink
+
+Array
+
+The development’s attached link list.
+
+developmentLink[].id
+
+Number
+
+The link identifier.
+
+developmentLink[].description
+
+String
+
+The link description.
+
+developmentLink[].name
+
+String
+
+The link name.
+
+developmentLink[].type
+
+String
+
+The link type.
+
+developmentLink[].url
+
+String
+
+The link URL.
+
+developmentLink[].lang
+
+String
+
+The language used in the link.
+
+mainImage
+
+Object
+
+The development main image information.
+
+mainImage.id
+
+Number
+
+The image identifier.
+
+mainImage.filename
+
+String
+
+The image file name.
+
+mainImage.url
+
+String
+
+The attachment URL.
+
+mainImage.width
+
+Number
+
+The image width.
+
+mainImage.height
+
+Number
+
+The image height.
+
+mainImage.size
+
+Number
+
+The image file size.
+
+developmentImages
+
+Array
+
+The development’s attached image list.
+
+developmentImages[].id
+
+Number
+
+The image identifier.
+
+developmentImages[].filename
+
+String
+
+The image file name.
+
+developmentImages[].url
+
+String
+
+The attachment URL.
+
+developmentImages[].width
+
+Number
+
+The image width.
+
+developmentImages[].height
+
+Number
+
+The image height.
+
+developmentImages[].size
+
+Number
+
+The image file size.
+
+properties
+
+Array
+
+A list of the identifiers belonging to the development’s properties.
+
+Example request
+$ curl 'https://api.inmobalia.com/rest/development/1' -i -X GET \
+    -H 'x-token: eyJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJub01lZGlhIiwic2VjcmV0X2tleSI6InNlY3JldEtleTMiLCJzdWIiOiJub01lZGlhIn0.Mh85j-HuAE15IbjX0wOexwJnB7UIHs7hpzv_z1Wqb8xJQQE0OCzS1DmXSrEcQwXFPA5vZlzRrj91l3t8VyiLaQ'
+Development lists ID
+A GET request that returns the available development identifiers within the given range.
+
+Path parameters
+Table 15. /rest/development/id/{from}/{to}
+Parameter	Description
+from
+
+Minimum ID to return
+
+to
+
+Maximun ID to return
+
+Example request
+$ curl 'https://api.inmobalia.com/rest/development/id/1/10' -i -X GET \
+    -H 'x-token: eyJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJmdWxsQWNjZXNzIiwic2VjcmV0X2tleSI6InNlY3JldEtleTEiLCJzdWIiOiJmdWxsQWNjZXNzIn0.Zb11FqWSzXh-Oteo8aZp5XMdpWhAyuY13uys3nXtCpoG7SxdvJZ-IeDAfh1hG-tcP8-vLiLdF09WT6KHaH2IWg'
+Bookings
+Listing bookings
+A GET request will list all the bookings available.
+
+Response structure
+The response structure is a page structure as seen before. The content field is a list of bookings.
+
+Path	Type	Description
+content
+
+Array
+
+A list of bookings.
+
+last
+
+Boolean
+
+Last page indicator.
+
+totalElements
+
+Number
+
+The total amount of retrieved elements.
+
+totalPages
+
+Number
+
+The total amount of pages.
+
+size
+
+Number
+
+number of elements per page.
+
+number
+
+Number
+
+The current page number. It’s always a non-negative value.
+
+sort
+
+Array
+
+A list of sorting criteria.
+
+numberOfElements
+
+Number
+
+The number of elements shown in this page.
+
+first
+
+Boolean
+
+First page indicator.
+
+content[].id
+
+Number
+
+The booking id.
+
+content[].agency
+
+Number
+
+The booking agency identifier.
+
+content[].code
+
+Number
+
+The booking code.
+
+content[].start
+
+String
+
+The start date. ISO 8601 FORMAT.
+
+content[].end
+
+String
+
+The changelog date. ISO 8601 FORMAT.
+
+content[].property
+
+Number
+
+The booking property identifier.
+
+Example request
+$ curl 'https://api.inmobalia.com/rest/booking?page=0&size=10&ids=1%2C2%2C3&codes=1%2C2%2C1&properties=1%2C2%2C22&from=2017-07-15&to=2017-09-15' -i -X GET \
+    -H 'x-token: eyJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJmdWxsQWNjZXNzIiwic2VjcmV0X2tleSI6InNlY3JldEtleTEiLCJzdWIiOiJmdWxsQWNjZXNzIn0.Zb11FqWSzXh-Oteo8aZp5XMdpWhAyuY13uys3nXtCpoG7SxdvJZ-IeDAfh1hG-tcP8-vLiLdF09WT6KHaH2IWg'
+Booking
+A GET request with the booking identifier at the end of the path will list all of its data.
+
+Path parameters
+Table 16. /rest/booking/{bookingId}
+Parameter	Description
+bookingId
+
+The booking identifier.
+
+Response structure
+Path	Type	Description
+id
+
+Number
+
+The booking id.
+
+agency
+
+Number
+
+The booking agency identifier.
+
+code
+
+Number
+
+The booking code.
+
+start
+
+String
+
+The start date. ISO 8601 FORMAT.
+
+end
+
+String
+
+The changelog date. ISO 8601 FORMAT.
+
+property
+
+Number
+
+The booking property identifier.
+
+Example request
+$ curl 'https://api.inmobalia.com/rest/booking/1' -i -X GET \
+    -H 'x-token: eyJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJmdWxsQWNjZXNzIiwic2VjcmV0X2tleSI6InNlY3JldEtleTEiLCJzdWIiOiJmdWxsQWNjZXNzIn0.Zb11FqWSzXh-Oteo8aZp5XMdpWhAyuY13uys3nXtCpoG7SxdvJZ-IeDAfh1hG-tcP8-vLiLdF09WT6KHaH2IWg'
+Booking lists ID
+A GET request with the booking identifiers list between 2 id.
+
+Path parameters
+Table 17. /rest/booking/id/{from}/{to}
+Parameter	Description
+from
+
+Minimum ID to return
+
+to
+
+Maximun ID to return
+
+Example request
+$ curl 'https://api.inmobalia.com/rest/booking/id/1/10' -i -X GET \
+    -H 'x-token: eyJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJmdWxsQWNjZXNzIiwic2VjcmV0X2tleSI6InNlY3JldEtleTEiLCJzdWIiOiJmdWxsQWNjZXNzIn0.Zb11FqWSzXh-Oteo8aZp5XMdpWhAyuY13uys3nXtCpoG7SxdvJZ-IeDAfh1hG-tcP8-vLiLdF09WT6KHaH2IWg'
+Leads
+Inserting new leads
+A POST request, with a proper JSON structure in its body, will create new leads. In the response body, a boolean value will be returned indicating if the lead was created correctly or not.
+
+Request fields
+Path	Type	Description
+agencies
+
+Array
+
+A list of agency identifiers. Every agency will receive the lead. Required.
+
+comment
+
+String
+
+The client’s comment. Required.
+
+email
+
+String
+
+The client’s contact email. Can be optional if a contact phone number is included. Max length 255.
+
+name
+
+String
+
+The lead’s name. Max length 100.
+
+properties
+
+Array
+
+A property id list that the client is interested in.
+
+otherProperties
+
+Array
+
+A property reference list that the client is interested in.
+
+remoteIp
+
+String
+
+The lead’s source IP address.
+
+source
+
+String
+
+The lead’s source identifier. Required. Max length 255.
+
+telephone
+
+String
+
+The client’s contact phone number. Can be optional if a contact email is included. Max length 100.
+
+type
+
+String
+
+The lead’s type. Its value can be, either: SALE, or RENT.
+
+Example request
+$ curl 'https://api.inmobalia.com/rest/lead' -i -X POST \
+    -H 'Content-Type: application/json' \
+    -H 'x-token: eyJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJlbmFibGVkIiwic2VjcmV0X2tleSI6InNlY3JldEtleTEiLCJzdWIiOiJlbmFibGVkIn0.A2xoHJxqsPDzOe7yeZdyGvfDqkz2LwzDNZ-baaWCY-bn8mfJoWNzP4NptMDzsNUJzmeQnURHEeIdTwEMCBvkFg' \
+    -d '{
+  "agencies" : [ 1 ],
+  "source" : "source",
+  "type" : "RENT",
+  "name" : "newlead",
+  "email" : "email",
+  "telephone" : "phone",
+  "comment" : "comment",
+  "remoteIp" : "ip",
+  "properties" : [ 3, 2 ],
+  "otherProperties" : [ "ref4", "zzzz" ]
+}'
+Changelog
+A changelog is a change made to an object, such as creation, modification or deletion and the time that change was made. Changelogs allow an external database to be synchronized with the service.
+
+Listing changelogs
+A GET request will list all the changelogs available.
+
+Response structure
+The response structure is a page structure as usual. The content field is a list of changelog.
+
+Path	Type	Description
+content
+
+Array
+
+A list of changelogs.
+
+last
+
+Boolean
+
+Last page indicator.
+
+totalElements
+
+Number
+
+The total amount of retrieved elements.
+
+totalPages
+
+Number
+
+The total amount of pages.
+
+size
+
+Number
+
+number of elements per page.
+
+number
+
+Number
+
+The current page number. It’s always a non-negative value.
+
+numberOfElements
+
+Number
+
+The number of elements shown in this page.
+
+first
+
+Boolean
+
+First page indicator.
+
+content[].agencyId
+
+Number
+
+The changelog agency id, Nullable.
+
+content[].date
+
+String
+
+The changelog date. ISO 8601 FORMAT.
+
+content[].operation
+
+String
+
+The operation. Values: SAVE, DELETE
+
+content[].entity
+
+String
+
+The changelog entity. Values: PROPERTY, DEVELOPMENT, BOOKING, AGENCY, LOCATION_COUNTRY, LOCATION_PROVINCE, LOCATION_CITY, LOCATION_AREA, LOCATION_SUBAREA, PROPERTY_CATEGORY, PROPERTY_TYPE, PROPERTY_GARAGE, PROPERTY_GARDEN, PROPERTY_POOL, RENTAL_PERIOD, DEVELOPMENT_FEATURE, PROPERTY_FEATURE, TAG, APPLICATION
+
+content[].entityId
+
+Number
+
+The changelog entity ID.
+
+sort[].direction
+
+String
+
+The sorting direction.
+
+sort[].property
+
+String
+
+The sorting field.
+
+Example request
+$ curl 'https://api.inmobalia.com/rest/changelog?page=0&size=5&from=2022-11-28T10%3A48%3A37%2B01%3A00&to=2022-11-28T12%3A48%3A37%2B01%3A00&entities=PROPERTY%2CDEVELOPMENT%2CAGENCY%2CLOCATION_COUNTRY%2CLOCATION_PROVINCE%2CLOCATION_CITY&operation=SAVE' -i -X GET \
+    -H 'x-token: eyJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJlbmFibGVkIiwic2VjcmV0X2tleSI6InNlY3JldEtleTEiLCJzdWIiOiJlbmFibGVkVXNlciJ9.mhSZfzxmz_wfu8lRhQSV72NTthpDDnyXEWv9R1KpAEI-l6FUDzIRtzLAik20WER8dkkpXWhoXUnFRfVfKtQjdQ'
+Listing Last changelogs by type
+A GET request will list only last changelog by type.
+
+Response structure
+The response structure is a page structure as usual. The content field is a list of changelog.
+
+Path	Type	Description
+content
+
+Array
+
+A list of changelogs.
+
+last
+
+Boolean
+
+Last page indicator.
+
+totalElements
+
+Number
+
+The total amount of retrieved elements.
+
+totalPages
+
+Number
+
+The total amount of pages.
+
+size
+
+Number
+
+number of elements per page.
+
+number
+
+Number
+
+The current page number. It’s always a non-negative value.
+
+sort
+
+Array
+
+A list of sorting criteria.
+
+numberOfElements
+
+Number
+
+The number of elements shown in this page.
+
+first
+
+Boolean
+
+First page indicator.
+
+content[].agencyId
+
+Number
+
+The changelog agency id, Nullable.
+
+content[].date
+
+String
+
+The changelog date. ISO 8601 FORMAT.
+
+content[].operation
+
+String
+
+The operation. Values: SAVE, DELETE
+
+content[].entity
+
+String
+
+The changelog entity. Values: PROPERTY, DEVELOPMENT, BOOKING, AGENCY, LOCATION_COUNTRY, LOCATION_PROVINCE, LOCATION_CITY, LOCATION_AREA, LOCATION_SUBAREA, PROPERTY_CATEGORY, PROPERTY_TYPE, PROPERTY_GARAGE, PROPERTY_GARDEN, PROPERTY_POOL, RENTAL_PERIOD, DEVELOPMENT_FEATURE, PROPERTY_FEATURE, TAG, APPLICATION
+
+content[].entityId
+
+Number
+
+The changelog entity ID.
+
+Example request
+$ curl 'https://api.inmobalia.com/rest/changelog/latest/2022-11-28T10:48:37+01:00?page=0&size=5' -i -X GET \
+    -H 'x-token: eyJhbGciOiJIUzUxMiJ9.eyJhcHAiOiJlbmFibGVkIiwic2VjcmV0X2tleSI6InNlY3JldEtleTEiLCJzdWIiOiJlbmFibGVkVXNlciJ9.mhSZfzxmz_wfu8lRhQSV72NTthpDDnyXEWv9R1KpAEI-l6FUDzIRtzLAik20WER8dkkpXWhoXUnFRfVfKtQjdQ'

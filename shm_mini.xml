@@ -1,0 +1,1957 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties xmlns:xs="http://www.w3.org/2001/XMLSchema" agency="663" count="19">
+   <property>
+      <reference>663-00003P</reference>
+      <client_ref_num>663-00003P</client_ref_num>
+      <dt_create_date>2023-02-19</dt_create_date>
+      <dt_last_updated>2023-02-19 14:00:20</dt_last_updated>
+      <dt_added_date>2021-05-02</dt_added_date>
+      <dt_review_date>2023-07-05</dt_review_date>
+      <is_new_property>0</is_new_property>
+      <is_exclusive>0</is_exclusive>
+      <is_featured>0</is_featured>
+      <is_direct>0</is_direct>
+      <is_hot>0</is_hot>
+      <is_luxury>0</is_luxury>
+      <is_for_sale>1</is_for_sale>
+      <is_sold>0</is_sold>
+      <is_special>0</is_special>
+      <is_for_rent>0</is_for_rent>
+      <is_for_rent_long>0</is_for_rent_long>
+      <is_for_rent_short>0</is_for_rent_short>
+      <is_rented>0</is_rented>
+      <propertytype id="5">Villa</propertytype>
+      <propertycategory id="2">Villas</propertycategory>
+      <development_reference/>
+      <country id="6">Spain</country>
+      <province id="7">Malaga</province>
+      <city id="35">San Pedro de Alcantara</city>
+      <area/>
+      <subarea/>
+      <postcode>29678</postcode>
+      <community>116.0</community>
+      <ibi>481.0</ibi>
+      <garbage>36.0</garbage>
+      <tr_orientation>South/East</tr_orientation>
+      <mts_build>200.0</mts_build>
+      <mts_plot>1191.0</mts_plot>
+      <mts_interior>200.0</mts_interior>
+      <mts_terrace>45.0</mts_terrace>
+      <nr_floors>1</nr_floors>
+      <nr_level>1</nr_level>
+      <nr_bedrooms>5</nr_bedrooms>
+      <nr_bathrooms>3</nr_bathrooms>
+      <nr_onsuite_bathrooms>1</nr_onsuite_bathrooms>
+      <nr_toilet>0</nr_toilet>
+      <tr_garage id="2">No</tr_garage>
+      <nr_parking_spaces>2</nr_parking_spaces>
+      <tr_garden id="3">Private</tr_garden>
+      <tr_pool id="3">Private</tr_pool>
+      <dt_construction_year>1973</dt_construction_year>
+      <energy inProcess="true"/>
+      <touristic_code/>
+      <selling_price_eur>1095000</selling_price_eur>
+      <rental_price_eur/>
+      <rental_price_eur_long/>
+      <selling_price currency="eur">1095000</selling_price>
+      <rental_price currency="eur"/>
+      <rental_price_long currency="eur"/>
+      <rental_price_comment/>
+      <rental_price_comment_long/>
+      <images>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lGMwgiLGqc3ejrgTys9gG~~1HqOhN2hCX0rhj6v9a6i38WubrFB1iiNNKLQ--.jpg"
+                main="false">663-00003P_17111653.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lGMwg2dxfYJcmiNG0ZUByPB3dtzZeNzC4IwDWrZu7N1Z0RJtjOVXW53ECjA--.jpg"
+                main="false">663-00003P_17111654.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lGMwg2EyaNkmPDmpbnf_XBhQTc0R~5qiJFTtqpL1O6C1ZGzihMSrdlyqCqg--.jpg"
+                main="false">663-00003P_17111655.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lGMwg3taJaxZJXfBZYuCHOI7cfOcBCQ5TqB6JvV1U1Zm0RatJ3gE8gui0Zw--.jpg"
+                main="false">663-00003P_17111656.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lGMwgjO41O7z9Wb5oC~fAYxKBP8vuj0XIWxr0EiXbbipzss82aSoDQL9dFQ--.jpg"
+                main="false">663-00003P_17111657.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lGMwg3ZqbBG6_hX6KQLYJoh_XYnl~KCxzyAU34KRfqiEeGjawMsLW5DZcug--.jpg"
+                main="false">663-00003P_17111658.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lGMwg3OE8hvCW4xuRZB8HIrXt6f3ZGL4enBpin4SO_kfz08CW6axx2KJx1Q--.jpg"
+                main="true">663-00003P_17111659.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lGMwg20LXnUCRCXsuGjLtdMTHnk7GLrtX5~q_gKi1ihiwBK1Rpzp2Ree70w--.jpg"
+                main="false">663-00003P_17111660.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lGMwg3cqB88SwLW7cpUvQqDyxWrkSINU8CBZdANQ0ZLieIc0ZojuhqQPxXQ--.jpg"
+                main="false">663-00003P_17111661.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lGMwgjSMG6gLRsTPDPR0pTZY0HScbAF59Vb0Sg8A~XPTA_d8NPcm9Fcg7Qg--.jpg"
+                main="false">663-00003P_17111662.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lGMwgisHERRqCW1_tlDfnr4xozIYjf0fXfLFXpr~hWSFH8_gc8VdwRZl2YQ--.jpg"
+                main="false">663-00003P_17111663.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lGMwgizY3L6p45yoEBh9ccWtuKImgfX3ntEDY3nBFsc6PeySxRrVZY4tEfg--.jpg"
+                main="false">663-00003P_17111664.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lGMwg3yVcSo3OU54G7LarJLedJRE6jLS84i0nFyU2WAAFqbO~Kiz8_O05qA--.jpg"
+                main="false">663-00003P_17111665.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lGMwg202RAxLso_hcLdGzTi7SKscP656RbRc8r2wROplv5PrADTPdQrLA7g--.jpg"
+                main="false">663-00003P_17111666.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lGMwgj6C4~eFDAMqJH9u_fo9IcsvxwSvVWR_UNWNgeJjGOChHIQvL1uYABQ--.jpg"
+                main="false">663-00003P_17111667.jpg</image>
+      </images>
+      <longitude>-4.990405</longitude>
+      <latitude>36.486925</latitude>
+      <agency_id>663</agency_id>
+      <listed_by/>
+      <listed_by2/>
+      <options>
+         <option type="6">Air conditioning</option>
+         <option type="10">Fully fitted kitchen</option>
+         <option type="12">Fireplace</option>
+         <option type="33">Private terrace</option>
+         <option type="42">Country view</option>
+         <option type="43">Mountain view</option>
+         <option type="62">Garden view</option>
+         <option type="63">Pool view</option>
+         <option type="79">Close to golf</option>
+         <option type="83">Separate dining room</option>
+         <option type="86">Balcony</option>
+         <option type="87">Optional furniture</option>
+         <option type="92">Good condition</option>
+         <option type="101">Close to shops</option>
+         <option type="102">Close to town</option>
+         <option type="104">Close to schools</option>
+         <option type="106">Guest apartment</option>
+      </options>
+      <descriptions>
+         <short_description lang="nl">Opvallende en stijlvolle vrijstaande villa met groot gastenverblijf, gelegen op de exclusieve Fuente del Espanto urbanisatie aan de Ronda Road, op korte rijafstand van de voorzieningen en de stranden van San Pedro de Alcántara.</short_description>
+         <long_description lang="nl">Hoewel de oorspronkelijke eigenschappen dateren uit 1970, is het pand uitgebreid gerenoveerd in een eigenzinnige en originele stijl, terwijl trouw gebleven aan de "landhuis" wortels van het pand.
+
+Het hoofdgebouw bestaat uit drie slaapkamers en twee badkamers, een keuken in jaren '50 stijl, met eetkamer.  Er is een lounge met dubbel hoge plafonds en een open haard, evenals een aparte formele eetkamer met Scandinavische houtkachel.  Het pand heeft veel originele kenmerken, waaronder een "folly" balkon met uitzicht op het zwembad. 
+
+Het zwembad ligt op het zuiden en heeft de hele dag zon.  Andere delen van het perceel zijn op het oosten en zuidoosten georiënteerd.
+
+Er is een extra gastenverblijf met twee slaapkamers, en een eigen keuken.  Er is een technische ruimte voor de zwembaduitrusting en een houtopslag.</long_description>
+         <price_description lang="nl"/>
+         <short_description lang="en">Distinctive and stylish detached villa with large guest house, located on the exclusive Fuente del Espanto urbanisation on the Ronda Road, a short drive from the amenities and beaches of San Pedro de Alcántara.</short_description>
+         <long_description lang="en">Whilst the original properties date from 1970s, the property has been extensively renovated in a quirky and original style, whilst staying true to the property's "country house" roots.
+
+The main house comprises three bedrooms and two bathrooms, a 1950s style kitchen, with diner.  There is a lounge with double heigh ceilings and an open fire, as well as a separate formal dining room with Scandinavian wood burner.  The property has many original features, including a "folly" balcony area overlooking the pool. 
+
+The swimming pool is orientated to the south and enjoys all day sunshine.  Other parts of the plot have east and south east orientation.
+
+There is an additional guest house with two bedrooms, and it's own kitchen.  There is a plant room for the pool equipment as well as a log store.</long_description>
+         <price_description lang="en"/>
+         <short_description lang="es">Distintivo y elegante chalet con gran casa de invitados, situado en la exclusiva urbanización Fuente del Espanto en la carretera de Ronda, a poca distancia de los servicios y las playas de San Pedro de Alcántara.</short_description>
+         <long_description lang="es">Mientras que las propiedades originales datan de los años 70, la propiedad ha sido ampliamente renovada en un estilo peculiar y original, mientras se mantiene fiel a las raíces de la propiedad "casa de campo".
+
+La casa principal consta de tres dormitorios y dos baños, una cocina de estilo de los años 50, con comedor.  Hay un salón con techos de doble altura y una chimenea, así como un comedor formal separado con estufa de leña escandinava.  La propiedad tiene muchas características originales, incluyendo una zona de balcón "folly" con vistas a la piscina. 
+
+La piscina está orientada al sur y disfruta de sol todo el día.  Otras partes de la parcela tienen orientación este y sureste.
+
+Hay una casa de invitados adicional con dos dormitorios y su propia cocina.  Hay un cuarto de planta para el equipo de la piscina, así como un almacén de troncos.</long_description>
+         <price_description lang="es"/>
+      </descriptions>
+      <files/>
+      <links/>
+      <htmls/>
+   </property>
+   <property>
+      <reference>663-00007P</reference>
+      <client_ref_num>663-00007P</client_ref_num>
+      <dt_create_date>2023-02-19</dt_create_date>
+      <dt_last_updated>2023-06-02 14:11:08</dt_last_updated>
+      <dt_added_date>2022-03-08</dt_added_date>
+      <dt_review_date>2023-06-08</dt_review_date>
+      <is_new_property>0</is_new_property>
+      <is_exclusive>0</is_exclusive>
+      <is_featured>0</is_featured>
+      <is_direct>0</is_direct>
+      <is_hot>0</is_hot>
+      <is_luxury>0</is_luxury>
+      <is_for_sale>1</is_for_sale>
+      <is_sold>0</is_sold>
+      <is_special>0</is_special>
+      <is_for_rent>0</is_for_rent>
+      <is_for_rent_long>0</is_for_rent_long>
+      <is_for_rent_short>0</is_for_rent_short>
+      <is_rented>0</is_rented>
+      <propertytype id="2">Apartment</propertytype>
+      <propertycategory id="1">Apartments</propertycategory>
+      <development_reference/>
+      <country id="6">Spain</country>
+      <province id="7">Malaga</province>
+      <city id="4">Benahavis</city>
+      <area id="1086">La Quinta Golf</area>
+      <subarea/>
+      <postcode>29679</postcode>
+      <community>0</community>
+      <ibi>0</ibi>
+      <garbage>0</garbage>
+      <tr_orientation>South/East</tr_orientation>
+      <mts_build>202.34</mts_build>
+      <mts_plot>0</mts_plot>
+      <mts_interior>146.24</mts_interior>
+      <mts_terrace>56.5</mts_terrace>
+      <nr_floors>1</nr_floors>
+      <nr_level>1</nr_level>
+      <nr_bedrooms>3</nr_bedrooms>
+      <nr_bathrooms>3</nr_bathrooms>
+      <nr_onsuite_bathrooms>3</nr_onsuite_bathrooms>
+      <nr_toilet>1</nr_toilet>
+      <tr_garage id="3">Private</tr_garage>
+      <nr_parking_spaces>1</nr_parking_spaces>
+      <tr_garden id="4">Communal</tr_garden>
+      <tr_pool id="4">Communal</tr_pool>
+      <dt_construction_year>2025</dt_construction_year>
+      <energy inProcess="true"/>
+      <touristic_code/>
+      <selling_price_eur>887000</selling_price_eur>
+      <rental_price_eur/>
+      <rental_price_eur_long/>
+      <selling_price currency="eur">887000</selling_price>
+      <rental_price currency="eur"/>
+      <rental_price_long currency="eur"/>
+      <rental_price_comment/>
+      <rental_price_comment_long/>
+      <images>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHN2udV8crUbtGpvP2dZM6PDg6k6cgZ24ny0tf0diqnGvK4IABIw5v5A09g--.jpg"
+                main="true">663-00007P_17111725.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHN2uIFO_i~7a7_rFp5L4u_~knOYM4xUB6zDvfhiZFqp49y2rZAWJMLTYmw--.jpg"
+                main="false">663-00007P_17111726.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHN2uJQy3huvz0Sc_sbpn7Ry1cp6GyoXq9_bBR9DLTpocI7nzYt3ghBzXxQ--.jpg"
+                main="false">663-00007P_17111727.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHN2uLLAwjbkHJmLM5~PyX1M28kP3KyFaGFmOByFHwAyTTbCiL7gk2Zpy3w--.jpg"
+                main="false">663-00007P_17111728.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHN2ucOL9BAS4RGosJJSYOiexRjwy22ZhWUPIS4VRzLsp0_1Nu_vxy~3QIw--.jpg"
+                main="false">663-00007P_17111729.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHN2udneMrBUl0cVuZ1Y1~emlA3MrbvVQqrw6xnOZ8Q8e7oK3RayOBvFr_A--.jpg"
+                main="false">663-00007P_17111730.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHN2ucQeCzOzB5LJILDIBSyL0_BBH2asRvQ0nTxIzAtJBrJpryCHQtSvQ5g--.jpg"
+                main="false">663-00007P_17111731.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHN2uInjoFOOVbOjMdljNtujzBzBlbotWrckXAO1Fe8~QGh4hn4sY3wbqlQ--.jpg"
+                main="false">663-00007P_17111732.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHN2udV01pDykEFSYGskW8PkAJYLLZkOIlxVdtJY1gcgygEzaDUzOSNaTtQ--.jpg"
+                main="false">663-00007P_17111733.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHN2uIiuvdaHAEkTx0U~g6N4A0yk3nXyzj_Xc7gWUSrrTNSM5wBjA9jXiTA--.jpg"
+                main="false">663-00007P_17111734.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHN2udV4fI5rKVwmuCJ91_POjvT219~3dAH9j2KZjpcPRl~cXUT9YrIzzRg--.jpg"
+                main="false">663-00007P_17111735.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHN2udiIhvsHeh6fNW5MYg~P1tnGfXGkWftHBx0ZL~HzXbBjz4DPSTz7VeA--.jpg"
+                main="false">663-00007P_17111736.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHN2uIFeqSSuEs5gji85B9~1Q2L9tD4oq8JkTN6NWxPXXAAmWGp2qADsH8g--.jpg"
+                main="false">663-00007P_17111737.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHN2ucqcaJVmlfNYG8q_cu7USYUYoAFxhaKc6MxrJ~SAB9jheJJbCj0EjZg--.jpg"
+                main="false">663-00007P_17111738.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHN2uJxMrVAhvpm_xC6tdkhJ2ha00VyYCYmWChw4Swg4_gbVwv5YygAk9OQ--.jpg"
+                main="false">663-00007P_17111739.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHN2uJxhkO8IFOIfimEeOorbPBrv7Vq1Yu5dDkBw1fcawIdeFDNjU56Rrlg--.jpg"
+                main="false">663-00007P_17111740.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHN2uJLs8s1xh3DZePPSy05iRqjoVl1etLjSxuh8MnnFWuiiR6q_FvAsHtw--.jpg"
+                main="false">663-00007P_17111741.jpg</image>
+      </images>
+      <longitude>-4.995131</longitude>
+      <latitude>36.513159</latitude>
+      <agency_id>663</agency_id>
+      <listed_by/>
+      <listed_by2/>
+      <options>
+         <option type="4">Amenities near</option>
+         <option type="6">Air conditioning</option>
+         <option type="7">Central heating</option>
+         <option type="10">Fully fitted kitchen</option>
+         <option type="11">Utility room</option>
+         <option type="15">Sauna</option>
+         <option type="21">Gym</option>
+         <option type="23">Solarium</option>
+         <option type="24">Security entrance</option>
+         <option type="25">Double glazing</option>
+         <option type="26">Video entrance</option>
+         <option type="27">Brand new</option>
+         <option type="28">Dining room</option>
+         <option type="32">Guest toilet</option>
+         <option type="33">Private terrace</option>
+         <option type="35">Living room</option>
+         <option type="41">Sea view</option>
+         <option type="42">Country view</option>
+         <option type="43">Mountain view</option>
+         <option type="44">Golf view</option>
+         <option type="45">Indoor pool</option>
+         <option type="46">Heated pool</option>
+         <option type="47">Underfloor heating (throughout)</option>
+         <option type="53">Laundry room</option>
+         <option type="55">Covered terrace</option>
+         <option type="58">Fitted wardrobes</option>
+         <option type="59">Gated community</option>
+         <option type="60">Lift</option>
+         <option type="62">Garden view</option>
+         <option type="64">Panoramic view</option>
+         <option type="74">Unfurnished</option>
+         <option type="78">Close to sea / beach</option>
+         <option type="79">Close to golf</option>
+         <option type="80">Uncovered terrace</option>
+         <option type="82">Glass Doors</option>
+         <option type="85">Open plan kitchen</option>
+         <option type="88">SPA</option>
+         <option type="100">Saltwater swimming pool</option>
+         <option type="102">Close to town</option>
+         <option type="103">Close to port</option>
+         <option type="104">Close to schools</option>
+      </options>
+      <descriptions>
+         <short_description lang="es">Apartamento de 3 dormitorios de nueva construcción con vistas panorámicas al mar y a la costa, sobre el Valle del Golf</short_description>
+         <long_description lang="es">Apartamento de 3 dormitorios con orientación suroeste, con amplio salón comedor con cocina integrada completamente equipada. Gran terraza para disfrutar de las vistas de 180 grados, al mar, a la costa marbellí y al fondo Africa y Gibraltar. Tiara cuenta con 56 lujosas viviendas de 3 y 4 dormitorios con vistas panorámicas al mar y está distribuido en 7 bloques con tan sólo 2 viviendas por planta, lo que aumenta aún más su exclusividad. 
+
+Situado en un marco incomparable, estratégicamente situado en una colina y bien comunicado en todas direcciones a través de la Carretera de Ronda, a tan solo 10 minutos en coche de Marbella y Puerto Banús.
+
+Descubre el placer de vivir en una urbanización completamente cerrada con seguridad, con 3 piscinas para disfrutar al máximo las largas épocas de buen tiempo que la Costa del Sol te ofrece. Vistas impresionantes de todo el litoral y la Bahía de Marbella, hasta el peñón de Gibraltar y África al fondo.
+
+Además, gracias a un completo gimnasio equipado con modernas máquinas y a un fabuloso Spa podrás cuidar tu salud y tu forma física sin salir de casa, además de ser el lugar ideal donde relajarte tras un largo día. Tiara cuenta también con una zona Co-working desde donde podrás trabajar y estar conectado a tus proyectos siempre que lo necesites.
+
+Ubicación privilegiada por encima del Valle del Golf, un lugar destacado en la Costa del Sol a tan solo 10 minutos de Marbella y de la cosmopolita marina de Puerto Banús. Rodeada de campos de golf, Tiara es el lugar idóneo para disfrutar de un sinfín de actividades y aprovechar el entorno y el envidiable clima de la Costa del Sol.
+
+Entrega prevista finales de 2025</long_description>
+         <price_description lang="es"/>
+         <short_description lang="en">Newly built 3 bedroom flat with panoramic sea views at TIARA, on the Golf Valley</short_description>
+         <long_description lang="en">Southwest facing 3 bedroom apartment with open plan living room integrated with the fully fitted kitchen. Large terrace to enjoy the 180 degree views to the sea, the coast of Marbella and in the background Africa and Gibraltar. Tiara is a new complex with 56 luxurious 3 and 4 bedroom apartments with panoramic sea views and is distributed in 7 blocks with only 2 units per floor, which further increases its exclusivity. 
+
+Situated in an incomparable setting, strategically located on a hillside and well connected in all directions via the Ronda Road, only 10 minutes drive from Marbella and Puerto Banus.
+
+Discover the pleasure of living in a fully gated and secure development, with 3 swimming pools to enjoy the long periods of good weather that the Costa del Sol has to offer. Breathtaking views of the entire coastline and the Bay of Marbella, as far as the Rock of Gibraltar and Africa in the background.
+
+In addition, thanks to a complete gym equipped with modern machines and a fabulous Spa you will be able to take care of your health and fitness without leaving home, as well as being the ideal place to relax after a long day. Tiara also has a Co-working area where you can work and stay connected to your projects whenever you need to.
+
+Privileged location above the Golf Valley, an outstanding location on the Costa del Sol just 10 minutes from Marbella and the cosmopolitan marina of Puerto Banús. Surrounded by golf courses, Tiara is the ideal place to enjoy a host of activities and take advantage of the Costa del Sol's enviable climate and surroundings.
+
+Expected delivery end of 2025</long_description>
+         <price_description lang="en"/>
+      </descriptions>
+      <files/>
+      <links/>
+      <htmls/>
+   </property>
+   <property>
+      <reference>663-00008P</reference>
+      <client_ref_num>663-00008P</client_ref_num>
+      <dt_create_date>2023-02-24</dt_create_date>
+      <dt_last_updated>2023-04-12 17:42:50</dt_last_updated>
+      <dt_added_date>2020-08-11</dt_added_date>
+      <dt_review_date>2023-05-03</dt_review_date>
+      <is_new_property>0</is_new_property>
+      <is_exclusive>0</is_exclusive>
+      <is_featured>0</is_featured>
+      <is_direct>0</is_direct>
+      <is_hot>0</is_hot>
+      <is_luxury>0</is_luxury>
+      <is_for_sale>1</is_for_sale>
+      <is_sold>0</is_sold>
+      <is_special>0</is_special>
+      <is_for_rent>0</is_for_rent>
+      <is_for_rent_long>0</is_for_rent_long>
+      <is_for_rent_short>0</is_for_rent_short>
+      <is_rented>0</is_rented>
+      <propertytype id="5">Villa</propertytype>
+      <propertycategory id="2">Villas</propertycategory>
+      <development_reference/>
+      <country id="6">Spain</country>
+      <province id="7">Malaga</province>
+      <city id="4">Benahavis</city>
+      <area id="74278">Real de La Quinta</area>
+      <subarea/>
+      <postcode/>
+      <community>0</community>
+      <ibi>0</ibi>
+      <garbage>0</garbage>
+      <tr_orientation>South</tr_orientation>
+      <mts_build>642.0</mts_build>
+      <mts_plot>2406.0</mts_plot>
+      <mts_interior>498.0</mts_interior>
+      <mts_terrace>267.0</mts_terrace>
+      <nr_floors>0</nr_floors>
+      <nr_level/>
+      <nr_bedrooms>4</nr_bedrooms>
+      <nr_bathrooms>4</nr_bathrooms>
+      <nr_onsuite_bathrooms>4</nr_onsuite_bathrooms>
+      <nr_toilet>1</nr_toilet>
+      <tr_garage/>
+      <nr_parking_spaces>1</nr_parking_spaces>
+      <tr_garden id="3">Private</tr_garden>
+      <tr_pool id="3">Private</tr_pool>
+      <dt_construction_year>2021</dt_construction_year>
+      <energy inProcess="true"/>
+      <touristic_code/>
+      <selling_price_eur/>
+      <rental_price_eur/>
+      <rental_price_eur_long/>
+      <selling_price currency="eur"/>
+      <rental_price currency="eur"/>
+      <rental_price_long currency="eur"/>
+      <rental_price_comment/>
+      <rental_price_comment_long/>
+      <images>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE1NpQbdworNiLCR5~81bA5xClQIUbTFOuq7cMGQxwFFNjoJOh9aGkAgN1Q--.jpg"
+                main="true">663-00008P_17149271.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE1NpRuqHbCZR9mkbxCdaqOPBAzE5pN3hmP_zpg96KMwy5m7wC0gVWYpSkw--.jpg"
+                main="false">663-00008P_17149272.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE1NpEZKxjjyeB3NG47KR3pkrP0Jk8KmXfZRESexc21C5FI0_X3~ddIhE1g--.jpg"
+                main="false">663-00008P_17149273.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE1NpRrliYGIl0RH~ORpAIDg2x0UQ9TqLw9TWSKX8MFg9qNcDG3HSzBVQBA--.jpg"
+                main="false">663-00008P_17149274.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE1NpR2DdwaoYfVb6rtw0amK3OkPDJKzPL~y8NLvh6qRBnkKYZXMYry6KnQ--.jpg"
+                main="false">663-00008P_17149275.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE1NpRzouzEPqB8kifFVtrzE_Lk7g45eoPkM_dJC02Cue74i9qgF~_3hgaA--.jpg"
+                main="false">663-00008P_17149276.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE1NpEveEvlyP_EhhOmbiDFWXiMK7cEYqZdzaacaMee5wrl1fhvyup6f0rQ--.jpg"
+                main="false">663-00008P_17149277.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE1NpEI95qitFFd3XAVzgoAihzSdaE9~R5vq_WYaBlpI3_HlHrRL6fCFJxQ--.jpg"
+                main="false">663-00008P_17149278.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE1NpEZOvb2hI9hBkvgmdLitGEMyF2rJCo0bBbXS7P1~x6kJCiAh8JlWPOw--.jpg"
+                main="false">663-00008P_17149279.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE1NpEN4J5FWozG39Md~G~EPJUDn5nCqWnS6YctNUPZc00RXqbn2MhvhKEw--.jpg"
+                main="false">663-00008P_17149280.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE1NpG6WWL1Rj7RvVs6j7uuJNeBCJ_JPQ5wUKzQCJFNqPvpo350mCv~ypjA--.jpg"
+                main="false">663-00008P_17149281.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE1NpGgIDee7kqszKvC5dQfpJaRcM4jJKaQUlMbWSAAnG0utiiawiIbGvhA--.jpg"
+                main="false">663-00008P_17149282.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE1NpGgJXUeb2fuOPKUZp_MYUjZdaL9biYXHi6KotvhewyZINC06afdblVA--.jpg"
+                main="false">663-00008P_17149283.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE1NpEqeSEn~1GP8OnfVsTp9MHdgMzS0G8YLQaC3IUMB~ZZS56GbzQj6ygQ--.jpg"
+                main="false">663-00008P_17149284.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE1NpG~AOt34gaiwljyKbGQ8sg7vyliuCwfMbrvEb4E25WRNAZNZ5l~4Hkg--.jpg"
+                main="false">663-00008P_17149285.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE1NpFHgYqMXiyZdleDwP5AXGuKXi_C1JoZbkeBzHl8xJTE9qam7NucjLEQ--.jpg"
+                main="false">663-00008P_17149286.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE1NpEN9kZToKl9WvrYhe3h87yabDx4NdsPNn7ihgDZxHrdk~N9XN95f~Cw--.jpg"
+                main="false">663-00008P_17149287.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE1NpRzs4v3A8Ljn~FRUj1zKRnYMxmHdwE9~bO3fcabirpwb94EHwrte8Fw--.jpg"
+                main="false">663-00008P_17149288.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE1NpQ_YqJAHJqWLB4G7w7dt2CIeIZaKLZI4lAb1idycD6aFyVoY0Zf7iGA--.jpg"
+                main="false">663-00008P_17149289.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE1NpQ_jsXgGe3_sN8acuhdJYjE1qqWdd9j0s4gJM0nvNi6qXq_Lca~V9yQ--.jpg"
+                main="false">663-00008P_17149290.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE1NpG6KQX51ZhrTL0RLA~J39D291OBORlkZpcBHcY8w~YwM53xNVQxeswA--.jpg"
+                main="false">663-00008P_17149291.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE1NpEci_2LEbrtX8K14ejSuMI4gLURnd9PgciGH7pGF2Y~JWLVLik7Zzjg--.jpg"
+                main="false">663-00008P_17149292.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE1NpQIZ~WBvx2FJ0UfeYH51~zfLohg_lzDXldxybw3RDEaNxAkPCG8Ty8A--.jpg"
+                main="false">663-00008P_17149293.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE1NpFYdhWYYh6n13VfRxisedcHgt7miriJNdj29uoBm5bJgWcfZ2M~mw8A--.jpg"
+                main="false">663-00008P_17149294.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE1NpR2zabJ_lP86KaCqoddd2VOA~6cDFXQLkAhuWyLpHU48Nh_rlSzWUzg--.jpg"
+                main="false">663-00008P_17149295.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE1NpFH_p04Gm9HhSeoLHtf26BgNaFNptY_dvqjdoJxfoiEM3IboJQo8GXw--.jpg"
+                main="false">663-00008P_17149296.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE1NpFH~_mDXMb4LSs0EW8Bq07Gp8xs7fHgEN25R42MqUtVqEuUtCP8PreQ--.jpg"
+                main="false">663-00008P_17149297.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE1NpRutbhyiEhp2flT4hA9vOVz0FaZlCuf65laqY17YirEj7QcLcK8jbSA--.jpg"
+                main="false">663-00008P_17149298.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE1NpENus_Ni_qQ4uO1ghO1EDyzcm0pAxcPgSy4M242so59P5PMoDsW~IWQ--.jpg"
+                main="false">663-00008P_17149299.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE1NpENlbXz95FTBrq39N2cIVMB5HY~~pdsDhQWi78QQk5DUNgwInb1Isrw--.jpg"
+                main="false">663-00008P_17149300.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE1NpFoa71nYNpYYlC0aN~v_RLnPwZA38Jfy1ZqpHX1IeQtnk5NBxFiwUew--.jpg"
+                main="false">663-00008P_17149301.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE1NpGgBMbLqw9cFe241EEfUUO68xiKLRSLkFqBSIO6skMhKBcro2MXlEjA--.jpg"
+                main="false">663-00008P_17149302.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE1NpRuHk5ePgbXbXARqa6oQzq4PUKcsnCtuamu2kIUlWWjXyNZ6Q~HahCQ--.jpg"
+                main="false">663-00008P_17149303.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE1NpG~ejYSBzZsR0es9oQqBqupJoC1uqYLYUrhkGvfK2yqrZ28VfGaADsg--.jpg"
+                main="false">663-00008P_17149304.jpg</image>
+      </images>
+      <longitude>-4.9963772151</longitude>
+      <latitude>36.5061173126</latitude>
+      <agency_id>663</agency_id>
+      <listed_by/>
+      <listed_by2/>
+      <options>
+         <option type="3">Mountainside</option>
+         <option type="5">Transport near</option>
+         <option type="6">Air conditioning</option>
+         <option type="7">Central heating</option>
+         <option type="10">Fully fitted kitchen</option>
+         <option type="11">Utility room</option>
+         <option type="12">Fireplace</option>
+         <option type="17">Basement</option>
+         <option type="20">Storage room</option>
+         <option type="22">Alarm</option>
+         <option type="25">Double glazing</option>
+         <option type="26">Video entrance</option>
+         <option type="27">Brand new</option>
+         <option type="30">Security service 24h</option>
+         <option type="31">Telephone</option>
+         <option type="32">Guest toilet</option>
+         <option type="33">Private terrace</option>
+         <option type="35">Living room</option>
+         <option type="41">Sea view</option>
+         <option type="42">Country view</option>
+         <option type="43">Mountain view</option>
+         <option type="46">Heated pool</option>
+         <option type="48">Automatic irrigation system</option>
+         <option type="49">Security shutters</option>
+         <option type="50">Home automation system</option>
+         <option type="51">Dolby Stereo Surround system</option>
+         <option type="53">Laundry room</option>
+         <option type="54">Internet - Wifi</option>
+         <option type="55">Covered terrace</option>
+         <option type="56">24h Service</option>
+         <option type="57">Electric blinds</option>
+         <option type="58">Fitted wardrobes</option>
+         <option type="59">Gated community</option>
+         <option type="60">Lift</option>
+         <option type="62">Garden view</option>
+         <option type="63">Pool view</option>
+         <option type="64">Panoramic view</option>
+         <option type="70">Underfloor heating (bathrooms)</option>
+         <option type="79">Close to golf</option>
+         <option type="84">Wooden floors</option>
+         <option type="101">Close to shops</option>
+         <option type="102">Close to town</option>
+         <option type="104">Close to schools</option>
+         <option type="105">Surveillance cameras</option>
+         <option type="109">Office room</option>
+         <option type="110">Pets allowed</option>
+      </options>
+      <descriptions>
+         <short_description lang="es">Villa en venta en Benahavis</short_description>
+         <long_description lang="es">Villa en venta en Benahavis con 4 dormitorios, 4 baños, 4 baños en suite, 1 aseo y con orientación sur, con privada piscina y privado jardín. Respecto a las dimensiones, la propiedad presenta 660 m² construidos, 1.899 m² de parcela, 504 m² en interior y 69 m² de terraza. Tiene las siguientes características vistas al campo, vistas al jardín, vistas a la montaña, vistas panorámicas, vistas a la piscina, vistas al mar, cerca del golf, colegios cerca, tiendas cerca, cerca de la ciudad, próxima a la montaña, transporte cercano, aire acondicionado, calefacción central, suelo radiante (baños), a estrenar, 24 horas de servicio, alarma, riego automático, sótano, terraza cubierta, sistema de sonido dolby stereo surround, persianas eléctricas, chimenea, armarios empotrados, aseo para invitados, piscina climatizada, sistema domótico, internet - wifi, ascensor, animales permitidos, terraza privada, teléfono, suelos de madera, cocina totalmente equipada, lavadero, salón, oficina, almacén, trastero, cristal doble, comunidad cerrada, servicio de seguridad 24h, persianas de seguridad, cámaras de vigilancia y videoportero.</long_description>
+         <price_description lang="es"/>
+         <short_description lang="en">SPECTACULAR DESIGNER LUXURY VILLA AT REAL DE LA QUINTA BENAHAVIS</short_description>
+         <long_description lang="en">This outstanding villa is one of just 18 making up a select new address in the heights of the hills of Benahavis. Enjoying a rarified location next to La Zagaleta Country Club &amp; protected UNESCO Biosphere, this wonderful elevated position commands spectacular views across the Mediterranean to Gibraltar and Africa beyond.  
+At just 15 minutes drive from Marbella, this fabulous new complex will benefit from a huge man-made lake, an equestrian centre and uninterrupted views of nature. 
+Taking great pride in sustainability, the design of these 18 villas is based on non-harmful materials, minimizing waste and allowing residents to include a small orchard and organic vegetable patch to their private gardens.  Each home will have a charging point for an electric car. 
+
+The plots are more than generous, ranging from 1,899m2 to some 10,000m2 allowing for a real sensation of space and privacy. Each villa has a large infinity pool built close to the terrace creating a refreshing ambience with shimmering water reflections dancing on the property. The pool blends into the sea view, and the spacious covered terrace is designed for the ultimate in modern Mediterranean living. 
+
+The interior architecture and design of this villa is nothing short of spectacular. With double height ceilings, windows that fully retract into the walls, and a totally open-plan, fluid living space, this villa offers the ultimate in cool, contemporary luxury. The interiors include a kitchen fully-equipped with state-of-the-art appliances, creating the latest in luxurious minimalism, while the sleek bathrooms are the utmost in modern elegance.  
+
+Each property is decorated in superbly original style -and buyers have the opportunity to purchase the villa fully-furnished to the highest of standards.  The villas all have a large customizable basement, and are sold with a parking space. 
+
+The area is well located to reach Marbella, Puerto Banús, the beach and the town of San Pedro de Alcantara in 15 minutes, while being close to the beautiful Ronda road.</long_description>
+         <price_description lang="en"/>
+         <short_description lang="nl">Villa te koop in Real de La Quinta, Benahavis</short_description>
+         <long_description lang="nl">Villa te koop in Real de La Quinta, Benahavis met 4 slaapkamers, 4 badkamers, 4 een eigen badkamer, 1 toilet en met oriëntatie zuid, met prive zwembad en privé tuin. Over eigendom afmetingen heeft 660 m² bebouwd, 1.899 m² plot, 504 m² interieur en 69 m² terras. Over de volgende faciliteiten country view, uitzicht op de tuin, mountain view, panoramisch uitzicht, uitzicht op het zwembad, sea view, de buurt van golf, dicht bij scholen, dicht bij winkels, dicht bij de stad, bergzijde, transport near, air conditioning, centrale verwarming, vloerverwarming (badkamer), nieuw, 24 uur per dag service, alarm, automatisch irrigatiesysteem, kelder, overdekt terras, dolby stereo surround system, elektrische rolluiken, open haard, inbouwkasten, gastentoilet, verwarmd zwembad, domoticasysteem, internet - wifi, lift, huisdieren toegestaan, prive terras, telefoon, houten vloeren, inbouwkeuken, wasruimte, woonkamer, office room, opslagruimte, bijkeuken, dubbele ramen, gated community, beveiliging 24, beveiliging rolluiken, surveillance cameras en video ingang.</long_description>
+         <price_description lang="nl"/>
+      </descriptions>
+      <files/>
+      <links/>
+      <htmls/>
+   </property>
+   <property>
+      <reference>663-00009P</reference>
+      <client_ref_num>663-00009P</client_ref_num>
+      <dt_create_date>2023-02-25</dt_create_date>
+      <dt_last_updated>2023-03-18 08:49:18</dt_last_updated>
+      <dt_added_date>2023-02-25</dt_added_date>
+      <dt_review_date>2023-03-14</dt_review_date>
+      <is_new_property>0</is_new_property>
+      <is_exclusive>1</is_exclusive>
+      <is_featured>1</is_featured>
+      <is_direct>0</is_direct>
+      <is_hot>0</is_hot>
+      <is_luxury>0</is_luxury>
+      <is_for_sale>1</is_for_sale>
+      <is_sold>0</is_sold>
+      <is_special>0</is_special>
+      <is_for_rent>1</is_for_rent>
+      <is_for_rent_long>0</is_for_rent_long>
+      <is_for_rent_short>1</is_for_rent_short>
+      <is_rented>0</is_rented>
+      <propertytype id="17">Ground Floor Apartment</propertytype>
+      <propertycategory id="1">Apartments</propertycategory>
+      <development_reference/>
+      <country id="6">Spain</country>
+      <province id="7">Malaga</province>
+      <city id="24">Marbella</city>
+      <area id="41">Marbella Golden Mile</area>
+      <subarea id="201">Balcones de Sierra Blanca</subarea>
+      <postcode>29600</postcode>
+      <community>175.0</community>
+      <ibi>800.0</ibi>
+      <garbage>0</garbage>
+      <tr_orientation>East</tr_orientation>
+      <mts_build>114.0</mts_build>
+      <mts_plot>0</mts_plot>
+      <mts_interior>0</mts_interior>
+      <mts_terrace>96.0</mts_terrace>
+      <nr_floors>0</nr_floors>
+      <nr_level/>
+      <nr_bedrooms>2</nr_bedrooms>
+      <nr_bathrooms>2</nr_bathrooms>
+      <nr_onsuite_bathrooms>1</nr_onsuite_bathrooms>
+      <nr_toilet>0</nr_toilet>
+      <tr_garage id="4">Communal</tr_garage>
+      <nr_parking_spaces/>
+      <tr_garden id="4">Communal</tr_garden>
+      <tr_pool id="4">Communal</tr_pool>
+      <dt_construction_year>2001</dt_construction_year>
+      <energy inProcess="false">
+         <kw>
+            <level>E</level>
+            <value>91.1</value>
+         </kw>
+         <co2>
+            <level>E</level>
+            <value>15.8</value>
+         </co2>
+      </energy>
+      <touristic_code/>
+      <selling_price_eur>375000</selling_price_eur>
+      <rental_price_eur>1500</rental_price_eur>
+      <rental_price_eur_long/>
+      <selling_price currency="eur">375000</selling_price>
+      <rental_price currency="eur">1500</rental_price>
+      <rental_price_long currency="eur"/>
+      <rental_price_comment>per week</rental_price_comment>
+      <rental_price_comment_long/>
+      <images>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lEiW8oczO6_Kqqf5uXmBXuiFuL8m3Ky5z9H~BOmuIi8xqc8KGjCOvkJjEAQ--.jpg"
+                main="false">663-00009P_17153025.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lEiW88t6oUIpasRH6Y3ZRyxCuuITzKw1KONzBu3DSKp7Mrns1c9Jz0YRnIQ--.jpg"
+                main="false">663-00009P_17153026.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lEiW89Q8wof3_0QyMS8kkzsvFK9vdPy9l0uS7313WQnjoz8aplbuKP8ISZQ--.jpg"
+                main="false">663-00009P_17153027.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lEiW8pzGAqZY4TP5aIfVLcz0oWD1ce159AmQlUhXXSYJWBMJE1kt1B~toVg--.jpg"
+                main="false">663-00009P_17153028.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lEiW8pELuZAW83BqPbo0pH7GWeUBpATHNyORVV2ylsk9RAWyjnomqRPnJEw--.jpg"
+                main="false">663-00009P_17153029.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lEiW8pjhYP5cWp7IqlFXVQHAYj5gtrsffEHlABhUa7bm0yEPq4knLd~7GRQ--.jpg"
+                main="false">663-00009P_17153031.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lEiW8oJy55ML8qVDMpnHmAOlwlwgWpxOM2EJQ9TvLHxSEFYllZJZyFinPfw--.jpg"
+                main="false">663-00009P_17153032.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lEiW8oZSWB9PEOl_28bimHKjDrXxw04SC5jOLzRHDH62VVuXJZL9GyoRdlA--.jpg"
+                main="false">663-00009P_17153033.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lEiW88oSeiOaNN4iTiRL8WmX5XF2TR0av1Or6bxKlrpbV3_lcMzEL5Pb2Ew--.jpg"
+                main="false">663-00009P_17153034.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lEiW88SuKbY7gohaiGCv2aMTNDBMSOiig7Xgb5VQER0v3NljQy~4ZH9W2GQ--.jpg"
+                main="false">663-00009P_17153030.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lEiW8r63lyhyfHSk4G3dpSjBq6keMtgK~FDIcne2mvHhJwe0NLLfkR1wFXw--.jpg"
+                main="false">663-00009P_17153035.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lEiW89k9hGBTaow4G3XuhOkSs~v~wI6nRjcnQmRvZmhrwi7mr7C_y1T5_8w--.jpg"
+                main="false">663-00009P_17153036.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lEiW8pENf8_KKb4wYxZlEZd9KEcQC~EKxJku5le854o~Xpew5Ion11reAXA--.jpg"
+                main="false">663-00009P_17153038.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lEiW8r~wnlUEVFUDMLGnj8CDG7sRV9lJ622br21I5g1w4Ay72y0o2QMjWrw--.jpg"
+                main="false">663-00009P_17153039.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lEiW88oXE43I2G3xCfWuFQam~KxaLBFvat8LYxUYKT_agiph6h5W8piC2AQ--.jpg"
+                main="false">663-00009P_17153040.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lEiW8oc9TugoJlXZyB0GCTXxFlROTHY72GYcMhnWvN20SI4wcU_tGmkQdVw--.jpg"
+                main="false">663-00009P_17153043.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lEiW89H26H~2fK1ogTO~5td1tHxAy17dYIpzruxm0~iNhUOhVgcb5O3El3Q--.jpg"
+                main="false">663-00009P_17153047.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lEiW89HYVQaTxokV0wPX~4oLCmSj0aovfcF7CUoQtbjKRomFXh~CQY4zlJg--.jpg"
+                main="false">663-00009P_17153049.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lEiW8pm0_hw~8UxKb385rC2szev12fXhk5jcbvDomdbMPCQYoRKZ8n~LtMQ--.jpg"
+                main="false">663-00009P_17153050.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lEiW88_jJKk6MaGpEmNA08DF5Gak727kM_nBwDLarSfCR8rYzvRrko0OWkQ--.jpg"
+                main="false">663-00009P_17153048.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lEiW8oJ~Zh71HobDeEOiQ36lPLngMVXBTlJLqtHvgvODifU0QlttqxEF5Rg--.jpg"
+                main="true">663-00009P_17153060.jpg</image>
+      </images>
+      <longitude>-4.90651576</longitude>
+      <latitude>36.52460412</latitude>
+      <agency_id>663</agency_id>
+      <listed_by id="6363">
+         <name>Sandra</name>
+         <surname>Verweij</surname>
+      </listed_by>
+      <listed_by2 id="6363">
+         <name>Sandra</name>
+         <surname>Verweij</surname>
+      </listed_by2>
+      <options>
+         <option type="4">Amenities near</option>
+         <option type="5">Transport near</option>
+         <option type="9">Fully furnished</option>
+         <option type="24">Security entrance</option>
+         <option type="28">Dining room</option>
+         <option type="32">Guest toilet</option>
+         <option type="34">Kitchen equipped</option>
+         <option type="35">Living room</option>
+         <option type="43">Mountain view</option>
+         <option type="58">Fitted wardrobes</option>
+         <option type="59">Gated community</option>
+         <option type="62">Garden view</option>
+         <option type="63">Pool view</option>
+         <option type="79">Close to golf</option>
+         <option type="85">Open plan kitchen</option>
+         <option type="86">Balcony</option>
+         <option type="91">Excellent condition</option>
+         <option type="93">Recently Renovated / Refurbished</option>
+         <option type="102">Close to town</option>
+         <option type="103">Close to port</option>
+         <option type="104">Close to schools</option>
+         <option type="111">Individual A/C units</option>
+      </options>
+      <descriptions>
+         <short_description lang="en">Amazing Ground Floor Apartment in Balcones de Sierra Blanca</short_description>
+         <long_description lang="en">Sunny Groundfloor apartment near Marbella town in nice established facility in Sierra Blanca Lovely communal tropical garden with great swimming pool. The houses are built sheltered and surrounded by beautiful nature and beautiful common areas. The apartments are either on the garden level or on the top floor. This apartment is very well located in the complex and has fantastic views over the pool and garden,. Best possible sun conditions with sun from morning to evening.
+Reformed in 2022. Stairs up to your own entrance, entrance hall, guest bedroom and guest bathroom. New open Kitchen with all appliances. Laundry. Master bedroom with exit to the terrace. Master bathroom
+Spacious living room with dining room. Exit with sliding doors to the terrace, Wardrobes in both bedrooms
+Distance Marbella center Corte ingles: 1.4 km / Distance Marbella Strand promenade: 2 km / Proximity to Marbella Bus station with airport bus directly to Malaga airport / Short way to Puerto Banus</long_description>
+         <price_description lang="en"/>
+         <short_description lang="es">Recién Reformado Apartamento en Vivero de Sierra Blanca, planta baja</short_description>
+         <long_description lang="es">Soleado apartamento en planta baja cerca de la ciudad de Marbella en buenas instalaciones establecidas en Sierra Blanca. Precioso jardín tropical comunitario con gran piscina. Las casas están construidas resguardadas y rodeadas de hermosa naturaleza y hermosas áreas comunes. Los apartamentos están en el nivel del jardín o en la planta superior. Este apartamento está muy bien ubicado en el complejo y tiene fantásticas vistas a la piscina y al jardín. Las mejores condiciones de sol posibles con sol desde la mañana hasta la noche.
+Reformada en 2022. Escaleras hasta entrada propia, hall de entrada, dormitorio de invitados y baño de invitados. Nueva cocina abierta con todos los electrodomésticos. Ropa sucia. Dormitorio principal con salida a la terraza. Baño principal
+Amplio salón con comedor. Salida con puertas correderas a la terraza, Armarios en ambos dormitorios
+Distancia Marbella centro Corte Inglés: 1,4 km / Distancia Marbella Strand paseo marítimo: 2 km / Proximidad a Marbella Estación de autobuses con autobús del aeropuerto directo al aeropuerto de Málaga / Camino corto a Puerto Banús</long_description>
+         <price_description lang="es"/>
+      </descriptions>
+      <files/>
+      <links/>
+      <htmls/>
+   </property>
+   <property>
+      <reference>663-00010P</reference>
+      <client_ref_num>663-00010P</client_ref_num>
+      <dt_create_date>2023-02-27</dt_create_date>
+      <dt_last_updated>2023-07-02 08:09:14</dt_last_updated>
+      <dt_added_date>2023-02-27</dt_added_date>
+      <dt_review_date>2023-02-27</dt_review_date>
+      <is_new_property>0</is_new_property>
+      <is_exclusive>0</is_exclusive>
+      <is_featured>0</is_featured>
+      <is_direct>0</is_direct>
+      <is_hot>0</is_hot>
+      <is_luxury>0</is_luxury>
+      <is_for_sale>1</is_for_sale>
+      <is_sold>0</is_sold>
+      <is_special>1</is_special>
+      <is_for_rent>0</is_for_rent>
+      <is_for_rent_long>0</is_for_rent_long>
+      <is_for_rent_short>0</is_for_rent_short>
+      <is_rented>0</is_rented>
+      <propertytype id="15">House</propertytype>
+      <propertycategory id="3">Houses</propertycategory>
+      <development_reference/>
+      <country id="6">Spain</country>
+      <province id="7">Malaga</province>
+      <city id="4">Benahavis</city>
+      <area id="752">Fuente del Espanto</area>
+      <subarea/>
+      <postcode/>
+      <community>120.0</community>
+      <ibi>0</ibi>
+      <garbage>0</garbage>
+      <tr_orientation>South</tr_orientation>
+      <mts_build>239.0</mts_build>
+      <mts_plot>1315.0</mts_plot>
+      <mts_interior>0</mts_interior>
+      <mts_terrace>0</mts_terrace>
+      <nr_floors>1</nr_floors>
+      <nr_level/>
+      <nr_bedrooms>4</nr_bedrooms>
+      <nr_bathrooms>4</nr_bathrooms>
+      <nr_onsuite_bathrooms>3</nr_onsuite_bathrooms>
+      <nr_toilet>0</nr_toilet>
+      <tr_garage id="3">Private</tr_garage>
+      <nr_parking_spaces/>
+      <tr_garden id="3">Private</tr_garden>
+      <tr_pool/>
+      <dt_construction_year/>
+      <energy inProcess="true"/>
+      <touristic_code/>
+      <selling_price_eur>1475000</selling_price_eur>
+      <rental_price_eur/>
+      <rental_price_eur_long/>
+      <selling_price currency="eur">1475000</selling_price>
+      <rental_price currency="eur"/>
+      <rental_price_long currency="eur"/>
+      <rental_price_comment/>
+      <rental_price_comment_long/>
+      <images>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7DGzng0kianPX4hcajGkdgyX3TBjubu9U8EMBLtWZ9M3i_ReOI7_Wq2AMQ--.jpg"
+                main="true">663-00010P_17161570.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7DGzzHhEVFwMQGREjoOaClGdytgLzt2UySfEzlioOJuP5QtEfCCs8Du2Rw--.jpg"
+                main="false">663-00010P_17161580.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7DGzyBimE9vJVecQMZgZqJW8Wx5jAk1E1phGBBHQzZYDDv~TxNsx2ykZpQ--.jpg"
+                main="false">663-00010P_17161574.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7DGznDv5FxrXAo19D7~f~UCu~HA81g4MyzM17GOj1K682gzYdSirIF32LA--.jpg"
+                main="false">663-00010P_17161585.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7DGzzHu6NqceNf~Qr1YxfgEoCDRp_xNeDLFZ_hP2dhWS2X2mCFcutPyPuQ--.jpg"
+                main="false">663-00010P_17161596.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7DGzz~Q7WWhJ_81iKryFvYLlr4FYlQKgDa9S1uYeou4ps93XH_cQKSlpXg--.jpg"
+                main="false">663-00010P_17161568.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7DGzy~Ml~_WrQxY4U3aHSqBLnoZH~myLJVtbrYeMgdLDelbXp0wwbTvISA--.jpg"
+                main="false">663-00010P_17161569.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7DGznxIiIX8B8j1yvuwVPS6b4kt0s__Y2Nex1cl7DMocHJLJPK~s5DcTbg--.jpg"
+                main="false">663-00010P_17161595.jpg</image>
+      </images>
+      <longitude>-5.000906</longitude>
+      <latitude>36.504868</latitude>
+      <agency_id>663</agency_id>
+      <listed_by id="6363">
+         <name>Sandra</name>
+         <surname>Verweij</surname>
+      </listed_by>
+      <listed_by2/>
+      <options>
+         <option type="3">Mountainside</option>
+         <option type="4">Amenities near</option>
+         <option type="28">Dining room</option>
+         <option type="32">Guest toilet</option>
+         <option type="35">Living room</option>
+         <option type="43">Mountain view</option>
+         <option type="58">Fitted wardrobes</option>
+         <option type="62">Garden view</option>
+         <option type="63">Pool view</option>
+         <option type="64">Panoramic view</option>
+         <option type="79">Close to golf</option>
+         <option type="91">Excellent condition</option>
+         <option type="101">Close to shops</option>
+         <option type="102">Close to town</option>
+         <option type="104">Close to schools</option>
+         <option type="111">Individual A/C units</option>
+         <option type="119">Partial sea views</option>
+      </options>
+      <descriptions>
+         <short_description lang="en">Unique oportunity to get a hidden gem.</short_description>
+         <long_description lang="en">This villa is truly a hidden gem tucked away in this exclusive community and only a five-minute drive to San Pedro and all amenities and also easy access to the toll road. There is a separate casita which is ideal for guests or an older child.
+Wonderful villa on one level with lots of charm and surrounded by nature Including a separate little guest house with one bedroom, bathroom, living room and facilities for a small kitchen Lovely porch and garden ideal for relaxing.
+Wonderful villa with lots of charm in the urbanization of Fuente del Espanto, situated on a large plot surrounded by greenery where you breathe tranquility everywhere. The house is distributed over one floor which makes it very practical and accessible. Three en-suite bedrooms open onto the garden and the porch of the house, semi open kitchen to the living room, living room with fireplace that gives access to a beautiful porch where you can enjoy the garden. Next to the main villa we find La Casita, a small villa with one bedroom with bathroom, living room and facilities for a small kitchen. This is a dream house surrounded by nature but only a few minutes from San Pedro town, and with very quick access to the motorway being able to reach Marbella, Estepona or Malaga easily.</long_description>
+         <price_description lang="en"/>
+         <short_description lang="es">Única oportunidad, maravillosa Villa de una sola planta.</short_description>
+         <long_description lang="es">Esta villa es realmente una joya escondida en esta comunidad exclusiva y a solo cinco minutos en coche de San Pedro y de todos los servicios y también de fácil acceso a la carretera de peaje. Hay una casita separada que es ideal para invitados o un niño mayor.
+Una sola planta con mucho encanto y rodeada de naturaleza Incluye una pequeña casa de invitados separada con un dormitorio, baño, sala de estar e instalaciones para una pequeña cocina.
+Precioso porche y jardín ideal para relajarse
+Maravilloso chalet con mucho encanto en la urbanización de Fuente del Espanto, situado en una gran parcela rodeada de vegetación donde se respira tranquilidad por doquier. La casa está distribuida en una sola planta lo que la hace muy práctica y accesible. Tres dormitorios en suite abiertos al jardín y al porche de la casa, cocina semiabierta al salón, salón comedor con chimenea que da acceso a un bonito porche donde disfrutar del jardín. Junto a la villa principal encontramos La Casita, una pequeña villa de un dormitorio con baño, sala de estar e instalaciones para una pequeña cocina. Esta es una casa de ensueño rodeada de naturaleza pero a pocos minutos del pueblo de San Pedro, y con un acceso muy rápido a la autopista pudiendo llegar fácilmente a Marbella, Estepona o Málaga.</long_description>
+         <price_description lang="es"/>
+      </descriptions>
+      <files/>
+      <links/>
+      <htmls/>
+   </property>
+   <property>
+      <reference>663-00011P</reference>
+      <client_ref_num>663-00011P</client_ref_num>
+      <dt_create_date>2023-04-01</dt_create_date>
+      <dt_last_updated>2023-04-12 23:09:06</dt_last_updated>
+      <dt_added_date>2023-04-01</dt_added_date>
+      <dt_review_date>2023-04-01</dt_review_date>
+      <is_new_property>0</is_new_property>
+      <is_exclusive>1</is_exclusive>
+      <is_featured>0</is_featured>
+      <is_direct>0</is_direct>
+      <is_hot>0</is_hot>
+      <is_luxury>0</is_luxury>
+      <is_for_sale>1</is_for_sale>
+      <is_sold>0</is_sold>
+      <is_special>0</is_special>
+      <is_for_rent>0</is_for_rent>
+      <is_for_rent_long>0</is_for_rent_long>
+      <is_for_rent_short>0</is_for_rent_short>
+      <is_rented>0</is_rented>
+      <propertytype id="15">House</propertytype>
+      <propertycategory id="3">Houses</propertycategory>
+      <development_reference/>
+      <country id="6">Spain</country>
+      <province id="7">Malaga</province>
+      <city id="4">Benahavis</city>
+      <area id="1797">La Reserva de la Quinta</area>
+      <subarea/>
+      <postcode>29679</postcode>
+      <community>800.0</community>
+      <ibi>3800.0</ibi>
+      <garbage>18.0</garbage>
+      <tr_orientation/>
+      <mts_build>780.0</mts_build>
+      <mts_plot>1624.0</mts_plot>
+      <mts_interior>0</mts_interior>
+      <mts_terrace>118.0</mts_terrace>
+      <nr_floors>4</nr_floors>
+      <nr_level/>
+      <nr_bedrooms>5</nr_bedrooms>
+      <nr_bathrooms>5</nr_bathrooms>
+      <nr_onsuite_bathrooms>4</nr_onsuite_bathrooms>
+      <nr_toilet>1</nr_toilet>
+      <tr_garage id="3">Private</tr_garage>
+      <nr_parking_spaces>3</nr_parking_spaces>
+      <tr_garden id="3">Private</tr_garden>
+      <tr_pool id="3">Private</tr_pool>
+      <dt_construction_year/>
+      <energy inProcess="true"/>
+      <touristic_code/>
+      <selling_price_eur>4500000</selling_price_eur>
+      <rental_price_eur/>
+      <rental_price_eur_long/>
+      <selling_price currency="eur">4500000</selling_price>
+      <rental_price currency="eur"/>
+      <rental_price_long currency="eur"/>
+      <rental_price_comment/>
+      <rental_price_comment_long/>
+      <images>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBK3BdenPUZLXrNOR_YCCN1ffYIJCiXNvpNvPLk2I4bPb6Pz9VFjQYMg--.jpg"
+                main="false">663-00011P_17347624.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBcQyPVap6G2MSLR1uZI2lwRke8WPcLAZ4hT_ZtLF4XWN52eZH6BVBAg--.jpg"
+                main="false">663-00011P_17347665.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBd~svDafKrhxFos21e86MJagA_uKnLLp2cQUNX9kDLD~FLCprryk93Q--.jpg"
+                main="true">663-00011P_17347628.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBdkRyu~6KfBE1voXztXkw3ud1RoJU4bqWbwP_PFBK~fnxVrnalWANHA--.jpg"
+                main="false">663-00011P_17347625.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBcVxNK8McEjz2~tyrtkeN_ezusDfb_FoTUs~CuCQ1ZZ69~ixfoqEcJg--.jpg"
+                main="false">663-00011P_17347630.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBIovoz76eas_EwxSqYUAZ_idzR1nL5IFBZY6Lx~OG4EZf_XRm6BmNew--.jpg"
+                main="false">663-00011P_17347626.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBK3HEKkjXDhBnZCGOT~5hhG3btum3nZhgjJZdLyI~aPkVtpn3~yl1Tw--.jpg"
+                main="false">663-00011P_17347627.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBJdUMmjBW8ZIQ~b8VqzqujDB0Z16KyGF71oQJMsoyKtZfTgbzkrM4rA--.jpg"
+                main="false">663-00011P_17347629.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBKgWK_pwfdlOGu3S1hqHt48FGDrtEbPhQx~c~N87o3lPeKHZ9cCrNuQ--.jpg"
+                main="false">663-00011P_17347631.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBIK588b33gcHA4kVFmd0xMFnQKIS5pb0b8BK4YYOEEjtC9e3KxkYPlw--.jpg"
+                main="false">663-00011P_17347632.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBJKyU1fXakX61Iqr6mH22bOESQabbf85nHa3hD4drewbo98U9KPmRWg--.jpg"
+                main="false">663-00011P_17347633.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBdkdb_nQbF6_4Ygs~H7njckPkn~0QfwiPrIIquDXX9TVRczrZzdSw5Q--.jpg"
+                main="false">663-00011P_17347634.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBcCvbOZgmBjUkDsAEFUmorV_Xaa22yYUxDd3vNvdsq1OxUqEuD4a~vQ--.jpg"
+                main="false">663-00011P_17347635.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBd~P2jj9_WD0Gki3f6C5BoHQWl1mVuurQBcECnLwQ6w1Ff70xGIKKPQ--.jpg"
+                main="false">663-00011P_17347636.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBcCKdYOKAQg88nJ2wizq8NCph4yh60st50v5NkwLBsaU5dzTEVfzTKQ--.jpg"
+                main="false">663-00011P_17347637.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBJYhdVCsnjG2u4EmRpf0hC8C2imc7o9FkznfK~GmjMlBPVzINvKzubQ--.jpg"
+                main="false">663-00011P_17347638.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBKyctVipDPB7ldx0W~uyeQhdgDtok6gwznCBaTI6ClE6IVjP4ZqHgtw--.jpg"
+                main="false">663-00011P_17347639.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBKlXiptft1LLNnMufNcnrAOfdTNojwrdoSvu5N_48qHwXqlp~rE5VXA--.jpg"
+                main="false">663-00011P_17347640.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBKlXlT_XUweJKAl~7zbCgQguAVw3w5JvQ1ptyDHGQeTTZxRHh82qWsw--.jpg"
+                main="false">663-00011P_17347641.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBJt8BPkBUgepgzAJIL41SRFvS3thKiQaQ86CXzdrQ1qh_UkMkHOexwA--.jpg"
+                main="false">663-00011P_17347642.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBJdTuSRWh84DlmhwO467bM~NMkvAmluUM5XVgrW4~JYQL0X1LGGnHYQ--.jpg"
+                main="false">663-00011P_17347643.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBIytTfockFae3JIzDQgTwafebkRU0NfO6uarGD8z17mwzbcOPTXI_Ug--.jpg"
+                main="false">663-00011P_17347644.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBdhT3NAqJU04_Z__qhxkNqa5744G3EM8JIivPw2bLIPnPcvDhDf2f4A--.jpg"
+                main="false">663-00011P_17347645.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBcyQwnz8CEjBaYJogJCsOwdLmg0Shx_IagI8ThK0Ka~Vi95zw8F0_EQ--.jpg"
+                main="false">663-00011P_17347646.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBJtvLGbX4YKwEKxw4npvuDBD_mtW7ceeuJboCMl7siN_k9GeaD5A5SA--.jpg"
+                main="false">663-00011P_17347647.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBJP73SIlOk9MxkXWRMI5FtPJUnVSnbs6Ispx4T0ue8Zlpb5FpxJsCOw--.jpg"
+                main="false">663-00011P_17347648.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBcCCTAq4k7mX6jSRtrlwbwmMkg9NLaVLKRtY9_z5H6vOKY00mAspOCw--.jpg"
+                main="false">663-00011P_17347649.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBK3HDtN7bm9ejsXqX9RuuA6Pq8b9lUVrhvGF3DaK1NLynZcN25jIdRg--.jpg"
+                main="false">663-00011P_17347650.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBcCq2EzS90m3VDrWuAggH6cd8Q0egGnspvArFFbbN77RdggV8zXndtg--.jpg"
+                main="false">663-00011P_17347651.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBIb~zySo9v7WfUVuFIMuT~bQsH0CFWPP3PJCQTxykyi9V3f~uEhL1QA--.jpg"
+                main="false">663-00011P_17347652.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBIemhOgZvcAckwtP2kkdnUXhmdUPpC~BmmJ640S6z5QvEr1NJ3DKyoQ--.jpg"
+                main="false">663-00011P_17347653.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBK36USORuOosyR~fvoV5xHifmF6DuwNjubOjmb1bY7np9O8rJhYopCg--.jpg"
+                main="false">663-00011P_17347654.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBc3OIRrLyeq3eJAr_K99PREF0Hs71j6s7SyWCWgiyUe0RvomkEqmaJg--.jpg"
+                main="false">663-00011P_17347655.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBItjUHb~QA_dWNB9CSufzueL2MI5zI4oiorgsmEueOH_iqo1iC8S7XQ--.jpg"
+                main="false">663-00011P_17347656.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBdIukZpp6IF187cCDD0fEpHaWlcWKJJOJlclrMHi2uP5akl3VHIdJJw--.jpg"
+                main="false">663-00011P_17347657.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBJ1cTJ9wkbquq~h1XQ~GicswrYgb4i7_De89LUBvLdPYeE8AracPUeg--.jpg"
+                main="false">663-00011P_17347658.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBIo0OHPjZuReGuqHLltKZvDCty3fIAH0Qfx3_sfSWf2CSO4lJiJ6s9w--.jpg"
+                main="false">663-00011P_17347659.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBc3OIF1V1MLP5mDrirQcHb9k8LZ7iIGKWhsvVrd0slbAbSL5~PSwKBA--.jpg"
+                main="false">663-00011P_17347660.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBItp7cYNw3zHEmjxoMaxlPeVO7NWS0X24aSgfd_p47A2IK6neNRq92A--.jpg"
+                main="false">663-00011P_17347662.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBKl_GJaZGGekrUQNLA2AD8HlQKyHaBaX4S6akzsbrrLRfVxHRyZKvSQ--.jpg"
+                main="false">663-00011P_17347663.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBIKjhPEvjRwpOQzQ5dmuQjkwFgBU8bW1UHo~Jnn5svDn4KtPg2ywihA--.jpg"
+                main="false">663-00011P_17347664.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7dlBIPl0hnE4QvuxafCeR9gPk_0RjrOzfnrS04Di3x1A24HbVmXonJHXFA--.jpg"
+                main="false">663-00011P_17347661.jpg</image>
+      </images>
+      <longitude>-4.996344</longitude>
+      <latitude>36.514526</latitude>
+      <agency_id>663</agency_id>
+      <listed_by id="6363">
+         <name>Sandra</name>
+         <surname>Verweij</surname>
+      </listed_by>
+      <listed_by2/>
+      <options>
+         <option type="43">Mountain view</option>
+         <option type="44">Golf view</option>
+         <option type="64">Panoramic view</option>
+      </options>
+      <descriptions>
+         <short_description lang="en">Gated community Villa in Reserva de la Quinta</short_description>
+         <long_description lang="en">Absolutely stunning frontline golf Villa located within the gated community of  La Reserva De La Quinta, Benahavis, 10 minutes drive from Puerto Banús Marina. This exquisite property has been constructed in a unique tropical style, with a beautiful French Caribbean designed interior, decorated and furnished to the very highest of standards with furniture designed exclusively for the property. Set within a 1625m2 plot, offering very private westerly views over La Quinta Golf course, the "La Concha" mountains and views to the sea, and is split over 4 levels, each connected via a private elevator. Situated within an extre- mely quiet cul de sac enjoying 24 hour security, the villa is accessed via a private gated entrance leading into a large driveway with enough space to park five vehicles, plus a further double sized garage. From here a double entrance door leads through the hallway into the enormous open plan lounge and dining area, with a double sweeping staircase to the first floor, and double height floor to ceiling windows - a simply spectacular living space that has to be seen! The lounge flows directly onto the large west facing terrace and magnificent tropical garden, complete with an outdoor kitchen and dining area with an Argenti- nian BBQ grill, large pizza oven, wine fridge and a stunning 16 metre, solar heated infinity salt water swimming pool - all enjoying westerly views over the La Quinta golf cours
+
+At ground floor level there is a large guest bedroom suite, guest WC, a beautiful dining room and bespoke fully fitted kitchen. At first floor level you find two further guest bedroom suites with private terraces. Stairs then take you to the second level and the enormous master bedroom suite, with direct access to a large west facing terrace enjo- ying fabulous views over the La Quinta golf course and south towards the sea.The suite leads into an equally spacious en suite bathroom complete with walk in shower and hydro massage bath tub, with an additional south facing terrace with panoramic views to the sea and mountains.There is a further guest bedroom adjacent to the master suite which is presently being used as an office. The basement level of the villa has been transformed into a truly amazing entertaining space, with a beautiful heated salt water swimming pool, fitness area, stunning cinema room, luxury bar area with liebherr wine cellar , laundry room and a further guest/staff apartment complete with lounge, double bedroom, fully fitted kitchen and bathroom.
+
+ villa la reserva de la quinta
+This unique villa offers many internal features, including a Sonos Hifi sound system throughout the entire villa and garden, air-conditioning and under- floor heating throughout (including the basement), daikin alterna cool and heating system, solar heating for pools and hot water, a deluxe domotics system controlling lights, air temperature, the sound system and CCTV system, and a full quality and specification list is available upon request.
+A truly fabulous home in an absolutely stunning location.</long_description>
+         <price_description lang="en"/>
+         <short_description lang="es">Elegante Villa ubicada en la exclusiva Urbanizacion Reserva de la Quinta.</short_description>
+         <long_description lang="es">Absolutamente impresionante Villa en primera línea de golf ubicada dentro de la comunidad cerrada de La Reserva De La Quinta, Benahavis, a 10 minutos en coche del puerto deportivo de Puerto Banús. Esta exquisita propiedad ha sido construida en un estilo tropical único, con un hermoso interior de diseño caribeño francés, decorado y amueblado con los más altos estándares con muebles diseñados exclusivamente para la propiedad. Ubicado dentro de una parcela de 1625m2, ofrece vistas muy privadas hacia el oeste sobre el campo de golf La Quinta, las montañas "La Concha" y vistas al mar, y se divide en 4 niveles, cada uno conectado a través de un ascensor privado. Situada dentro de un callejón sin salida extremadamente tranquilo que disfruta de seguridad las 24 horas, se accede a la villa a través de una entrada privada que conduce a un gran camino de entrada con espacio suficiente para estacionar cinco vehículos, además de un garaje doble adicional. Desde aquí, una puerta de entrada doble conduce a través del pasillo al enorme salón y comedor de planta abierta, con una escalera doble al primer piso y ventanas de piso a techo de doble altura: ¡un espacio de vida simplemente espectacular que tiene que ser visto! El salón fluye directamente a la gran terraza orientada al oeste y al magnífico jardín tropical, que se completa con una cocina al aire libre y un comedor con una parrilla de barbacoa argentina, un horno de pizza grande, una nevera para vinos y una impresionante piscina infinita de agua salada de 16 metros climatizada con energía solar. - todos disfrutan de vistas al oeste sobre el campo de golf de La Quinta
+
+En la planta baja hay un gran dormitorio de invitados, aseo de invitados, un bonito comedor y una cocina totalmente equipada a medida. En el primer piso se encuentran otros dos dormitorios de invitados con terrazas privadas. Luego, las escaleras lo llevan al segundo nivel y al enorme dormitorio principal en suite, con acceso directo a una gran terraza orientada al oeste que disfruta de fabulosas vistas al campo de golf La Quinta y al sur hacia el mar. La suite conduce a un baño igualmente espacioso. cuarto de baño completo con plato de ducha y bañera de hidromasaje, con una terraza adicional orientada al sur con vistas panorámicas al mar y las montañas. Hay otro dormitorio de invitados junto a la suite principal que actualmente se utiliza como oficina. El sótano de la villa se ha transformado en un espacio de entretenimiento realmente increíble, con una hermosa piscina climatizada de agua salada, un gimnasio, una impresionante sala de cine, un bar de lujo con bodega de vinos Liebherr, una lavandería y otro apartamento completo para invitados y personal. con salón, dormitorio doble, cocina equipada y baño.
+Villa la Reserva de la Quinta
+Esta villa única ofrece muchas características internas, incluido un sistema de sonido Sonos Hifi en toda la villa y el jardín, aire acondicionado y calefacción por suelo radiante en todas partes (incluido el sótano), sistema de refrigeración y calefacción daikin alterna, calefacción solar para piscinas y agua caliente. , un sistema de domótica de lujo que controla las luces, la temperatura del aire, el sistema de sonido y el sistema de circuito cerrado de televisión, y una lista completa de calidad y especificaciones está disponible a pedido.
+Una casa verdaderamente fabulosa en una ubicación absolutamente impresionante.</long_description>
+         <price_description lang="es"/>
+      </descriptions>
+      <files/>
+      <links/>
+      <htmls/>
+   </property>
+   <property>
+      <reference>663-00013P</reference>
+      <client_ref_num>663-00013P</client_ref_num>
+      <dt_create_date>2023-04-09</dt_create_date>
+      <dt_last_updated>2023-04-10 10:07:44</dt_last_updated>
+      <dt_added_date>2023-04-09</dt_added_date>
+      <dt_review_date>2023-04-09</dt_review_date>
+      <is_new_property>0</is_new_property>
+      <is_exclusive>1</is_exclusive>
+      <is_featured>1</is_featured>
+      <is_direct>0</is_direct>
+      <is_hot>1</is_hot>
+      <is_luxury>0</is_luxury>
+      <is_for_sale>1</is_for_sale>
+      <is_sold>0</is_sold>
+      <is_special>1</is_special>
+      <is_for_rent>0</is_for_rent>
+      <is_for_rent_long>0</is_for_rent_long>
+      <is_for_rent_short>0</is_for_rent_short>
+      <is_rented>0</is_rented>
+      <propertytype id="4">Town House</propertytype>
+      <propertycategory id="3">Houses</propertycategory>
+      <development_reference/>
+      <country id="6">Spain</country>
+      <province id="7">Malaga</province>
+      <city id="24">Marbella</city>
+      <area id="51">Nueva Andalucia</area>
+      <subarea id="349">Aloha Pueblo</subarea>
+      <postcode/>
+      <community>198.0</community>
+      <ibi>837.0</ibi>
+      <garbage>185.0</garbage>
+      <tr_orientation>South/West</tr_orientation>
+      <mts_build>80.0</mts_build>
+      <mts_plot>120.0</mts_plot>
+      <mts_interior>0</mts_interior>
+      <mts_terrace>40.0</mts_terrace>
+      <nr_floors>3</nr_floors>
+      <nr_level/>
+      <nr_bedrooms>1</nr_bedrooms>
+      <nr_bathrooms>1</nr_bathrooms>
+      <nr_onsuite_bathrooms>0</nr_onsuite_bathrooms>
+      <nr_toilet>0</nr_toilet>
+      <tr_garage id="3">Private</tr_garage>
+      <nr_parking_spaces/>
+      <tr_garden id="4">Communal</tr_garden>
+      <tr_pool id="4">Communal</tr_pool>
+      <dt_construction_year>1989</dt_construction_year>
+      <energy inProcess="true"/>
+      <touristic_code/>
+      <selling_price_eur>349000</selling_price_eur>
+      <rental_price_eur/>
+      <rental_price_eur_long/>
+      <selling_price currency="eur">349000</selling_price>
+      <rental_price currency="eur"/>
+      <rental_price_long currency="eur"/>
+      <rental_price_comment/>
+      <rental_price_comment_long/>
+      <images>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7w780rn7aeDyfm5KGnntAq5PGILqIIghk0okHGRcMWrkk_7nheCdjp0AGw--.jpg"
+                main="false">663-00013P_17407211.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7w78hiO~RKstRFZURIrwaCv~QwCmVzUGBucusAl2TQDegtoymjvVa6SfVg--.jpg"
+                main="false">663-00013P_17407213.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7w780J0edZ5jOSP7mmo3BBW6pQIuy6lV_h7guoiNiTYSZ3dkhyRnGBzxuA--.jpg"
+                main="true">663-00013P_17407216.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7w780uhDRa9WPANYrhO5JnN7Gsa3fZrFZIhpJ0MgpVBkZPTeiNizm067dA--.jpg"
+                main="false">663-00013P_17407214.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7w780XWp3K_JLcWjpROGg3dQAXj_m1R9rvGbBQuBH9q8noMTuvYftPx81A--.jpg"
+                main="false">663-00013P_17407218.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7w78hKqWB5HLht7my2BwfZ8jgTVMo4IsUVfUsCPb6R8w70ND~wRp6evhdw--.jpg"
+                main="false">663-00013P_17407219.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7w781bKIdVVBJsrh97V2n0mdKwTsSxRGE~u3hkDVaQW3XI_0ZtZHbw8dkg--.jpg"
+                main="false">663-00013P_17407217.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7w780S~5m9ttizxIOdK9u_TvCTExV4CmlaJfCACeHLMklv3_FfeFjjgOhg--.jpg"
+                main="false">663-00013P_17407221.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7w78gc1ILIsb2HJEG1KaKIE7bhNGq819gpveriuBGcUU9Qe7hxLptu1JYQ--.jpg"
+                main="false">663-00013P_17407220.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7w780rtdyL3mthpSeDT7hMUB9NZ~sPriYc9TUVYp4uJN5xorHS~zQ8nliw--.jpg"
+                main="false">663-00013P_17407224.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7w781qQgT8ng5SG4n4BC7IISOJMwjON8e~T8MJlyOsEfY4DPfviAC6J91Q--.jpg"
+                main="false">663-00013P_17407222.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7w781Pn8VKQwKpiosiLYAxqaQ8FjkXvFEoPlXGgQequ~nIyQtEnSGJVHpw--.jpg"
+                main="false">663-00013P_17407223.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k7w78ha2fyFTQLIb4t6HShjXnKeE1toXZlsq0Y8lpEXfnXnQZMzmGoUpMvg--.jpg"
+                main="false">663-00013P_17407212.jpg</image>
+      </images>
+      <longitude>-4.96415179</longitude>
+      <latitude>36.5111054</latitude>
+      <agency_id>663</agency_id>
+      <listed_by id="6363">
+         <name>Sandra</name>
+         <surname>Verweij</surname>
+      </listed_by>
+      <listed_by2/>
+      <options>
+         <option type="1">Front line golf</option>
+         <option type="3">Mountainside</option>
+         <option type="4">Amenities near</option>
+         <option type="5">Transport near</option>
+         <option type="22">Alarm</option>
+         <option type="28">Dining room</option>
+         <option type="33">Private terrace</option>
+         <option type="35">Living room</option>
+         <option type="43">Mountain view</option>
+         <option type="44">Golf view</option>
+         <option type="56">24h Service</option>
+         <option type="59">Gated community</option>
+         <option type="63">Pool view</option>
+         <option type="64">Panoramic view</option>
+         <option type="74">Unfurnished</option>
+         <option type="75">Close to children playground</option>
+         <option type="78">Close to sea / beach</option>
+         <option type="79">Close to golf</option>
+         <option type="80">Uncovered terrace</option>
+         <option type="91">Excellent condition</option>
+         <option type="92">Good condition</option>
+         <option type="93">Recently Renovated / Refurbished</option>
+         <option type="101">Close to shops</option>
+         <option type="102">Close to town</option>
+         <option type="103">Close to port</option>
+         <option type="104">Close to schools</option>
+         <option type="107">Inside Golf Resort</option>
+         <option type="111">Individual A/C units</option>
+         <option type="119">Partial sea views</option>
+      </options>
+      <descriptions>
+         <short_description lang="es">Nuevo listado  Exclusivo, preciosa casa adosada en Aloha Pueblo.</short_description>
+         <long_description lang="es">Ubicada en el área de Aloha, el paraíso de los golfistas, esta elegante y acogedora casa adosada de 1 dormitorio y 1 baño está justo al lado de los campos de golf: Aloha, Las Brisas, Los Naranjos y La Quinta. Se adaptaría a los golfistas que buscan una casa de vacaciones lista para mudarse.
+En el codiciado desarrollo de Aloha Pueblo, residencial Nueva Andalucía, a 10 minutos de Puerto Banús y las playas. Pintoresco y galardonado Aloha Pueblo, construido entre 1985 y 1989 para parecerse a un típico pueblo andaluz, ha ganado muchos premios por su arquitectura. No hay dos casas idénticas. Ofrece vistas espectaculares, una piscina climatizada, senderos y jardines bien mantenidos, restaurantes boutique y seguridad las 24 horas.</long_description>
+         <price_description lang="es"/>
+         <short_description lang="en">New Exclusive Listing: Amazing Townhouse in Aloha Pueblo.</short_description>
+         <long_description lang="en">Located in the golfer's paradise Aloha area, this sleek and cosy 1 Bedroom 1 Bathroom townhouse is right next to the golf courses: Aloha, Las Brisas, Los Naranjos and La Quinta. Would suit golfers looking for a ready-to-move-in holiday home. 
+In the sought-after Aloha Pueblo development, residential Nueva Andalucía, 10 mins from Puerto Banus and beaches. Picturesque award-winning Aloha Pueblo, built between 1985 and 1989 to resemble a typical Andalucian Village, has won many awards for its architecture. No two houses are identical. It offers spectacular views, a heated pool, well-maintained walkways and gardens, boutique restaurants, and round-the-clock security.</long_description>
+         <price_description lang="en"/>
+      </descriptions>
+      <files/>
+      <links/>
+      <htmls/>
+   </property>
+   <property>
+      <reference>663-00014P</reference>
+      <client_ref_num>663-00014P</client_ref_num>
+      <dt_create_date>2023-04-18</dt_create_date>
+      <dt_last_updated>2023-04-18 20:43:19</dt_last_updated>
+      <dt_added_date>2023-04-18</dt_added_date>
+      <dt_review_date>2023-04-18</dt_review_date>
+      <is_new_property>0</is_new_property>
+      <is_exclusive>0</is_exclusive>
+      <is_featured>1</is_featured>
+      <is_direct>0</is_direct>
+      <is_hot>0</is_hot>
+      <is_luxury>1</is_luxury>
+      <is_for_sale>1</is_for_sale>
+      <is_sold>0</is_sold>
+      <is_special>0</is_special>
+      <is_for_rent>1</is_for_rent>
+      <is_for_rent_long>0</is_for_rent_long>
+      <is_for_rent_short>1</is_for_rent_short>
+      <is_rented>0</is_rented>
+      <propertytype id="15">House</propertytype>
+      <propertycategory id="3">Houses</propertycategory>
+      <development_reference/>
+      <country id="6">Spain</country>
+      <province id="7">Malaga</province>
+      <city id="24">Marbella</city>
+      <area id="51">Nueva Andalucia</area>
+      <subarea id="2180">Haza del Conde</subarea>
+      <postcode/>
+      <community>569.0</community>
+      <ibi>1072.0</ibi>
+      <garbage>171.0</garbage>
+      <tr_orientation>South/East</tr_orientation>
+      <mts_build>727.0</mts_build>
+      <mts_plot>1420.0</mts_plot>
+      <mts_interior>0</mts_interior>
+      <mts_terrace>179.0</mts_terrace>
+      <nr_floors>3</nr_floors>
+      <nr_level/>
+      <nr_bedrooms>6</nr_bedrooms>
+      <nr_bathrooms>8</nr_bathrooms>
+      <nr_onsuite_bathrooms>6</nr_onsuite_bathrooms>
+      <nr_toilet>2</nr_toilet>
+      <tr_garage id="3">Private</tr_garage>
+      <nr_parking_spaces>5</nr_parking_spaces>
+      <tr_garden id="3">Private</tr_garden>
+      <tr_pool id="3">Private</tr_pool>
+      <dt_construction_year>2021</dt_construction_year>
+      <energy inProcess="true"/>
+      <touristic_code/>
+      <selling_price_eur>3895000</selling_price_eur>
+      <rental_price_eur>1000</rental_price_eur>
+      <rental_price_eur_long/>
+      <selling_price currency="eur">3895000</selling_price>
+      <rental_price currency="eur">1000</rental_price>
+      <rental_price_long currency="eur"/>
+      <rental_price_comment>per day</rental_price_comment>
+      <rental_price_comment_long/>
+      <images>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k6AO0MxFoB98UcmGpF33mZdt4KbU13WKz6phWCa5IPkRSAUzivv2M2DOtRw--.jpg"
+                main="false">663-00014P_17483277.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k6AO0ZT7txTxYa8My0z2lqsGdH_M7Flq67MoxoIQaVIrSQEfqSJDgILfEgQ--.jpg"
+                main="false">663-00014P_17483282.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k6AO0OFlbZPhPVK3MbTJVdKl4QkrasVcI55vQdSxrwit0_XJe31vjlrPr~g--.jpg"
+                main="false">663-00014P_17483276.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k6AO0OAwXZGm50s95q1pZBADE0H3ZPD58GbNMNjoatRxmRFASiOUZEJyo8g--.jpg"
+                main="false">663-00014P_17483273.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k6AO0N4cLbOXTkjMBpo3l9D8ASMl868tHn5bHaBXBwCHVxWdd_nFx3h6tUA--.jpg"
+                main="false">663-00014P_17483278.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k6AO0NSk5jMTsfth_gDluIaEcd3hEn3dDGIPym42YdyPCWCBqOpO55YqPMA--.jpg"
+                main="true">663-00014P_17483274.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k6AO0OAg3Org81dC_7FjK0gVElyiQQk3g0mVv3rSPsdMdk3bEWWtNY_K~4g--.jpg"
+                main="false">663-00014P_17483279.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k6AO0MxcMRAUuF0v3RL~zWBb3EjyNCNUiavnNnjZVnTPjnyurHRyhAoIHyw--.jpg"
+                main="false">663-00014P_17483283.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k6AO0ZTYxlI5KOSdTTWx92D9QIZjSTKAUPtNQUM8ziT9HNUHSGkto7RlT0A--.jpg"
+                main="false">663-00014P_17483281.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k6AO0OVcJ9GUwSAaT~gVyOxCAK0oa8_yn_tKxOQaL_5~1J3xdTJra6~OpAw--.jpg"
+                main="false">663-00014P_17483284.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k6AO0OFxx~ubz8yrS485lwf0P9~XFgy71qcHhI44CHZyF~cOL6uZehOUhgg--.jpg"
+                main="false">663-00014P_17483285.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k6AO0MWq3bjIx53GIcA10PU1b7f7bZu1gy35o_Taj8YityA38N~vPVsoScQ--.jpg"
+                main="false">663-00014P_17483266.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k6AO0M0NEBEkS8hmc8E2DqLZk8BUFwT8ktBKMSbxDiIMLeNoh5R5pW95Ndw--.jpg"
+                main="false">663-00014P_17483265.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k6AO0YcTcXDQ9ClLIDaaMjmIDN1p2Sv9MvD9H9VcyMEYNwrodgzwu~ID2QA--.jpg"
+                main="false">663-00014P_17483261.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k6AO0ZWEWeMgVq5eK3upDmnAhPzUBtTA_AYuLeuyau5547rOHmGkQldsstA--.jpg"
+                main="false">663-00014P_17483272.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k6AO0N9Go2iXBY8O1~wypwuePX0hYtJyOAM4v390qlGOvN~xcYA4mkn81ew--.jpg"
+                main="false">663-00014P_17483260.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k6AO0NCNjXONFuOEF5oAHAG4_1W88vf1SCm_QQjhYmsxF1aF0YGsHG_DlVA--.jpg"
+                main="false">663-00014P_17483270.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k6AO0MjL5i1wK~zuDywlPw8ZLbEqD7ZyRX_fAMYXTFuAt9eBUQiyl5BKJ8A--.jpg"
+                main="false">663-00014P_17483267.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k6AO0MxMYddvWmawcZXgCvSt38sD7nCuArqdWBcK19JPxuKC8EkH_LF9OcA--.jpg"
+                main="false">663-00014P_17483271.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k6AO0Zr3_crqUuoM8HEFl9FbdIidGyx3pFKrGtnKT7bZx2yGkY6k~4pPOrA--.jpg"
+                main="false">663-00014P_17483268.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k6AO0ZAV6bvoJIgj09ef03voRp5pxeRhut74INUet9OcJPjwNjamos8IGrw--.jpg"
+                main="false">663-00014P_17483262.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k6AO0NCKioJn2y4EFAeiIIQHpM9IU5CodxoPW3j3_ml_5WMIcHHEgUy3XXQ--.jpg"
+                main="false">663-00014P_17483264.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k6AO0MGniE6Z9IfyjwTk5OjJwq55Q8KQeJbdCHvgwqa7bejuopYEUQbzPbA--.jpg"
+                main="false">663-00014P_17483259.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2k6AO0NtpNN2qgMux_nmSIKhzbjaRdj36ISlrIrZZc3f0lGju8NjtbCICSQQ--.jpg"
+                main="false">663-00014P_17483263.jpg</image>
+      </images>
+      <longitude>-4.9840690498</longitude>
+      <latitude>36.5134876647</latitude>
+      <agency_id>663</agency_id>
+      <listed_by id="6363">
+         <name>Sandra</name>
+         <surname>Verweij</surname>
+      </listed_by>
+      <listed_by2/>
+      <options>
+         <option type="3">Mountainside</option>
+         <option type="4">Amenities near</option>
+         <option type="7">Central heating</option>
+         <option type="9">Fully furnished</option>
+         <option type="10">Fully fitted kitchen</option>
+         <option type="11">Utility room</option>
+         <option type="12">Fireplace</option>
+         <option type="17">Basement</option>
+         <option type="19">Guest room</option>
+         <option type="20">Storage room</option>
+         <option type="22">Alarm</option>
+         <option type="23">Solarium</option>
+         <option type="24">Security entrance</option>
+         <option type="25">Double glazing</option>
+         <option type="26">Video entrance</option>
+         <option type="28">Dining room</option>
+         <option type="29">Barbeque</option>
+         <option type="32">Guest toilet</option>
+         <option type="33">Private terrace</option>
+         <option type="34">Kitchen equipped</option>
+         <option type="35">Living room</option>
+         <option type="36">Study room</option>
+         <option type="40">Separate apartment</option>
+         <option type="43">Mountain view</option>
+         <option type="44">Golf view</option>
+         <option type="47">Underfloor heating (throughout)</option>
+         <option type="48">Automatic irrigation system</option>
+         <option type="49">Security shutters</option>
+         <option type="50">Home automation system</option>
+         <option type="51">Dolby Stereo Surround system</option>
+         <option type="53">Laundry room</option>
+         <option type="55">Covered terrace</option>
+         <option type="57">Electric blinds</option>
+         <option type="58">Fitted wardrobes</option>
+         <option type="62">Garden view</option>
+         <option type="63">Pool view</option>
+         <option type="64">Panoramic view</option>
+         <option type="67">Cinema room</option>
+         <option type="72">Wine Cellar</option>
+         <option type="73">Steam Room</option>
+         <option type="79">Close to golf</option>
+         <option type="81">Games Room</option>
+         <option type="82">Glass Doors</option>
+         <option type="83">Separate dining room</option>
+         <option type="85">Open plan kitchen</option>
+         <option type="89">Turkish bath</option>
+         <option type="91">Excellent condition</option>
+         <option type="93">Recently Renovated / Refurbished</option>
+         <option type="100">Saltwater swimming pool</option>
+         <option type="101">Close to shops</option>
+         <option type="102">Close to town</option>
+         <option type="103">Close to port</option>
+         <option type="104">Close to schools</option>
+         <option type="105">Surveillance cameras</option>
+         <option type="106">Guest apartment</option>
+         <option type="109">Office room</option>
+         <option type="110">Pets allowed</option>
+         <option type="119">Partial sea views</option>
+         <option type="121">Porcelain floors</option>
+         <option type="123">Internet - Fibre optic</option>
+         <option type="126">Walk-in closet</option>
+      </options>
+      <descriptions>
+         <short_description lang="en">Impressive Villa of Modern Architecture controlled by home automation, with a saltwater pool located in the Haza del Conde community</short_description>
+         <long_description lang="en">This villa located in Nueva Andalucia and built in 2021, has 6 bedrooms and 8 bathrooms, 5 of them en suite.
+It is built with the best qualities and includes high-end furniture specially designed for this villa.
+The 1420m2 plot has a 100m2 saltwater pool, BBQ area and large terraces where you can enjoy the good temperature of Marbella all year round. The entire house is controlled by home automation that controls everything from the intensity of the lighting, fountains, alarms and music to the underfloor heating that is throughout the house, as well as bathrooms and Porcelanosa flooring, Miele appliances, Cortizo carpentry with Queroz safety glass the best qualities on the market.
+
+Surrounded by lush vegetation, golf courses and similar luxury properties in the prestigious and popular Nueva Andalucía, this house is sure to appeal to golf enthusiasts, families and fans of the modern Mediterranean lifestyle. Everything is within easy reach, the blue flag beaches, international schools, restaurants, cafeterias, children's play areas, the casino, etc. The charms of San Pedro de Alcántara, the glitz and glamor of Puerto Banús, all the amenities of Nueva Andalucía, the luxurious Golden Mile, the center of Marbella, the vibrant New Golden Mile and the tourist complex of Estepona are within a short walk. distance by car (minutes). Both Malaga and Gibraltar international airports and Malaga's main train station are less than an hour away.</long_description>
+         <price_description lang="en"/>
+         <short_description lang="es">Impresionante Villa de Arquitectura Moderna controlada por domotica, con piscina de agua salada ubicada en la prestigiosa comunidad Haza del Conde</short_description>
+         <long_description lang="es">Esta villa ubicada en Nueva Andalucia y construida  en el año 2021, cuenta con 6 habitaciones y 8 baños 5 de ellos en suite.
+Está construida con las mejores calidades e incluye un mobiliario de alta gama diseñado a medida especailmente para esta villa.
+La parcela de 1420m2  cuenta con una piscina de 100m2 de agua salada, zona de BBQ y grandes terrazas donde poder disfrutar todo el año de la buena temperatura de Marbella. toda la casa esta controlada por domotica que controla desde la intensidad de la iluminación, fuentes, alarmas y música hasta el suelo radiante que esta en toda la casa, además de baños y solería de Porcelanosa, electrodomésticos Miele, carpintería Cortizo con cristales de seguridad Queroz las mejores calidades del mercado.
+
+Rodeada de exuberante vegetación, campos de golf y propiedades de lujo similares de la prestigiosa y popular Nueva Andalucía, esta casa atraerá sin duda a los entusiastas del golf, las familias y los aficionados al estilo de vida mediterráneo moderno. Todo está al alcance de la mano, las playas con bandera azul, los colegios internacionales, los restaurantes, las cafeterías, las zonas de juego para niños, el casino, etc. Los encantos de San Pedro de Alcántara, la ostentación y el glamour de Puerto Banús, todas las comodidades de Nueva Andalucía, la lujosa Milla de Oro, el centro de Marbella, la vibrante Nueva Milla de Oro y el complejo turístico de Estepona están a poca distancia en coche (minutos). Tanto el aeropuerto internacional de Málaga como el de Gibraltar y la estación de tren principal de Málaga están a menos de una hora.</long_description>
+         <price_description lang="es"/>
+      </descriptions>
+      <files/>
+      <links/>
+      <htmls/>
+   </property>
+   <property>
+      <reference>663-00022P</reference>
+      <client_ref_num>663-00022P</client_ref_num>
+      <dt_create_date>2023-04-28</dt_create_date>
+      <dt_last_updated>2023-04-28 13:52:09</dt_last_updated>
+      <dt_added_date>2023-03-24</dt_added_date>
+      <dt_review_date>2023-05-17</dt_review_date>
+      <is_new_property>0</is_new_property>
+      <is_exclusive>0</is_exclusive>
+      <is_featured>0</is_featured>
+      <is_direct>0</is_direct>
+      <is_hot>0</is_hot>
+      <is_luxury>0</is_luxury>
+      <is_for_sale>1</is_for_sale>
+      <is_sold>0</is_sold>
+      <is_special>0</is_special>
+      <is_for_rent>0</is_for_rent>
+      <is_for_rent_long>0</is_for_rent_long>
+      <is_for_rent_short>0</is_for_rent_short>
+      <is_rented>0</is_rented>
+      <propertytype id="3">Penthouse</propertytype>
+      <propertycategory id="1">Apartments</propertycategory>
+      <development_reference>663-00007G</development_reference>
+      <country id="6">Spain</country>
+      <province id="7">Malaga</province>
+      <city id="11">Estepona</city>
+      <area id="43">Cancelada</area>
+      <subarea/>
+      <postcode/>
+      <community>0</community>
+      <ibi>0</ibi>
+      <garbage>0</garbage>
+      <tr_orientation/>
+      <mts_build>107.0</mts_build>
+      <mts_plot>0</mts_plot>
+      <mts_interior>0</mts_interior>
+      <mts_terrace>59.0</mts_terrace>
+      <nr_floors>0</nr_floors>
+      <nr_level/>
+      <nr_bedrooms>3</nr_bedrooms>
+      <nr_bathrooms>2</nr_bathrooms>
+      <nr_onsuite_bathrooms>0</nr_onsuite_bathrooms>
+      <nr_toilet>0</nr_toilet>
+      <tr_garage/>
+      <nr_parking_spaces/>
+      <tr_garden id="4">Communal</tr_garden>
+      <tr_pool id="4">Communal</tr_pool>
+      <dt_construction_year/>
+      <energy inProcess="true"/>
+      <touristic_code/>
+      <selling_price_eur>381000</selling_price_eur>
+      <rental_price_eur/>
+      <rental_price_eur_long/>
+      <selling_price currency="eur">381000</selling_price>
+      <rental_price currency="eur"/>
+      <rental_price_long currency="eur"/>
+      <rental_price_comment/>
+      <rental_price_comment_long/>
+      <images>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2nPlGTX4Py_VDxXWYkVRxMA~Xfcsy7zEoasakPHyr3ET2YHIwVgT6fXPs92A--.jpg"
+                main="true">663-00022P_17546455.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHMqox_k2QPLc_NDmVlVKze1ChNEpH4CfgwWFPApLoSep~mtOmeT6yR68lQ--.jpg"
+                main="false">663-00022P_587151.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHMqowf8HeGnFKZhumiyKeD9m7CWZIQ747dHlSntogr3B9QjqmYLanE1dDQ--.jpg"
+                main="false">663-00022P_587146.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHMqoxF44BsxB6YBNXw3r4t~eftQtQLvis4eykFUzS2aqin1byzqZavI3xQ--.jpg"
+                main="false">663-00022P_587148.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHMqoxoUT0CtjPuK48Db9~Kf25ZnaLfxQ~kfQZKktDieaZsRToLfYMdNv0g--.jpg"
+                main="false">663-00022P_587154.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHMqokf5jDYJNzV39S2Q~qhRINTmLo9~~cCivnKnzKZ_9WmfVYzEps2tvYw--.jpg"
+                main="false">663-00022P_587147.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHMqoxoDqnTbW8ccto2NasTYagpP5j_eqiWGnCEXQUpJ5hsSlraAqTKaYbw--.jpg"
+                main="false">663-00022P_587149.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHMqoka2y02fF8Vu5s2xlgKZROilpzQVCl82aeMU_c5GbO0Po0WLAHZj6fg--.jpg"
+                main="false">663-00022P_587153.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHMqoka3jjlD7KFVaqzb5MDL9VuLuRzf8gNXmEtLPfDxXQbYrCshsLebwrQ--.jpg"
+                main="false">663-00022P_587150.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHMqom4SzKdFNJxo3rYZAX~CWv~gZWNBDWnAksCJFweaRi8sg~_RSioE9Ag--.jpg"
+                main="false">663-00022P_587152.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHMqowfwBuqAmvRA9oiWpnuWp8sigNzI9jHeieeftitDYiVyiqbvmyTAD8g--.jpg"
+                main="false">663-00022P_587145.jpg</image>
+      </images>
+      <longitude>-5.05344</longitude>
+      <latitude>36.461036</latitude>
+      <agency_id>663</agency_id>
+      <listed_by/>
+      <listed_by2/>
+      <options/>
+      <descriptions>
+         <short_description lang="es">Oceana Gardens, exclusivos apartamentos en la codiciada Nueva Milla de Oro</short_description>
+         <long_description lang="es">Exclusivas viviendas plurifamiliares de 2 y 3 habitaciones situada en el privilegiado entorno de la Milla de Oro de Estepona. Las viviendas disfrutan de amplias terrazas con orientación suroeste. Esta promoción conjuga los acabados de calidad, amplitud en espacios interiores y exteriores y la sostenibilidad, al contar con el sello DOMUM.
+
+Su arquitectura vanguardista se combina con sus zonas comunes dotadas de piscina exterior, zona de coworking, gimnasio equipado, zona deportiva, dos pistas de petanca y ciclosenda. Además, los propietarios de este residencial tendrán acceso al exclusivo Santa Vista Club, que ofrece una amplia variedad de instalaciones de ocio y servicios.
+
+La ubicación de la urbanización es inmejorable, ya que se encuentra a poca distancia del encantador pueblo de Cancelada y cerca de varios campos de golf.</long_description>
+         <price_description lang="es"/>
+         <short_description lang="en">Oceana Gardens, exclusive apartments in the sought after New Golden Mile</short_description>
+         <long_description lang="en">Exclusive multi-family homes of 2 and 3 rooms located in the privileged setting of the Golden Mile of Estepona. The apartments enjoy large terraces with southwest orientation. This promotion combines quality finishes, amplitude in indoor and outdoor spaces and sustainability, with the DOMUM stamp.
+
+Its avant-garde architecture is combined with its common areas equipped with outdoor pool, coworking area, equipped gym, sports area, two petanque tracks and cyclesenda. In addition, the owners of this residential will have access to the exclusive Santa Vista Club, which offers a wide variety of leisure facilities and services.
+
+The location of the urbanization is unbeatable, as it is within walking distance of the charming village of Cancelada and close to several golf courses.</long_description>
+         <price_description lang="en"/>
+      </descriptions>
+      <files/>
+      <links/>
+      <htmls/>
+   </property>
+   <property>
+      <reference>663-00024P</reference>
+      <client_ref_num>663-00024P</client_ref_num>
+      <dt_create_date>2023-04-28</dt_create_date>
+      <dt_last_updated>2023-04-28 14:02:52</dt_last_updated>
+      <dt_added_date>2023-03-24</dt_added_date>
+      <dt_review_date>2023-05-17</dt_review_date>
+      <is_new_property>0</is_new_property>
+      <is_exclusive>0</is_exclusive>
+      <is_featured>0</is_featured>
+      <is_direct>0</is_direct>
+      <is_hot>0</is_hot>
+      <is_luxury>0</is_luxury>
+      <is_for_sale>1</is_for_sale>
+      <is_sold>0</is_sold>
+      <is_special>0</is_special>
+      <is_for_rent>0</is_for_rent>
+      <is_for_rent_long>0</is_for_rent_long>
+      <is_for_rent_short>0</is_for_rent_short>
+      <is_rented>0</is_rented>
+      <propertytype id="2">Apartment</propertytype>
+      <propertycategory id="1">Apartments</propertycategory>
+      <development_reference>663-00007G</development_reference>
+      <country id="6">Spain</country>
+      <province id="7">Malaga</province>
+      <city id="11">Estepona</city>
+      <area id="43">Cancelada</area>
+      <subarea/>
+      <postcode/>
+      <community>0</community>
+      <ibi>0</ibi>
+      <garbage>0</garbage>
+      <tr_orientation/>
+      <mts_build>103.0</mts_build>
+      <mts_plot>0</mts_plot>
+      <mts_interior>0</mts_interior>
+      <mts_terrace>17.0</mts_terrace>
+      <nr_floors>0</nr_floors>
+      <nr_level/>
+      <nr_bedrooms>2</nr_bedrooms>
+      <nr_bathrooms>2</nr_bathrooms>
+      <nr_onsuite_bathrooms>0</nr_onsuite_bathrooms>
+      <nr_toilet>0</nr_toilet>
+      <tr_garage/>
+      <nr_parking_spaces/>
+      <tr_garden id="4">Communal</tr_garden>
+      <tr_pool id="4">Communal</tr_pool>
+      <dt_construction_year/>
+      <energy inProcess="true"/>
+      <touristic_code/>
+      <selling_price_eur>303000</selling_price_eur>
+      <rental_price_eur/>
+      <rental_price_eur_long/>
+      <selling_price currency="eur">303000</selling_price>
+      <rental_price currency="eur"/>
+      <rental_price_long currency="eur"/>
+      <rental_price_comment/>
+      <rental_price_comment_long/>
+      <images>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2nOMm6tX6EJEqs2JNXINdefXqqEGa05rZ3Mwk3pMNkUz8nMFIJA5NPofeJKw--.jpg"
+                main="true">663-00024P_17546457.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHMqox_k2QPLc_NDmVlVKze1ChNEpH4CfgwWFPApLoSep~mtOmeT6yR68lQ--.jpg"
+                main="false">663-00024P_587151.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHMqowf8HeGnFKZhumiyKeD9m7CWZIQ747dHlSntogr3B9QjqmYLanE1dDQ--.jpg"
+                main="false">663-00024P_587146.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHMqoxF44BsxB6YBNXw3r4t~eftQtQLvis4eykFUzS2aqin1byzqZavI3xQ--.jpg"
+                main="false">663-00024P_587148.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHMqoxoUT0CtjPuK48Db9~Kf25ZnaLfxQ~kfQZKktDieaZsRToLfYMdNv0g--.jpg"
+                main="false">663-00024P_587154.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHMqokf5jDYJNzV39S2Q~qhRINTmLo9~~cCivnKnzKZ_9WmfVYzEps2tvYw--.jpg"
+                main="false">663-00024P_587147.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHMqoxoDqnTbW8ccto2NasTYagpP5j_eqiWGnCEXQUpJ5hsSlraAqTKaYbw--.jpg"
+                main="false">663-00024P_587149.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHMqoka2y02fF8Vu5s2xlgKZROilpzQVCl82aeMU_c5GbO0Po0WLAHZj6fg--.jpg"
+                main="false">663-00024P_587153.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHMqoka3jjlD7KFVaqzb5MDL9VuLuRzf8gNXmEtLPfDxXQbYrCshsLebwrQ--.jpg"
+                main="false">663-00024P_587150.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHMqom4SzKdFNJxo3rYZAX~CWv~gZWNBDWnAksCJFweaRi8sg~_RSioE9Ag--.jpg"
+                main="false">663-00024P_587152.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHMqowfwBuqAmvRA9oiWpnuWp8sigNzI9jHeieeftitDYiVyiqbvmyTAD8g--.jpg"
+                main="false">663-00024P_587145.jpg</image>
+      </images>
+      <longitude>-5.05344</longitude>
+      <latitude>36.461036</latitude>
+      <agency_id>663</agency_id>
+      <listed_by/>
+      <listed_by2/>
+      <options/>
+      <descriptions>
+         <short_description lang="es">Oceana Gardens, exclusivos apartamentos en la codiciada Nueva Milla de Oro</short_description>
+         <long_description lang="es">Exclusivas viviendas plurifamiliares de 2 y 3 habitaciones situada en el privilegiado entorno de la Milla de Oro de Estepona. Las viviendas disfrutan de amplias terrazas con orientación suroeste. Esta promoción conjuga los acabados de calidad, amplitud en espacios interiores y exteriores y la sostenibilidad, al contar con el sello DOMUM.
+
+Su arquitectura vanguardista se combina con sus zonas comunes dotadas de piscina exterior, zona de coworking, gimnasio equipado, zona deportiva, dos pistas de petanca y ciclosenda. Además, los propietarios de este residencial tendrán acceso al exclusivo Santa Vista Club, que ofrece una amplia variedad de instalaciones de ocio y servicios.
+
+La ubicación de la urbanización es inmejorable, ya que se encuentra a poca distancia del encantador pueblo de Cancelada y cerca de varios campos de golf.</long_description>
+         <price_description lang="es"/>
+         <short_description lang="en">Oceana Gardens, exclusive apartments in the sought after New Golden Mile</short_description>
+         <long_description lang="en">Exclusive multi-family homes of 2 and 3 rooms located in the privileged setting of the Golden Mile of Estepona. The apartments enjoy large terraces with southwest orientation. This promotion combines quality finishes, amplitude in indoor and outdoor spaces and sustainability, with the DOMUM stamp.
+
+Its avant-garde architecture is combined with its common areas equipped with outdoor pool, coworking area, equipped gym, sports area, two petanque tracks and cyclesenda. In addition, the owners of this residential will have access to the exclusive Santa Vista Club, which offers a wide variety of leisure facilities and services.
+
+The location of the urbanization is unbeatable, as it is within walking distance of the charming village of Cancelada and close to several golf courses.</long_description>
+         <price_description lang="en"/>
+      </descriptions>
+      <files/>
+      <links/>
+      <htmls/>
+   </property>
+   <property>
+      <reference>663-00026P</reference>
+      <client_ref_num>663-00026P</client_ref_num>
+      <dt_create_date>2023-04-28</dt_create_date>
+      <dt_last_updated>2023-04-28 13:50:22</dt_last_updated>
+      <dt_added_date>2023-03-24</dt_added_date>
+      <dt_review_date>2023-05-17</dt_review_date>
+      <is_new_property>0</is_new_property>
+      <is_exclusive>0</is_exclusive>
+      <is_featured>0</is_featured>
+      <is_direct>0</is_direct>
+      <is_hot>0</is_hot>
+      <is_luxury>0</is_luxury>
+      <is_for_sale>1</is_for_sale>
+      <is_sold>0</is_sold>
+      <is_special>0</is_special>
+      <is_for_rent>0</is_for_rent>
+      <is_for_rent_long>0</is_for_rent_long>
+      <is_for_rent_short>0</is_for_rent_short>
+      <is_rented>0</is_rented>
+      <propertytype id="2">Apartment</propertytype>
+      <propertycategory id="1">Apartments</propertycategory>
+      <development_reference>663-00007G</development_reference>
+      <country id="6">Spain</country>
+      <province id="7">Malaga</province>
+      <city id="11">Estepona</city>
+      <area id="43">Cancelada</area>
+      <subarea/>
+      <postcode/>
+      <community>0</community>
+      <ibi>0</ibi>
+      <garbage>0</garbage>
+      <tr_orientation/>
+      <mts_build>116.0</mts_build>
+      <mts_plot>0</mts_plot>
+      <mts_interior>0</mts_interior>
+      <mts_terrace>26.0</mts_terrace>
+      <nr_floors>0</nr_floors>
+      <nr_level/>
+      <nr_bedrooms>3</nr_bedrooms>
+      <nr_bathrooms>2</nr_bathrooms>
+      <nr_onsuite_bathrooms>0</nr_onsuite_bathrooms>
+      <nr_toilet>0</nr_toilet>
+      <tr_garage/>
+      <nr_parking_spaces/>
+      <tr_garden id="4">Communal</tr_garden>
+      <tr_pool id="4">Communal</tr_pool>
+      <dt_construction_year/>
+      <energy inProcess="true"/>
+      <touristic_code/>
+      <selling_price_eur>348000</selling_price_eur>
+      <rental_price_eur/>
+      <rental_price_eur_long/>
+      <selling_price currency="eur">348000</selling_price>
+      <rental_price currency="eur"/>
+      <rental_price_long currency="eur"/>
+      <rental_price_comment/>
+      <rental_price_comment_long/>
+      <images>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2nOhMme32wg_VfI40AB809ai3TKnnaC2rENEuzAKc5jOWCQEZjzacuNkyIEA--.jpg"
+                main="true">663-00026P_17546459.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHMqox_k2QPLc_NDmVlVKze1ChNEpH4CfgwWFPApLoSep~mtOmeT6yR68lQ--.jpg"
+                main="false">663-00026P_587151.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHMqowf8HeGnFKZhumiyKeD9m7CWZIQ747dHlSntogr3B9QjqmYLanE1dDQ--.jpg"
+                main="false">663-00026P_587146.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHMqoxF44BsxB6YBNXw3r4t~eftQtQLvis4eykFUzS2aqin1byzqZavI3xQ--.jpg"
+                main="false">663-00026P_587148.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHMqoxoUT0CtjPuK48Db9~Kf25ZnaLfxQ~kfQZKktDieaZsRToLfYMdNv0g--.jpg"
+                main="false">663-00026P_587154.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHMqokf5jDYJNzV39S2Q~qhRINTmLo9~~cCivnKnzKZ_9WmfVYzEps2tvYw--.jpg"
+                main="false">663-00026P_587147.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHMqoxoDqnTbW8ccto2NasTYagpP5j_eqiWGnCEXQUpJ5hsSlraAqTKaYbw--.jpg"
+                main="false">663-00026P_587149.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHMqoka2y02fF8Vu5s2xlgKZROilpzQVCl82aeMU_c5GbO0Po0WLAHZj6fg--.jpg"
+                main="false">663-00026P_587153.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHMqoka3jjlD7KFVaqzb5MDL9VuLuRzf8gNXmEtLPfDxXQbYrCshsLebwrQ--.jpg"
+                main="false">663-00026P_587150.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHMqom4SzKdFNJxo3rYZAX~CWv~gZWNBDWnAksCJFweaRi8sg~_RSioE9Ag--.jpg"
+                main="false">663-00026P_587152.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lHMqowfwBuqAmvRA9oiWpnuWp8sigNzI9jHeieeftitDYiVyiqbvmyTAD8g--.jpg"
+                main="false">663-00026P_587145.jpg</image>
+      </images>
+      <longitude>-5.05344</longitude>
+      <latitude>36.461036</latitude>
+      <agency_id>663</agency_id>
+      <listed_by/>
+      <listed_by2/>
+      <options/>
+      <descriptions>
+         <short_description lang="es">Oceana Gardens, exclusivos apartamentos en la codiciada Nueva Milla de Oro</short_description>
+         <long_description lang="es">Exclusivas viviendas plurifamiliares de 2 y 3 habitaciones situada en el privilegiado entorno de la Milla de Oro de Estepona. Las viviendas disfrutan de amplias terrazas con orientación suroeste. Esta promoción conjuga los acabados de calidad, amplitud en espacios interiores y exteriores y la sostenibilidad, al contar con el sello DOMUM.
+
+Su arquitectura vanguardista se combina con sus zonas comunes dotadas de piscina exterior, zona de coworking, gimnasio equipado, zona deportiva, dos pistas de petanca y ciclosenda. Además, los propietarios de este residencial tendrán acceso al exclusivo Santa Vista Club, que ofrece una amplia variedad de instalaciones de ocio y servicios.
+
+La ubicación de la urbanización es inmejorable, ya que se encuentra a poca distancia del encantador pueblo de Cancelada y cerca de varios campos de golf.</long_description>
+         <price_description lang="es"/>
+         <short_description lang="en">Oceana Gardens, exclusive apartments in the sought after New Golden Mile</short_description>
+         <long_description lang="en">Exclusive multi-family homes of 2 and 3 rooms located in the privileged setting of the Golden Mile of Estepona. The apartments enjoy large terraces with southwest orientation. This promotion combines quality finishes, amplitude in indoor and outdoor spaces and sustainability, with the DOMUM stamp.
+
+Its avant-garde architecture is combined with its common areas equipped with outdoor pool, coworking area, equipped gym, sports area, two petanque tracks and cyclesenda. In addition, the owners of this residential will have access to the exclusive Santa Vista Club, which offers a wide variety of leisure facilities and services.
+
+The location of the urbanization is unbeatable, as it is within walking distance of the charming village of Cancelada and close to several golf courses.</long_description>
+         <price_description lang="en"/>
+      </descriptions>
+      <files/>
+      <links/>
+      <htmls/>
+   </property>
+   <property>
+      <reference>663-00027P</reference>
+      <client_ref_num>663-00027P</client_ref_num>
+      <dt_create_date>2023-04-28</dt_create_date>
+      <dt_last_updated>2023-04-28 14:01:16</dt_last_updated>
+      <dt_added_date>2023-03-23</dt_added_date>
+      <dt_review_date>2023-05-17</dt_review_date>
+      <is_new_property>0</is_new_property>
+      <is_exclusive>0</is_exclusive>
+      <is_featured>0</is_featured>
+      <is_direct>0</is_direct>
+      <is_hot>0</is_hot>
+      <is_luxury>0</is_luxury>
+      <is_for_sale>1</is_for_sale>
+      <is_sold>0</is_sold>
+      <is_special>0</is_special>
+      <is_for_rent>0</is_for_rent>
+      <is_for_rent_long>0</is_for_rent_long>
+      <is_for_rent_short>0</is_for_rent_short>
+      <is_rented>0</is_rented>
+      <propertytype id="1032">Triplex</propertytype>
+      <propertycategory id="1">Apartments</propertycategory>
+      <development_reference>663-00008G</development_reference>
+      <country id="6">Spain</country>
+      <province id="7">Malaga</province>
+      <city id="11">Estepona</city>
+      <area id="43">Cancelada</area>
+      <subarea/>
+      <postcode/>
+      <community>0</community>
+      <ibi>0</ibi>
+      <garbage>0</garbage>
+      <tr_orientation/>
+      <mts_build>118.0</mts_build>
+      <mts_plot>0</mts_plot>
+      <mts_interior>0</mts_interior>
+      <mts_terrace>49.0</mts_terrace>
+      <nr_floors>0</nr_floors>
+      <nr_level/>
+      <nr_bedrooms>3</nr_bedrooms>
+      <nr_bathrooms>4</nr_bathrooms>
+      <nr_onsuite_bathrooms>0</nr_onsuite_bathrooms>
+      <nr_toilet>0</nr_toilet>
+      <tr_garage/>
+      <nr_parking_spaces/>
+      <tr_garden id="4">Communal</tr_garden>
+      <tr_pool id="4">Communal</tr_pool>
+      <dt_construction_year/>
+      <energy inProcess="true"/>
+      <touristic_code/>
+      <selling_price_eur>466200</selling_price_eur>
+      <rental_price_eur/>
+      <rental_price_eur_long/>
+      <selling_price currency="eur">466200</selling_price>
+      <rental_price currency="eur"/>
+      <rental_price_long currency="eur"/>
+      <rental_price_comment/>
+      <rental_price_comment_long/>
+      <images>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2nO4xNey9nYtjqASx~KZ~WjAe4chmXYG2gcJ1v6k9rSVu3cknViF6_MTGlHw--.jpg"
+                main="true">663-00027P_17546460.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE0QZ2jPeNc2xrGXqJulFtO05FMO54AxV3E38UHMxrWpLYDWkX_WeoQcGWQ--.jpg"
+                main="false">663-00027P_587156.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE0QZ3hAGAS0M8HGZYYPa5X6tp86doEZVprz~hSkLG18jKY0gUSW6FuxkNA--.jpg"
+                main="false">663-00027P_587163.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE0QZiCc9TqH4bXcJUZs33qFJ8FPNT8TUxhYovemOxLFz~CT_zskgfg0sMA--.jpg"
+                main="false">663-00027P_587155.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE0QZ2MOLngcOmdgfedy7IQfABJK~7lTZIkfVN2~of6I_OKcvyCcq0sAWyw--.jpg"
+                main="false">663-00027P_587160.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE0QZ2RsnguYKu0IbIy_fiyLjGGL3vQroNVs_me~P~rxdR2nqWxtZ3zSqHQ--.jpg"
+                main="false">663-00027P_587162.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE0QZiYrDKFr7tnPsGUpFKijceqv29k7IJDqHd8UwKMM6aqQjuDf1OtznFQ--.jpg"
+                main="false">663-00027P_587157.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE0QZjvfcytAtiJZ_Qc8UFWDuNXb6pX_tv0bV9iwK7oX5j9I7fjTDH2rbDg--.jpg"
+                main="false">663-00027P_587164.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE0QZ3JFt9MRfLKtDlcwdHL3jGMEwB9dF8Zh~YCwRG7U7TOOojqEJWe8U6g--.jpg"
+                main="false">663-00027P_587161.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE0QZ3kGRQxj86WYILtqUThLWgTmky_gqwkQMk3zt86zbzY2KZz6eGwCt~A--.jpg"
+                main="false">663-00027P_587158.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE0QZ3dSqDtnnMRm6Wm5vZy8RrYIUWunYNOoEF99jEOrlybEMbYUr3tsleA--.jpg"
+                main="false">663-00027P_587165.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2lE0QZjv1eSBH5TPCAfG6abAEVzFxkIy9evzhWgdlCXmyGS_LPBxBS6rVEtA--.jpg"
+                main="false">663-00027P_587159.jpg</image>
+      </images>
+      <longitude>-5.05344</longitude>
+      <latitude>36.461036</latitude>
+      <agency_id>663</agency_id>
+      <listed_by/>
+      <listed_by2/>
+      <options/>
+      <descriptions>
+         <short_description lang="en">Symphony Suites, modern and elegant groundfloors and penthouses with sea views in the New Golden Mile</short_description>
+         <long_description lang="en">Symphony Suites is an exclusive promotion located in Cancelada, one of the best areas of the New Golden Mile in Estepona. The residential complex has 82 houses distributed in 4 heights, mostly duplex, of 2 and 3 bedrooms with terraces and/or gardens, as well as penthouses with solarium. All the houses will have a storage room and a garage, and in most of them you can enjoy wonderful views of the Mediterranean Sea.
+
+The promotion has a swimming pool, ideal for enjoying the more than 320 days of sun and good weather offered by the Costa del Sol, both alone and in the company of the family. They will also have access to an indoor gym equipped, outdoor sports area, 2 petanque tracks and the exclusive Club House of Cancelada.</long_description>
+         <price_description lang="en"/>
+         <short_description lang="es">Symphony Suites, modernos y elegantes bajos y áticos con vistas al mar en la Nueva Milla de Oro</short_description>
+         <long_description lang="es">Symphony Suites es una exclusiva promoción ubicada en Cancelada, una de las mejores zonas de la Nueva Milla de Oro de Estepona. El complejo residencial cuenta con 82 viviendas distribuidas en 4 alturas, en su mayoría dúplex, de 2 y 3 dormitorios con terrazas y/o jardines, además de áticos con solárium. Todas las viviendas dispondrán de trastero y garaje, y en la gran mayoría de ellas se puede disfrutar de unas maravillosas vistas al mar Mediterráneo.
+
+La promoción dispone de piscina, ideal para disfrutar de los más de 320 días de sol y buen tiempo que ofrece la Costa del Sol, tanto en solitario como en compañía de la familia. También tendrán acceso a un gym interior equipado, zona exterior deportiva, 2 pistas de petanca y al exclusivo Club House de Cancelada.</long_description>
+         <price_description lang="es"/>
+      </descriptions>
+      <files/>
+      <links/>
+      <htmls/>
+   </property>
+   <property>
+      <reference>663-00036P</reference>
+      <client_ref_num>663-00036P</client_ref_num>
+      <dt_create_date>2023-04-28</dt_create_date>
+      <dt_last_updated>2023-04-28 14:08:42</dt_last_updated>
+      <dt_added_date>2022-06-08</dt_added_date>
+      <dt_review_date>2023-04-28</dt_review_date>
+      <is_new_property>0</is_new_property>
+      <is_exclusive>0</is_exclusive>
+      <is_featured>0</is_featured>
+      <is_direct>0</is_direct>
+      <is_hot>0</is_hot>
+      <is_luxury>0</is_luxury>
+      <is_for_sale>1</is_for_sale>
+      <is_sold>0</is_sold>
+      <is_special>0</is_special>
+      <is_for_rent>0</is_for_rent>
+      <is_for_rent_long>0</is_for_rent_long>
+      <is_for_rent_short>0</is_for_rent_short>
+      <is_rented>0</is_rented>
+      <propertytype id="15">House</propertytype>
+      <propertycategory id="3">Houses</propertycategory>
+      <development_reference/>
+      <country id="6">Spain</country>
+      <province id="7">Malaga</province>
+      <city id="24">Marbella</city>
+      <area id="41">Marbella Golden Mile</area>
+      <subarea/>
+      <postcode/>
+      <community>0</community>
+      <ibi>0</ibi>
+      <garbage>0</garbage>
+      <tr_orientation>South</tr_orientation>
+      <mts_build>1140.0</mts_build>
+      <mts_plot>1920.0</mts_plot>
+      <mts_interior>0</mts_interior>
+      <mts_terrace>0</mts_terrace>
+      <nr_floors>0</nr_floors>
+      <nr_level/>
+      <nr_bedrooms>6</nr_bedrooms>
+      <nr_bathrooms>8</nr_bathrooms>
+      <nr_onsuite_bathrooms>0</nr_onsuite_bathrooms>
+      <nr_toilet>0</nr_toilet>
+      <tr_garage id="3">Private</tr_garage>
+      <nr_parking_spaces/>
+      <tr_garden id="3">Private</tr_garden>
+      <tr_pool id="3">Private</tr_pool>
+      <dt_construction_year>2013</dt_construction_year>
+      <energy inProcess="false">
+         <kw>
+            <level>E</level>
+            <value>100.0</value>
+         </kw>
+         <co2>
+            <level>E</level>
+            <value>21.0</value>
+         </co2>
+      </energy>
+      <touristic_code/>
+      <selling_price_eur>14850000</selling_price_eur>
+      <rental_price_eur/>
+      <rental_price_eur_long/>
+      <selling_price currency="eur">14850000</selling_price>
+      <rental_price currency="eur"/>
+      <rental_price_long currency="eur"/>
+      <rental_price_comment/>
+      <rental_price_comment_long/>
+      <images>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgfadZWi0KYEDVV5kYGCTNfKlm5CGHfwNnySiyHjtvds8We8Jy1SEyYg--.jpg"
+                main="false">663-00036P_17546705.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgL4qS9Zh_mi56kb5u_ws0NQthz0iVc26oWANdCRuCNC7X36poNr5EIA--.jpg"
+                main="true">663-00036P_17546706.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgJQhHPK97kgJ4sITSBtJjwnqUeT1xr7Z8apUCtFEllqqr1vyC2LC0dQ--.jpg"
+                main="false">663-00036P_17546707.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgJQyD~kms3WZAXanigPR4Vu_wVYDisJdxmTAfjvOXC9gqtKpb2ZoNEw--.jpg"
+                main="false">663-00036P_17546708.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgf~sXzZp17RJxBXncOuVkny8C33dZJFnwWeBPy12w26F24URq0qemfg--.jpg"
+                main="false">663-00036P_17546709.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgLjgI~T8ts7Ysf2CnwYnGwB_8oPsiaIROZe8DJ28il4V4TrABQ3dhhg--.jpg"
+                main="false">663-00036P_17546710.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgLBr9Vtu0QOkoM3u7XPay1Ts5JTQo9J3SXNYlBHdkHbnXNUYr3x32mQ--.jpg"
+                main="false">663-00036P_17546711.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgJVuGteX~VBYCuOkbIt~JWY0MzVTaVyuIa8t1yYnMqeEvMiAR8x0C8A--.jpg"
+                main="false">663-00036P_17546712.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgLmlvL2~NbncjhIeOI2nydjoLWWrKyEe5PHiHvjEKw2BTsqOIz9qo7A--.jpg"
+                main="false">663-00036P_17546713.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgfvCEKopNmoiCvnbEZOHbCp7UIVSjTjnGTTFt8QL7udTqEMNNhYSRHg--.jpg"
+                main="false">663-00036P_17546714.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgKtjXUoNtOe_Zvwy7pyf82tTK5gOh3pZfIi9gW5ZUG3EOQT5n~tsqTQ--.jpg"
+                main="false">663-00036P_17546715.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgLj7dRc642e8tyDETNZRGdOfjY8iu9CCQPKeWXKYJU0f5xYpqsQshjA--.jpg"
+                main="false">663-00036P_17546716.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgfqF8B~qud8b~Gi00Wv313h83f3GYISkP9Adkqt2l5p04dFslP~hp2Q--.jpg"
+                main="false">663-00036P_17546717.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgKtjTqgklyT~dq9fyXtwW6fAtlDJ9prWct4MNxIPDDSQNJhmQ1L5nrw--.jpg"
+                main="false">663-00036P_17546718.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgLEhuh_x7clqgTX3yMFkFQo0RsH7FLp~R2pfhw8CU9MPm642Y6HRzOw--.jpg"
+                main="false">663-00036P_17546719.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgLj2MeFlq8ryZeEZceYFMa6tBXFjhIKWW1mZnSI7I4A904EJzR6xcKg--.jpg"
+                main="false">663-00036P_17546720.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgeuw2d5DECa4urFgWuUPqsQn4lg_5UKR1H8oaD6dirzvr27PYPMSYMw--.jpg"
+                main="false">663-00036P_17546721.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgKAS~FTHVt_8gn4iG3kj2onrKy~3bZ0p2B31mS1O2CK5QDF~hxO7hWg--.jpg"
+                main="false">663-00036P_17546722.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgK_rT_gJm~h3ZlILIvQWF8jBQ3p50rk~eYeFdo_lUeNdfy4esDv4FNA--.jpg"
+                main="false">663-00036P_17546723.jpg</image>
+         <image url="https://media.inmobalia.com/imgV1/B98Le8~d7M9k3DegpEFZhS0lI_F8U4XZVz~HWxt~mGgYekxX9nCAxh0ZjtE2u9zqepXEUrVLqfm8KeIGW6Gtyd4X99SBpVnn0XatMt2m~HRgL92hz8lTFmBMkPUqRGrfKQxddqUQfMrBTe9EvQyK3_xnmFV4Xa7bQA--.jpg"
+                main="false">663-00036P_17546724.jpg</image>
+      </images>
+      <longitude>-4.925169</longitude>
+      <latitude>36.504435</latitude>
+      <agency_id>663</agency_id>
+      <listed_by/>
+      <listed_by2/>
+      <options>
+         <option type="2">Front line beach</option>
+         <option type="4">Amenities near</option>
+         <option type="5">Transport near</option>
+         <option type="9">Fully furnished</option>
+         <option type="10">Fully fitted kitchen</option>
+         <option type="11">Utility room</option>
+         <option type="12">Fireplace</option>
+         <option type="14">Jacuzzi</option>
+         <option type="15">Sauna</option>
+         <option type="17">Basement</option>
+         <option type="20">Storage room</option>
+         <option type="21">Gym</option>
+         <option type="22">Alarm</option>
+         <option type="28">Dining room</option>
+         <option type="29">Barbeque</option>
+         <option type="32">Guest toilet</option>
+         <option type="33">Private terrace</option>
+         <option type="35">Living room</option>
+         <option type="41">Sea view</option>
+         <option type="48">Automatic irrigation system</option>
+         <option type="52">Bars</option>
+         <option type="54">Internet - Wifi</option>
+         <option type="55">Covered terrace</option>
+         <option type="62">Garden view</option>
+         <option type="63">Pool view</option>
+         <option type="64">Panoramic view</option>
+         <option type="66">Beachside</option>
+         <option type="67">Cinema room</option>
+         <option type="72">Wine Cellar</option>
+         <option type="78">Close to sea / beach</option>
+         <option type="79">Close to golf</option>
+         <option type="82">Glass Doors</option>
+         <option type="85">Open plan kitchen</option>
+         <option type="91">Excellent condition</option>
+         <option type="101">Close to shops</option>
+         <option type="102">Close to town</option>
+         <option type="103">Close to port</option>
+         <option type="104">Close to schools</option>
+         <option type="106">Guest apartment</option>
+         <option type="118">Ground floor patio</option>
+         <option type="123">Internet - Fibre optic</option>
+      </options>
+      <descriptions>
+         <short_description lang="en">Beachfront 6-bedroom luxury villa in Marbella Golden Mile</short_description>
+         <long_description lang="en">This is one of the most exceptional modern-contemporary designer villas situated on the beachfront in the prestigious area of the Golden Mile in Marbella. It is located right on the boulevard within walking distance to the famous Yachting marina of Puerto Banús and combines the very best of modern architecture with the ultimate avant-garde technology.
+
+The rooms are distributed over three levels with six double bedrooms and seven bathrooms, one guest toilet and two staff toilets.
+
+The ground floor hosts the living/dining area with fireplace and access to the terrace with its unique dining table, an open, completely equipped kitchen with TV and separate staff access, a TV lounge with Bose sound system, two en-suite double bedrooms, one facing west with TV and one facing south with terrace to the garden, and a guest toilet.
+
+The first floor houses the master double bedroom suite with dressing area, TV, fireplace, terrace access and a bright bathroom with shower and bath, plus further three double bedroom suites, two facing south with terrace access and one facing west, each with dressing area and bathroom with shower. The two terraces on the first floor offer breath-taking views over the property’s garden and the pool area to the beach and the sea.
+
+The basement is divided in a gym area with TV, a sauna and a bathroom with shower, a cosy cinema room with Blu-ray/DVD-player, sat TV and IPTV channels, and a modern bar with acclimatized bodega.
+
+The manicured garden incorporates a saltwater pool with fountain feature and a Jacuzzi as well as a wooden sundeck, shower and a covered pool bar.
+This outstanding property features white sandstone floors and underfloor heating throughout, air-conditioning to be regulated for each room, double glazed windows, shutters, WiFi internet access, house audio system, Astra sat TV, CATV and IPTV, code locks to access the property, alarm system, video entry phone and a home-automation system that controls all lighting and several electric installations from an iPad.
+
+The front of the house offers a patio with parking possibility for four to five cars and the underground garage offers parking spaces for approx. 4 cars.</long_description>
+         <price_description lang="en"/>
+         <short_description lang="es">Villa de lujo de 6 dormitorios primera linea de playa en Marbella Golden Mile</short_description>
+         <long_description lang="es">Esta es una de las villas de diseño moderno-contemporáneo más excepcionales situada en primera línea de playa en la prestigiosa zona de la Milla de Oro de Marbella. Se encuentra en pleno paseo marítimo, a poca distancia del famoso puerto deportivo de Puerto Banús, y combina lo mejor de la arquitectura moderna con la última tecnología de vanguardia.
+
+Las estancias se distribuyen en tres niveles con seis dormitorios dobles y siete baños, un aseo de invitados y dos aseos de personal.
+
+La planta baja alberga el salón comedor con chimenea y acceso a la terraza con su exclusiva mesa de comedor, una cocina abierta completamente equipada con TV y acceso independiente para el personal, una sala de TV con sistema de sonido Bose, dos dormitorios dobles en suite, uno orientado al oeste con TV y otro orientado al sur con terraza al jardín y un aseo de invitados.
+
+La primera planta alberga el dormitorio principal tipo suite con vestidor, TV, chimenea, acceso a la terraza y un luminoso baño con ducha y bañera, además de otros tres dormitorios tipo suite, dos orientados al sur con acceso a la terraza y uno orientado al oeste, cada uno con vestidor. y baño con ducha. Las dos terrazas en el primer piso ofrecen impresionantes vistas sobre el jardín de la propiedad y el área de la piscina hasta la playa y el mar.
+
+El sótano se divide en una zona de gimnasio con TV, sauna y baño con ducha, una acogedora sala de cine con reproductor de Blu-ray/DVD, TV vía satélite y canales IPTV, y un moderno bar con bodega climatizada.
+
+El cuidado jardín incorpora una piscina de agua salada con fuente y un jacuzzi, así como una terraza de madera, ducha y un bar de piscina cubierto.
+Esta propiedad excepcional cuenta con suelos de arenisca blanca y calefacción por suelo radiante en todas partes, aire acondicionado regulable en cada habitación, ventanas de doble acristalamiento, persianas, acceso a Internet WiFi, sistema de audio de la casa, Astra sat TV, CATV e IPTV, cerraduras con código para acceder a la propiedad. , sistema de alarma, videoportero y sistema domótico que controla toda la iluminación y varias instalaciones eléctricas desde un iPad.
+
+El frente de la casa ofrece un patio con posibilidad de estacionamiento para cuatro o cinco autos y el garaje subterráneo ofrece espacios de estacionamiento para aprox. 4 coches.</long_description>
+         <price_description lang="es"/>
+      </descriptions>
+      <files/>
+      <links/>
+      <htmls/>
+   </property>
+   </properties>
